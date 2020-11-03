@@ -3,6 +3,6 @@ window.onload = function () {
 }
 
 function showMessage() {
-    window.open("002_ClassWork.htm", "Form", "width=800,height=800,status=yes,resizable=no");
+    window.open("002_ClassWork.htm", "Form", "width=616,height=417,status=yes,resizable=no");
 }
 
