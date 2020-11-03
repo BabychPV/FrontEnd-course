@@ -1,10 +1,37 @@
 window.onload = function () {
-    window.setTimeout(showMessage, 5000);
-}
+    let classnamestop ="StopButton";
+    let classnamereset ="ResetButton";
+    let classnamestart = "StartButton";
+    let t = new Timer(0,classnamestart,classnamestop,classnamereset);
 
-function showMessage() {
-    window.open("002_ClassWork.htm", "Form", "width=616,height=417,status=yes,resizable=no");
-}
+    document.getElementById(classnamestop).disabled = true;
+    document.getElementById(classnamereset).disabled = true;
+    document.getElementById("p1").style.font = 'bold 32pt sans-serif'
+    document.getElementById("p1").style.color = '#b8b4b7'
+
+    document.getElementById(classnamereset).onclick = function () {
+        t.time = 0;
+    };
+
+    document.getElementById(classnamestart).onclick = function () {
+        t.intervalHandler = setInterval(function CalculateTimer() {
+            t.time++;
+            document.getElementById("p1").textContent = t.getTimeToString();
+            // $('p1').textContent = t.getTimeToString();
+            document.getElementById(classnamestart).disabled = true;
+            document.getElementById(classnamestop).disabled = false;
+            document.getElementById(classnamereset).disabled = false;
+        }, 1000); //:)
+    };
+
+
+    document.getElementById(classnamestop).onclick = function () {
+        clearInterval(t.intervalHandler);
+        document.getElementById(classnamestart).disabled = false;
+        document.getElementById(classnamestop).disabled = true;
+        document.getElementById(classnamereset).disabled = true;
+    }
+};
 
 class Timer {
 
@@ -12,42 +39,36 @@ class Timer {
 
     constructor(init, classnamestart, classnamestop, classnamereset) {
         this.time = init;
-        document.getElementsByClassName("StopButton").disabled = true;
-        document.getElementsByClassName("ResetButton").disabled = true;
-
-
-        document.getElementsByClassName(classnamereset).onclick = function () {
-            this.time = 0;
-        }
-
-        document.getElementsByClassName(classnamestart).onclick = function () {
-            this.intervalHandler = setInterval(function CalculateTimer() {
-                this.time++;
-                document.getElementsByClassName("p1").innerHTML = Timer.getTimeToString();
-                document.getElementsByClassName("StartButton").disabled = true;
-                document.getElementsByClassName("StopButton").disabled = false;
-                document.getElementsByClassName("ResetButton").disabled = false;
-            }, 1000); //:)
-        }
-
-        document.getElementsByClassName(classnamestop).onclick = function () {
-            clearInterval(this.intervalHandler);
-            document.getElementsByClassName("StartButton").disabled = false;
-            document.getElementsByClassName("StopButton").disabled = true;
-            document.getElementsByClassName("ResetButton").disabled = true;
-        }
-    }
-
-    get init() {
-        return this.time;
-    }
-
-    set init(value) {
-        this.time = value;
+        // document.getElementById(classnamestop).disabled = true;
+        // document.getElementById(classnamereset).disabled = true;
+        //
+        //
+        // document.getElementById(classnamereset).onclick = function () {
+        //     this.time = 0;
+        // }
+        //
+        // document.getElementById(classnamestart).onclick = function () {
+        //     document.getElementById(classnamestart).disabled = true;
+        //     document.getElementById(classnamestop).disabled = false;
+        //     document.getElementById(classnamereset).disabled = false;
+        //     this.intervalHandler = setInterval(function CalculateTimer() {
+        //         this.time++;
+        //         document.getElementById("p1").innerHTML = Timer.getTimeToString();
+        //
+        //     }, 1000); //:)
+        // }
+        //
+        // document.getElementById(classnamestop).onclick = function () {
+        //     clearInterval(this.intervalHandler);
+        //     document.getElementById(classnamestart).disabled = false;
+        //     document.getElementById(classnamestop).disabled = true;
+        //     document.getElementById(classnamereset).disabled = true;
+        // }
     }
 
 
-    static getTimeToString() {
+    // static getTimeToString() {
+    getTimeToString() {
         let sec_num = parseInt(this.time, 10); // don't forget the second param
         let hours = Math.floor(sec_num / 3600);
         let minutes = Math.floor((sec_num - (hours * 3600)) / 60);
