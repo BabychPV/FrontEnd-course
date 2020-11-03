@@ -1,0 +1,30 @@
+
+
+.FlexCommonRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.FlexCommonCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.JustContCenter {
+    justify-content: center;
+}
+
+.JustContLeft {
+    justify-content: left;
+}
+
+
+.JustContRight {
+    justify-content: right;
+}
+
+
+#p1:before{
+    content: 'Please wait 5 sec)';
+    font: 24pt sans-serif;
+}
