@@ -1,25 +1,31 @@
-function Module_001__Apps() {};
-
-Module_001__Apps.prototype.GetById = function (id) {
-    return document.getElementById(id);
-}
-Module_001__Apps.prototype.GetByName = function (name) {
-    return document.getElementsByName(name);
-}
-Module_001__Apps.prototype.GetByNameClass= function (classname) {
-    return document.getElementsByClassName(classname);
-}
-Module_001__Apps.prototype.GetByNameClassChildNode= function (classname) {
-    return document.getElementsByClassName(classname);
-}
-
 
 window.onload = function () {
 
-    let obj = new Module_001__Apps();
-    let arr = obj.GetByNameClassChildNode('div_2');
-    for (let i = 0; i < arr.length; i++) {
-        alert(arr[i].getAttribute('class'))
+    let data = prompt('Set data xx +/- xx','10+8')
+
+    parsePromtOutput(data);
+
+    function parsePromtOutput(str) {
+        const sing = ['+','-','*','/'];
+        let cursing;
+        let pos;
+
+        for (let i = 0; i < sing.length; i++) {
+            pos = str.indexOf(sing[i]);
+            if ( -1 !== pos){
+                cursing = sing[i];
+                break;
+            }
+            cursing = NaN;
+            pos = NaN;
+        }
+
+        if(cursing === NaN){
+            alert("Error")
+        }else
+        {
+            CalcRun(str.substr(0,pos).trim(),str.substr(pos+1).trim(),cursing)
+        }
     }
 
-}
+};
