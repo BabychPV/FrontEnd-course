@@ -1,28 +1,34 @@
-let Module_001__Apps = {};
-Module_001__Apps.Counter = null;
+function getQueryString() {
 
-function AddP() {
-    setTimeout(function () {
-        Module_001__Apps.Counter++;
-        if (Module_001__Apps.Counter >= 10) {
-            ClearP();
-        } else {
-            let div1 = document.getElementById("div_1");
+    let args = {};                                  // пустой объект
 
-            let p1 = document.createElement("p")
-            p1.innerHTML = "Paragraph " + Module_001__Apps.Counter;
-            div1.appendChild(p1);
+    let query = location.search.substring(1);       // Получение строки запроса.
+    let pairs = query.split("&");                   // Разделение строки по амперсанду
+
+    for (let i = 0; i < pairs.length; i++) {
+
+        let pos = pairs[i].indexOf('=');            // Проверка пары "name=value"
+        if (pos == -1) {                            // Если не найдено - пропустить
+            continue;
         }
-    }, 500)
 
+        let argname = pairs[i].substring(0, pos);   // Получение имени
+        let value = pairs[i].substring(pos + 1);    // Получение значения
+
+        args[argname] = +value;                      // Сохранение как свойства
+
+    }
+
+    return args;
 }
 
-function ClearP() {
 
-    Module_001__Apps.Counter = 0;
-    let div1 = document.getElementById("div_1");
+function Push() {
+    let args = getQueryString();
+    let e = document.createElement("p");
 
-    while (div1.hasChildNodes()) {
-        div1.removeChild(div1.firstChild);
-    }
+    e.innerHTML = "Sum " + (+args.a + +args.b) + "<br />";
+
+
+    document.body.appendChild(e);
 }
