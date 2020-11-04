@@ -14,12 +14,12 @@ window.onload = function () {
         setInterval(ChangePos,200);
     }
 
-   function ChangePos(){
-       p+=10;
-       if (window.innerWidth <=p){
-           p=0;
-       }
-       e.style.left = p + 'px'
-   }
+    function ChangePos(){
+        p+=10;
+        if (window.innerWidth <=p){
+            p=0;
+        }
+        e.style.left = p + 'px'
+    }
 
 };
