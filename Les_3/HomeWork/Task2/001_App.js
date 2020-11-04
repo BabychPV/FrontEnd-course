@@ -1,21 +1,21 @@
 function getQueryString() {
 
-    let args = {};                                  // пустой объект
+    let args = {};
 
-    let query = location.search.substring(1);       // Получение строки запроса.
-    let pairs = query.split("&");                   // Разделение строки по амперсанду
+    let query = location.search.substring(1);
+    let pairs = query.split("&");
 
     for (let i = 0; i < pairs.length; i++) {
 
-        let pos = pairs[i].indexOf('=');            // Проверка пары "name=value"
-        if (pos == -1) {                            // Если не найдено - пропустить
+        let pos = pairs[i].indexOf('=');
+        if (pos === -1) {
             continue;
         }
 
-        let argname = pairs[i].substring(0, pos);   // Получение имени
-        let value = pairs[i].substring(pos + 1);    // Получение значения
+        let argname = pairs[i].substring(0, pos);
+        let value = pairs[i].substring(pos + 1);
 
-        args[argname] = +value;                      // Сохранение как свойства
+        args[argname] = +value;
 
     }
 
