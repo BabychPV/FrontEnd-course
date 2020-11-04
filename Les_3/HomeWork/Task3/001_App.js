@@ -24,7 +24,7 @@ window.onload = function () {
             alert("Error")
         }else
         {
-            CalcRun(str.substr(0,pos).trim(),str.substr(pos+1).trim(),cursing)
+            CalcRun(+str.substr(0,pos).trim(),+str.substr(pos+1).trim(),cursing)
         }
     }
 

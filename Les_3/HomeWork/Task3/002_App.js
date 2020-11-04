@@ -1,6 +1,6 @@
-CalcRun(2, 0, '/');
-CalcRun([2, 5, 6], [3, 6, 0], '/');
-CalcRun({a: 3, b: 4}, {a: 30, b: 0}, '/');
+// CalcRun(2, 0, '/');
+// CalcRun([2, 5, 6], [3, 6, 0], '/');
+// CalcRun({a: 3, b: 4}, {a: 30, b: 0}, '/');
 
 
 function CalcRun(operand1, operand2, sign) {
