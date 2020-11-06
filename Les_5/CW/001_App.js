@@ -17,7 +17,7 @@ window.onload = function () {
                     out.value = +in1.value  / +in2.value;
                 }else{
                     if(e.target.innerText  === '*'){
-                        out.value = +in1.value  * +in2.value;
+                        out.value = +in1.value  *  +in2.value;
                     }
                 }
             }
