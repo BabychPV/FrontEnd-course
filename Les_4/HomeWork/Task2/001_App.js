@@ -5,33 +5,31 @@ window.onload = function () {
         let Login = document.getElementsByName('Login')[0];
         let divPopUp = document.getElementById('divPopUp');
         if ((User.value === 'Username or Email' || User.value === 'Username or Email') || (Login.value === '')) {
-            User.style.backgroundColor = '#efabab';
-            Login.style.backgroundColor = '#efabab';
-            divPopUp.textContent = 'Ви не заповнили поля логіну та паролю'
-            divPopUp.style.color = '#efabab'
-            divPopUp.style.fontSize = '20px'
-            divPopUp.style.display = 'block'
-            setTimeout(function () {
-                User.style.backgroundColor = 'white';
-                Login.style.backgroundColor = 'white';
-                divPopUp.style.display = 'none'
-            },2000)
+            setAttribObject(User, '#efabab', Login, '#efabab', divPopUp, 'Ви не заповнили поля логіну та паролю', '#efabab', 'block');
         } else {
             if ((User.value === 'admin') && (Login.value === '12345')) {
-                divPopUp.textContent = 'Вхід виконано'
-                divPopUp.style.color = 'green'
-                divPopUp.style.fontSize = '20px'
-                divPopUp.style.display = 'block'
-                setTimeout(function () {
-                    User.style.backgroundColor = 'white';
-                    Login.style.backgroundColor = 'white';
-                    divPopUp.style.display = 'none'
-                },2000)
-
+                setAttribObject(User, 'white', Login, 'white', divPopUp, 'Вхід виконано', 'green', 'block');
+            } else {
+                setAttribObject(User, '#efabab', Login, '#efabab', divPopUp, 'Логін чи пароль не вірний', '#efabab', 'block');
             }
         }
 
 
     }
 
+}
+
+
+function setAttribObject(in1, in1Color, in2, in2Color, popUp, popUpMess, popUpColor, popUpDisplay) {
+    in1.style.backgroundColor = in1Color;
+    in2.style.backgroundColor = in2Color;
+    popUp.textContent = popUpMess;
+    popUp.style.color = popUpColor;
+    popUp.style.fontSize = '20px';
+    popUp.style.display = popUpDisplay;
+    setTimeout(function () {
+        in1.style.backgroundColor = in1Color;
+        in2.style.backgroundColor = in2Color;
+        popUp.style.display = 'none'
+    }, 2000)
 }
