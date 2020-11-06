@@ -160,10 +160,10 @@ button {
 }
 
 #divPopUp {
-    background-color: #f5f7f8;
-    height: 100px;
+    background: linear-gradient(360deg, #4a7171, #0b7086);
+    /*height: 100px;*/
     width: 400px;
-    display: none;
+    /*display: none;*/
     position: relative;
     text-align: center;
 }
