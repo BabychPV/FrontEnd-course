@@ -8,9 +8,6 @@ window.onload = function () {
         divs[selector].style.backgroundColor = 'red';
         selector++;
 
-        // for (let i = 0; i < divs; i++) {w
-        //
-        // }
     }
 
 }
