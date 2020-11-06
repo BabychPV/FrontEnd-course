@@ -1,8 +1,19 @@
 window.onload = function () {
-    window.setTimeout(showMessage, 5000);
+    let selector = 0 ;
+    document.getElementsByTagName('button')[0].onclick = function(){
+        let divs = document.getElementsByTagName('div');
+        if(selector>=5) {selector = 0; divs[4].style.backgroundColor = 'green';}
+        divs[selector-1<0?0:selector-1].style.backgroundColor = 'green';
+
+        divs[selector].style.backgroundColor = 'red';
+        selector++;
+
+        // for (let i = 0; i < divs; i++) {w
+        //
+        // }
+    }
+
 }
 
-function showMessage() {
-    window.open("002_ClassWork.htm", "Form", "width=616,height=417,status=yes,resizable=no");
-}
+
 
