@@ -17,7 +17,7 @@ window.onload = function () {
 
     }
 
-}
+};
 
 
 function setAttribObject(in1, in1Color, in2, in2Color, popUp, popUpMess, popUpColor, popUpDisplay) {

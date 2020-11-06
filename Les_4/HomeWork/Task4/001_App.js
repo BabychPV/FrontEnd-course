@@ -34,14 +34,14 @@ window.onload = function () {
     let but = [];
     let pos = ['left', 'up', 'bottom', 'right'];
     let fun = [function () {
-        brick.style.left = brick.offsetLeft-100 +'px'
+        brick.style.left = brick.offsetLeft - 100 + 'px'
     }, function () {
-        brick.style.top = brick.offsetTop-100 +'px'
+        brick.style.top = brick.offsetTop - 100 + 'px'
     }, function () {
-        brick.style.top = brick.offsetTop+100 +'px'
+        brick.style.top = brick.offsetTop + 100 + 'px'
     }, function () {
-        brick.style.left = brick.offsetLeft+100 +'px'
-    }]
+        brick.style.left = brick.offsetLeft + 100 + 'px'
+    }];
     arr[1].style.display = 'flex';
     arr[1].style.flexDirection = 'row';
     arr[1].style.justifyContent = 'space-around';
@@ -58,13 +58,13 @@ window.onload = function () {
         arr[1].appendChild(but);
     }
 
-}
+};
 
 
 function getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
+    let letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;

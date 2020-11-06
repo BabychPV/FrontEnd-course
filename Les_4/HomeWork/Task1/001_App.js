@@ -2,7 +2,7 @@ window.onload = function () {
     let val = RandomInRange(1, 100);
     let divPopUp = document.getElementById('divPopUp');
     divPopUp.textContent = val;
-    divPopUp.style.transform  = 'rotate(180deg)'
+    divPopUp.style.transform  = 'rotate(180deg)';
     document.getElementsByTagName('input')[0].onchange = function () {
         let User = document.getElementsByName('User')[0];
         let prevValue = User.value;
@@ -15,7 +15,7 @@ window.onload = function () {
 
     }
 
-}
+};
 
 function setAttribObject(in1, in1Color, inpMess, in1PrevValue) {
     in1.style.backgroundColor = in1Color;
@@ -23,7 +23,7 @@ function setAttribObject(in1, in1Color, inpMess, in1PrevValue) {
     setTimeout(function () {
         in1.style.backgroundColor = 'white';
         in1.value = in1PrevValue;
-    }, 2000)
+    }, 2000);
 }
 
 function RandomInRange(min, max) {
