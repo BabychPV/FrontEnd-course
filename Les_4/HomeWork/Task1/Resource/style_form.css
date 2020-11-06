@@ -151,7 +151,7 @@ button {
 }
 
 .JustContLeft {
-    justify-content: left;
+    justify-content: inherit;
 }
 
 
