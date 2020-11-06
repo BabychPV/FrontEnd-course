@@ -1,14 +1,28 @@
 window.onload = function () {
     let selector = 0 ;
-    document.getElementsByTagName('button')[0].onclick = function(){
-        let divs = document.getElementsByTagName('div');
-        if(selector>=5) {selector = 0; divs[4].style.backgroundColor = 'green';}
-        divs[selector-1<0?0:selector-1].style.backgroundColor = 'green';
 
-        divs[selector].style.backgroundColor = 'red';
-        selector++;
-
-    }
+    let but = document.getElementById("divB");
+    let in1 = document.getElementById("input1");
+    let in2 = document.getElementById("input2");
+    let out = document.getElementById("Output");
+    but.addEventListener('click',function (e) {
+        if(e.target.innerText === '+'){
+            out.value = in1.value  + in2.value;
+        }else
+        {
+            if(e.target.innerText  === '-'){
+                out.style.value = +in1.value  - +in2.value;
+            }else{
+                if(e.target.innerText  === '/'){
+                    out.value = +in1.value  / +in2.value;
+                }else{
+                    if(e.target.innerText  === '*'){
+                        out.value = +in1.value  * +in2.value;
+                    }
+                }
+            }
+        }
+    })
 
 };
 
