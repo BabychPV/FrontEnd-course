@@ -5,11 +5,11 @@ window.onload = function () {
     divPopUp.style.transform  = 'rotate(180deg)';
     document.getElementsByTagName('input')[0].onchange = function () {
         let User = document.getElementsByName('User')[0];
-        let prevValue = User.value;
+        let prevValue = +User.value;
         if (prevValue !== val) {
             setAttribObject(User, '#efabab',  prevValue > val ? 'Ваше значення більше' : 'Ваше значення меньше', prevValue );
         } else {
-            setAttribObject(User, '#efabab',  'Вітаю!', '#efabab',prevValue );
+            setAttribObject(User, 'green',  'Вітаю!',prevValue );
         }
 
 
