@@ -4,14 +4,14 @@ window.onload = function () {
     let but = document.getElementById("divB");
     let in1 = document.getElementById("input1");
     let in2 = document.getElementById("input2");
-    let out = document.getElementById("Output");
+    let out = document.getElementById("output");
     but.addEventListener('click',function (e) {
         if(e.target.innerText === '+'){
-            out.value = in1.value  + in2.value;
+            out.value = +in1.value  + +in2.value;
         }else
         {
             if(e.target.innerText  === '-'){
-                out.style.value = +in1.value  - +in2.value;
+                out.value = +in1.value  - +in2.value;
             }else{
                 if(e.target.innerText  === '/'){
                     out.value = +in1.value  / +in2.value;
