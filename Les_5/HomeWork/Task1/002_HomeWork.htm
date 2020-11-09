@@ -6,17 +6,32 @@
     <title>Home work</title>
     <link href="Resource/style_form.css" rel="stylesheet">
     <script src="001_App.js"></script>
+    <script src="Resource\001_App_Calc.js"></script>
 
 </head>
 
 <body>
 <div class="divstyle">
     <div class="divstyle_1">
-
-        <div class="form-row">
-            <input type="text" name="User" value="55"/>
+        <div class="divstyle_3">
+            <div  class="form-row">
+                <input id="input1" type="text" pattern="^[+-]?\d+[.,]?\d+$" name="val1" value="5"/>
+            </div>
+            <div   class="form-row">
+                <input  id="input2" type="text" pattern="^[+-]?\d+[.,]?\d+$" name="val2" value="6"/>
+            </div>
+            <div class="form-fotter">
+                <div id = 'divB'>
+                    <button type="button">+</button>
+                    <button type="button">-</button>
+                    <button type="button">*</button>
+                    <button type="button">/</button>
+                </div>
+            </div>
+            <div   class="form-row">
+                <input id="output"  type="text" name="Output"/>
+            </div>.
         </div>
-        <div id='divPopUp'></div>
     </div>
 </div>
 </body>

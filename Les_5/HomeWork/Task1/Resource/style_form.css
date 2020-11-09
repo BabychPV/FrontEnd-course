@@ -88,11 +88,12 @@ div.divstyle_2 p::before {
 
 .divstyle_3 {
     background-color: #f5f7f8;
-    height: 85%;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
 }
 
 
@@ -116,7 +117,7 @@ div.divstyle_2 p::before {
     margin: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     color: gray;
 }
 

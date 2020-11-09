@@ -1,31 +1,47 @@
 window.onload = function () {
-    let val = RandomInRange(1, 100);
-    let divPopUp = document.getElementById('divPopUp');
-    divPopUp.textContent = val;
-    divPopUp.style.transform  = 'rotate(180deg)';
-    document.getElementsByTagName('input')[0].onchange = function () {
-        let User = document.getElementsByName('User')[0];
-        let prevValue = +User.value;
-        if (prevValue !== val) {
-            setAttribObject(User, '#efabab',  prevValue > val ? 'Ваше значення більше' : 'Ваше значення меньше', prevValue );
-        } else {
-            setAttribObject(User, 'green',  'Вітаю!',prevValue );
+    let selector = 0;
+
+    let but = document.getElementById("divB");
+    let in1 = document.getElementById("input1");
+    let in2 = document.getElementById("input2");
+    let out = document.getElementById("output");
+
+
+    let checkInputValue = function (e) {
+        let pattern = /^[+-]?\d+[.]?\d+$/;
+        let curVal = this.value;
+        if (!pattern.test(curVal)) {
+            this.style.backgroundColor = 'red';
+            but.hidden = true;
+        }else
+        {
+            this.style.backgroundColor = 'white';
+            but.hidden = false;
         }
-
-
     }
+
+    in1.addEventListener('change',checkInputValue);
+    in2.addEventListener('change',checkInputValue);
+
+    but.addEventListener('click', function (e) {
+        if (e.target.innerText === '+') {
+            out.value = CalcRun(+in1.value, +in2.value, '+');
+        } else {
+            if (e.target.innerText === '-') {
+                out.value = CalcRun(+in1.value, +in2.value, '-');
+            } else {
+                if (e.target.innerText === '/') {
+                    out.value = CalcRun(+in1.value, +in2.value, '/');
+                } else {
+                    if (e.target.innerText === '*') {
+                        out.value = CalcRun(+in1.value, +in2.value, '*');
+                    }
+                }
+            }
+        }
+    })
 
 };
 
-function setAttribObject(in1, in1Color, inpMess, in1PrevValue) {
-    in1.style.backgroundColor = in1Color;
-    in1.value = inpMess;
-    setTimeout(function () {
-        in1.style.backgroundColor = 'white';
-        in1.value = in1PrevValue;
-    }, 2000);
-}
 
-function RandomInRange(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-}
+

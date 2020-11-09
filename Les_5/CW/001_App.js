@@ -7,17 +7,17 @@ window.onload = function () {
     let out = document.getElementById("output");
     but.addEventListener('click',function (e) {
         if(e.target.innerText === '+'){
-            out.value = +in1.value  + +in2.value;
+            out.value = CalcRun(+in1.value, +in2.value,'+');
         }else
         {
             if(e.target.innerText  === '-'){
-                out.value = +in1.value  - +in2.value;
+                out.value = CalcRun(+in1.value, +in2.value,'-');
             }else{
                 if(e.target.innerText  === '/'){
-                    out.value = +in1.value  / +in2.value;
+                    out.value = CalcRun(+in1.value, +in2.value,'/');
                 }else{
                     if(e.target.innerText  === '*'){
-                        out.value = +in1.value  *  +in2.value;
+                        out.value = CalcRun(+in1.value, +in2.value,'*');
                     }
                 }
             }
