@@ -6,7 +6,7 @@ ModuleCommonCreator.createHandler = function (node, eventName, func, flag) {
     } else if (window.attachEvent) {
         node.attachEvent('on' + node, eventName);
     }
-}
+};
 
 
 ModuleCommonCreator.createHandler(window, 'load', func, false);

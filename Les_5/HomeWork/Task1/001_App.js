@@ -1,5 +1,4 @@
 window.onload = function () {
-    let selector = 0;
 
     let but = document.getElementById("divB");
     let in1 = document.getElementById("input1");
@@ -18,7 +17,7 @@ window.onload = function () {
             this.style.backgroundColor = 'white';
             but.hidden = false;
         }
-    }
+    };
 
     in1.addEventListener('change',checkInputValue);
     in2.addEventListener('change',checkInputValue);
