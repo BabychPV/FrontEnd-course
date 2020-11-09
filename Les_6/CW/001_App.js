@@ -29,22 +29,46 @@ window.onload = function () {
     document.body.addEventListener('keydown', function (e) {
         switch (e.keyCode) {
             case 37:
-                brick.style.left = brick.offsetLeft - 10 + 'px'
+                brick.style.left = elementBorderStop(brick, brick.offsetLeft - 10, 'l') + 'px'
                 break;
             case 38:
-                brick.style.top = brick.offsetTop - 10 + 'px'
+                brick.style.top = elementBorderStop(brick, brick.offsetTop - 10, 't') + 'px'
                 break;
-           case 39:
-               brick.style.left = brick.offsetLeft + 10 + 'px'
+            case 39:
+                brick.style.left = elementBorderStop(brick, brick.offsetLeft + 10, 'l') + 'px'
                 break;
             case 40:
-                brick.style.top = brick.offsetTop + 10 + 'px'
+                brick.style.top = elementBorderStop(brick, brick.offsetTop + 10, 't') + 'px'
                 break;
         }
-    },false)
+    }, false)
 
 };
 
+function elementBorderStop(obj, offset, typeOffset) {
+    if (typeOffset === 't') {
+        if (obj.offsetParent.clientHeight <= offset+25) {
+            return obj.offsetParent.clientHeight - 30
+        } else {
+            if (0 >= offset) {
+                return 10
+            } else {
+                return offset;
+            }
+        }
+    }
+    if (typeOffset === 'l') {
+        if (obj.offsetParent.clientWidth <= offset+25) {
+            return obj.offsetParent.clientWidth - 30
+        } else {
+            if (0 >= offset) {
+                return 10
+            } else {
+                return offset;
+            }
+        }
+    }
+}
 
 function getRandomColor() {
     let letters = '0123456789ABCDEF';
