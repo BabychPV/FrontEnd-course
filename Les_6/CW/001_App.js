@@ -12,8 +12,6 @@ window.onload = function () {
     for (let i = 0; i < 1; i++) {
         arr[i] = document.createElement("div");
         arr[i].style.backgroundColor = getRandomColor();
-
-
         arr[i].style.height = '100%';
         arr[i].style.width = '100%';
         // arr[i].style.margin = '10px';
@@ -28,35 +26,7 @@ window.onload = function () {
     brick.style.position = 'absolute';
     arr[0].appendChild(brick);
 
-    let but = [];
-    let pos = ['left', 'up', 'bottom', 'right'];
-    // let fun = [function () {
-    //     brick.style.left = brick.offsetLeft - 10 + 'px'
-    // }, function () {
-    //     brick.style.top = brick.offsetTop - 10 + 'px'
-    // }, function () {
-    //     brick.style.top = brick.offsetTop + 10 + 'px'
-    // }, function () {
-    //     brick.style.left = brick.offsetLeft + 10 + 'px'
-    // }];
-
-    // arr[1].style.display = 'flex';
-    // arr[1].style.flexDirection = 'row';
-    // arr[1].style.justifyContent = 'space-around';
-    // arr[1].style.alignItems = 'center';
-
-    // for (let i = 0; i < 4; i++) {
-    //     but = document.createElement("button");
-    //     but.style.backgroundColor = getRandomColor();
-    //     but.textContent = pos [i];
-    //     but.style.height = '25px';
-    //     but.style.width = '25px';
-    //     // but.addEventListener('click',fun[i]);
-    //
-    //     arr[1].appendChild(but);
-    // }
-
-    document.body.onkeydown = function (e) {
+    document.body.addEventListener('keydown', function (e) {
         switch (e.keyCode) {
             case 37:
                 brick.style.left = brick.offsetLeft - 10 + 'px'
@@ -71,25 +41,7 @@ window.onload = function () {
                 brick.style.top = brick.offsetTop + 10 + 'px'
                 break;
         }
-    }
-    // arr[1].addEventListener('click',function (e) {
-    //     if(e.target.innerText === 'left'){
-    //         brick.style.left = brick.offsetLeft - 10 + 'px'
-    //     }else
-    //     {
-    //         if(e.target.innerText  === 'up'){
-    //             brick.style.top = brick.offsetTop - 10 + 'px'
-    //         }else{
-    //             if(e.target.innerText  === 'bottom'){
-    //                 brick.style.top = brick.offsetTop + 10 + 'px'
-    //             }else{
-    //                 if(e.target.innerText  === 'right'){
-    //                     brick.style.left = brick.offsetLeft + 10 + 'px'
-    //                 }
-    //             }
-    //         }
-    //     }
-    // })
+    },false)
 
 };
 
