@@ -1,6 +1,6 @@
-CalcRun(2, 0, '/');
-CalcRun([2, 5, 6], [3, 6, 0], '/');
-CalcRun({a: 3, b: 4}, {a: 30, b: 0}, '/');
+// CalcRun(2, 0, '/');
+// CalcRun([2, 5, 6], [3, 6, 0], '/');
+// CalcRun({a: 3, b: 4}, {a: 30, b: 0}, '/');
 
 
 function CalcRun(operand1, operand2, sign) {
@@ -12,7 +12,7 @@ function CalcRun(operand1, operand2, sign) {
     if (CheckSing(sign)) {
         switch (CalcVerifyOperand(operand1, operand2)) {
             case 1:
-                CalcValue(operand1, operand2, sign);
+                return CalcValue(operand1, operand2, sign);
                 break;
             case 2:
                 CalcArray(operand1, operand2, sign);
@@ -59,7 +59,7 @@ function div(a, b) {
     if ((a / b) !== Infinity) {
         return a / b;
     } else {
-        alert('div on 0');
+ //       alert('div on 0');
         return NaN;
     }
 
@@ -119,7 +119,8 @@ function CalcValue(operand1, operand2, sign) {
     }
 
     if (!isNaN(result)) {
-        document.write("<p>" + operand1 + " " + sign + " " + operand2 + " = " + Math.floor(result));
+        //document.write("<p>" + operand1 + " " + sign + " " + operand2 + " = " + Math.floor(result));
+        return Math.round((result)*100)/100;
     }
 }
 

@@ -1,44 +1,30 @@
 window.onload = function () {
 
-    let but = document.getElementById("divB");
-    let in1 = document.getElementById("input1");
-    let in2 = document.getElementById("input2");
-    let out = document.getElementById("output");
+    let Module_6_001 = {};
 
+    Module_6_001.countpress = 0;
+    Module_6_001.flagchange = 0;
 
-    let checkInputValue = function (e) {
-        let pattern = /^[+-]?\d+[.]?\d+$/;
-        let curVal = this.value;
-        if (!pattern.test(curVal)) {
-            this.style.backgroundColor = 'red';
-            but.hidden = true;
-        }else
-        {
-            this.style.backgroundColor = 'white';
-            but.hidden = false;
-        }
-    };
+    let but = document.getElementById("but");
+    let text = document.getElementById("text");
 
-    in1.addEventListener('change',checkInputValue);
-    in2.addEventListener('change',checkInputValue);
-
-    but.addEventListener('click', function (e) {
-        if (e.target.innerText === '+') {
-            out.value = CalcRun(+in1.value, +in2.value, '+');
-        } else {
-            if (e.target.innerText === '-') {
-                out.value = CalcRun(+in1.value, +in2.value, '-');
-            } else {
-                if (e.target.innerText === '/') {
-                    out.value = CalcRun(+in1.value, +in2.value, '/');
-                } else {
-                    if (e.target.innerText === '*') {
-                        out.value = CalcRun(+in1.value, +in2.value, '*');
-                    }
-                }
-            }
-        }
+    text.addEventListener('change', function () {
+        Module_6_001.flagchange++;
     })
+
+    but.addEventListener('click', function () {
+        Module_6_001.countpress++;
+    });
+
+
+    window.addEventListener('beforeunload', function (e) {
+        if (Module_6_001.countpress === 0 && Module_6_001.flagchange === 0) {
+            return null;
+        } else {
+            e.preventDefault();
+            e.returnValue = 'Ви не зберегли дані!';
+        }
+    });
 
 };
 

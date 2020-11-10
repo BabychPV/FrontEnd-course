@@ -1,16 +1,18 @@
-let ModuleCommonCreator = {};
+window.onload = function () {
 
-ModuleCommonCreator.createHandler = function (node, eventName, func, flag) {
-    if (window.addEventListener) {
-        node.addEventListener(eventName, func, flag);
-    } else if (window.attachEvent) {
-        node.attachEvent('on' + node, eventName);
-    }
+    let text = document.getElementById("text");
+    let butG = document.getElementById("g"); butG.className = 'green'
+    let butB = document.getElementById("b");butB.className = 'blue'
+    let butR = document.getElementById("r");butR.className = 'red'
+
+    butB.addEventListener('click', function () {
+        text.className = 'blue'
+    });
+    butG.addEventListener('click', function () {
+        text.className = 'green'
+    });
+    butR.addEventListener('click', function () {
+        text.className = 'red'
+    });
+
 };
-
-
-ModuleCommonCreator.createHandler(window, 'load', func, false);
-
-function func() {
-    document.write('Hello world');
-}
