@@ -10,7 +10,7 @@ window.onload = function () {
 
     text.addEventListener('change', function () {
         Module_6_001.flagchange++;
-    })
+    });
 
     but.addEventListener('click', function () {
         Module_6_001.countpress++;
