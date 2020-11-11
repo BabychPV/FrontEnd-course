@@ -24,6 +24,8 @@ h3::before {
 
 label::after {
     content: ":";
+    text-align: center;
+    vertical-align: center;
 }
 
 
@@ -97,18 +99,18 @@ div.divstyle_2 p::before {
 
 .form-row {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    /*flex-direction: row;*/
+    justify-content: space-between;
     padding: .1em;
 }
 
 .form-row > input {
 
-    margin: 10px;
+    margin: 5px;
     border: #999999 solid 2px;
     border-radius: 5px;
-    width: 350px;
-    height: 20px;
+    /*width: 100px;*/
+    /*height: 10px;*/
     box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.06);
 }
 
