@@ -1,4 +1,3 @@
-
 if (window.addEventListener) window.addEventListener("load", init, false);
 
 
@@ -19,12 +18,12 @@ function init() {
             let pattern = e.getAttribute("data-val");
 
             if (pattern) {
-                e.onchange = validateInput; 
-                formValidation = true; 
+                e.onchange = validateInput;
+                formValidation = true;
             }
         }
         if (formValidation) {
-            form.onsubmit = validateForm; 
+            form.onsubmit = validateForm;
         }
     }
 }
@@ -40,13 +39,26 @@ function validateInput() {
     if (res == -1) {
         document.getElementById(msgId).innerHTML = msg;
         this.className = "error";
-    }
-    else {
+    } else {
         document.getElementById(msgId).innerHTML = "";
         this.className = "valid";
     }
 }
 
+let in1 = document.getElementById("input41");
+let in2 = document.getElementById("input42");
+
+in1.addEventListener('change', function (e) {
+    if (this.value != in2.value) {
+        this.className = "error";
+    }
+})
+
+in2.addEventListener('change', function (e) {
+    if (this.value != in1.value) {
+        this.className = "error";
+    }
+})
 
 function validateForm() {
 
@@ -55,16 +67,16 @@ function validateForm() {
     for (let i = 0; i < this.elements.length; ++i) {
         let e = this.elements[i];
         if (e.type == "text" && e.onchange != null && e.name === 'pass') {
-            if(e.value != this.elements[i+1].value){
+            if (e.value != this.elements[i + 1].value) {
                 e.onchange();
                 invalid = true;
             }
         } else {
-        if (e.type == "text" && e.onchange != null) {
-            e.onchange();
-            if (e.className == "error") invalid = true;
+            if (e.type == "text" && e.onchange != null) {
+                e.onchange();
+                if (e.className == "error") invalid = true;
+            }
         }
-    }
     }
 
     if (invalid) {
