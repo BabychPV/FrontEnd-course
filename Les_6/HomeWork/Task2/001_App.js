@@ -1,21 +1,24 @@
 window.onload = function () {
 
     let text = document.getElementById("text");
-    let butG = document.getElementById("g");
-    butG.className = 'green';
-    let butB = document.getElementById("b");
-    butB.className = 'blue';
-    let butR = document.getElementById("r");
-    butR.className = 'red';
+    // let butG = document.getElementById("g");
+    // butG.className = 'green';
+    // let butB = document.getElementById("b");
+    // butB.className = 'blue';
+    // let butR = document.getElementById("r");
+    // butR.className = 'red';
 
-    butB.addEventListener('click', function () {
-        text.className = 'blue'
-    });
-    butG.addEventListener('click', function () {
+document.body.addEventListener('keypress', function (e) {
+    if(e.keyCode === 103){
         text.className = 'green'
-    });
-    butR.addEventListener('click', function () {
+    }
+    else if(e.keyCode === 98){
+        text.className = 'blue'
+    }
+    else if(e.keyCode === 114){
         text.className = 'red'
-    });
+    }
+});
+
 
 };
