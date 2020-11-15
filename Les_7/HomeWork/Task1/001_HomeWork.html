@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Home work</title>
+    <link href="Resource/style.css" rel="stylesheet">
+    <script src="001_App.js"></script>
+</head>
+
+<body>
+<main>
+    <form name="buy">
+        <fieldset class="Borderfieldset">
+            <legend>Оберить складові</legend>
+            <div >
+                <div id="ingrInfo" class="form-row">
+                    <label for="SizePizz" accesskey="3">Оберить розмір піци</label>
+                    <select id="SizePizz" name="Size">
+                        <option value="s1">Маленька</option>
+                        <option value="s2">Середня</option>
+                        <option selected value="s3">Велика</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <p>Оберить інгредієнти</p>
+                    <div class="form-row-check">
+
+                        <input type="checkbox" name="dop" checked value="I1"/>
+                        <label>Гриби</label>
+                        <input type="checkbox" name="dop" checked value="I2"/>
+                        <label>Бекон</label>
+                        <input type="checkbox" name="dop" checked value="I3"/>
+                        <label>Помідор</label>
+                        <input type="checkbox" name="dop" checked value="I4"/>
+                        <label>Сир</label>
+                        <input type="checkbox" name="dop" value="I5"/>
+                        <label>Олівки</label>
+
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="Borderfieldset">
+            <legend>Персональна інформація</legend>
+            <div >
+                <div id="Info" class="form-row">
+                    <label for="FirstName" accesskey="1">Ім'я</label>
+                    <input type="text" name="" id="FirstName"
+                           data-val="[а-яА-Яa-zA-Z]+"
+                           data-val-msg-id="FirstNameMsg"/>
+                    <img class="error" id="FirstNameMsg" style="background-color: red" src="Resource/Tilda_Icons_27bu_7.svg"
+                         width="30"
+                         height="32" alt="lorem">
+                </div>
+                <div class="form-row">
+                    <label for="LastName" accesskey="2">Призвіще</label>
+                    <input type="text" name="" id="LastName"
+                           data-val="[а-яА-Яa-zA-Z]+"
+                           data-val-msg-id="LastNameMsg"/>
+                    <img class="error" id="LastNameMsg" style="background-color: red" src="Resource/Tilda_Icons_27bu_7.svg"
+                         width="30"
+                         height="32" alt="lorem">
+                </div>
+                <div class="form-row">
+                    <label for="Address" accesskey="2">Адреса</label>
+                    <input type="text" name="" id="Address"
+                           data-val="[а-яА-Яa-zA-Z0-9,.\-\s]+"
+                           data-val-msg-id="AddressMsg"/>
+                    <img class="error" id="AddressMsg" style="background-color: red" src="Resource/Tilda_Icons_27bu_7.svg"
+                         width="30"
+                         height="32" alt="lorem">
+                </div>
+                <div class="form-row">
+                    <label for="LastName" accesskey="2">Email</label>
+                    <input id="input5" type="text" name="Email"
+                           data-val="\b[a-z0-9._]+@[a-z0-9.-]+\.[a-z]{2,4}\b"
+                           data-val-msg-id="EmailNameMsg"/>
+                    <img class="error" id="EmailNameMsg" style="background-color: red" src="Resource/Tilda_Icons_27bu_7.svg"
+                         width="30"
+                         height="32" alt="lorem">
+                </div>
+
+                <div class="form-row">
+                    <label id="input6"for="LastName" accesskey="2">Телефон</label>
+                    <input type="text" name="emailAddress" placeholder="+38 (063) 223-23-23"
+                           title="Формат телефона +38 (063) 223-23-23"
+                           data-val="\+38 \(\d{3}\) \d{3}-\d{2}-\d{2}"
+                           data-val-msg-id="TelNameMsg"/>
+                    <img  class="error" id="TelNameMsg" style="background-color: red" src="Resource/Tilda_Icons_27bu_7.svg"
+                         width="30"
+                         height="32" alt="lorem">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="Borderfieldset">
+            <legend>Вартість замовлення</legend>
+            <div>
+                <div  class="form-row">
+                    <label for="Price" accesskey="1">Вартість</label>
+                    <input  id="SumPrice" type="text" name="" readonly="readonly" id="Price"/>
+                </div>
+            </div>
+        </fieldset>
+        <div id="Size" class="form-row">
+            <input id='send' type="submit">
+        </div>
+
+    </form>
+</main>
+</body>
+
+</html>
+
