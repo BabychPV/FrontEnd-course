@@ -153,7 +153,7 @@ const CSS_COLOR_NAMES = [
 ];
 
 
-function init(e) {
+function init() {
 
     InitCookie();
 
@@ -246,7 +246,6 @@ function InitCookie() {
 
 function validateInput() {
     let pattern = this.dataset.val,
-        msg = this.dataset.valMsg,
         msgId = this.dataset.valMsgId,
         value = this.value;
 
@@ -307,7 +306,7 @@ function getQueryString() {
     for (let i = 0; i < pairs.length; i++) {
 
         let pos = pairs[i].indexOf('=');            // Проверка пары "name=value"
-        if (pos == -1) {                            // Если не найдено - пропустить
+        if (pos === -1) {                            // Если не найдено - пропустить
             continue;
         }
 
