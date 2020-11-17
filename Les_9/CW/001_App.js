@@ -12,7 +12,6 @@ function init() {
     }
 
 
-
     function idle(obj, i) {
         setTimeout(function () {
             obj.style.border = 'solid 5px yellow';
