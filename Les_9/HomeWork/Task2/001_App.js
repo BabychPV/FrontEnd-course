@@ -1,24 +1,34 @@
-window.onload = function () {
+if (window.addEventListener) window.addEventListener("load", init, false);
 
-    let text = document.getElementById("text");
-    // let butG = document.getElementById("g");
-    // butG.className = 'green';
-    // let butB = document.getElementById("b");
-    // butB.className = 'blue';
-    // let butR = document.getElementById("r");
-    // butR.className = 'red';
+function init() {
+    let parent = $('div1');
 
-document.body.addEventListener('keypress', function (e) {
-    if(e.keyCode === 103){
-        text.className = 'green'
+    for (let i = 1; i < 31; i++) {
+        let newImg = document.createElement('img');
+        newImg.src = 'Resource/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_' + i + '.svg';
+        newImg.style.width = '50px';
+        newImg.style.height = '50px';
+        parent.appendChild(newImg);
     }
-    else if(e.keyCode === 98){
-        text.className = 'blue'
-    }
-    else if(e.keyCode === 114){
-        text.className = 'red'
-    }
-});
+
+    let but = $('but');
+    let counter = 1;
+
+    parent.addEventListener('click', function (e) {
+        if(e.target.offsetWidth > 50){
+            e.target.style.width = '50px';
+            e.target.style.height = '50px';
+        }else {
+            e.target.style.width = '400px';
+            e.target.style.height = '400px';
+        }
 
 
-};
+    })
+
+}
+
+
+function $(id) {
+    return document.getElementById(id);
+}

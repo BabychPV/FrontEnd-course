@@ -12,32 +12,13 @@
 
 <body>
 
-<form name="buy">
-    <input type="radio" name="size" value="small"/>
-    <img src="http://www.pizzaua.com/wp-content/images/30.png"/>
-    <input type="radio" name="size" value="normal" />
-    <img src="http://www.pizzaua.com/wp-content/images/40.png"/>
-    <input type="radio" name="size" value="big"/>
-    <img src="http://www.pizzaua.com/wp-content/images/50.png" />
+<div class="FlexCommonCol">
 
-    <br>
-    <input type="checkbox"  name="ingr" value="mashrooms" /> Грибы
-    <input type="checkbox"  name="ingr" value="bekon" /> Бекон
-    <input type="checkbox"  name="ingr" value="tomato"/> Помидоры
-    <input type="checkbox"  name="ingr" value="cheese"/> Сыр
-    <input type="checkbox"  name="ingr" value="olive"/> Оливки
+    <img id = 'img' src="Resource/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_1.svg" width="200px" height="200px"/>
 
-    <br>
+    <input id="but" type="button" value="Press"/>
 
-    <input type="text" class="input" name="name" placeholder="Name" required title="Name" pattern="[A-Za-zА-Яа-яЁё]+"/>
-    <input type="tel"  class="input" name="tel"  placeholder="telephone" required title="contact telephone +38(095)123-45-67" pattern="\+38\s?\(?\d{3}\)?\s?\d{3}-?\d{2}-?\d{2}"/>
-    <input type="text" class="input" name="address" placeholder="address" required title="Order address" pattern="[A-Za-zА-Яа-яЁё0-9,.\-\s]+"/>
-
-    <br />
-    <div id="total"></div>
-    <input type="submit" />
-</form>
-
+</div>
 </body>
 
 </html>
