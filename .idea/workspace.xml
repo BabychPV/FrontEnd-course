@@ -496,11 +496,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604651582072" />
-    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1605899138664">
+    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1605899254767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1605534577090" />
-    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605899138664" />
+    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605899254767" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -565,11 +565,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="199" y="121" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605128945811" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1605899143754">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1605899287669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1605534580627" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605899143754" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605899287669" />
+    <state x="750" y="377" key="git4idea.ui.GitTagDialog" timestamp="1605899377576">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="750" y="377" key="git4idea.ui.GitTagDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605899377576" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1605466483754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
