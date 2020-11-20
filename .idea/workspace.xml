@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JS_Adv_Work" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="BabychPV &lt;babych.p.v@gmail.com&gt;" />
+        <option value="Babych &lt;babych.p.v@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="HW" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jnECUIG0axBfjfDp10wMjfDKmu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\JS_Adv" />
+      <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\Les_10\CW" />
+      <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work" />
+      <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\Les_9\HomeWork" />
+      <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\Les_8\HomeWork" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\JS_Adv" />
+      <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\Les_5\CW" />
+      <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\Les_4\HomeWork\Task2" />
+      <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\Les_3\HomeWork\Task4" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="002_ClassWork.htm" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS_Adv_Work/Les_7/CW/002_ClassWork.htm" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.002_ClassWork.htm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",HTML5_OUTLINE_MODE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="" />
+      <created>1604431327077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604431327077</updated>
+      <workItem from="1604431329644" duration="89224000" />
+      <workItem from="1605282093922" duration="24838000" />
+      <workItem from="1605534519540" duration="25702000" />
+      <workItem from="1605819621641" duration="594000" />
+      <workItem from="1605827035548" duration="3187000" />
+      <workItem from="1605899119691" duration="92000" />
+    </task>
+    <task id="LOCAL-00007" summary="HW step 1">
+      <created>1604438707136</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604438707136</updated>
+    </task>
+    <task id="LOCAL-00008" summary="HW step 1.1">
+      <created>1604441051979</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604441051979</updated>
+    </task>
+    <task id="LOCAL-00009" summary="HW step 2">
+      <created>1604446860201</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604446860201</updated>
+    </task>
+    <task id="LOCAL-00010" summary="HW step 3">
+      <created>1604449062809</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604449062809</updated>
+    </task>
+    <task id="LOCAL-00011" summary="HW step 4">
+      <created>1604450419866</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604450419866</updated>
+    </task>
+    <task id="LOCAL-00012" summary="HW step 5">
+      <created>1604450569139</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604450569139</updated>
+    </task>
+    <task id="LOCAL-00013" summary="HW step 6">
+      <created>1604450951387</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604450951387</updated>
+    </task>
+    <task id="LOCAL-00014" summary="HW 3 step 1">
+      <created>1604473276480</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604473276480</updated>
+    </task>
+    <task id="LOCAL-00015" summary="HW 4 step 1">
+      <created>1604476724514</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604476724514</updated>
+    </task>
+    <task id="LOCAL-00016" summary="HW 5 step 1">
+      <created>1604480038518</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604480038518</updated>
+    </task>
+    <task id="LOCAL-00017" summary="HW 4 step 2">
+      <created>1604500514387</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604500514387</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add less 4">
+      <created>1604651051632</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604651051632</updated>
+    </task>
+    <task id="LOCAL-00019" summary="CW1 v1">
+      <created>1604651612551</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604651612551</updated>
+    </task>
+    <task id="LOCAL-00020" summary="CW1 end">
+      <created>1604654167894</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1604654167894</updated>
+    </task>
+    <task id="LOCAL-00021" summary="HW2 end">
+      <created>1604660579120</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604660579120</updated>
+    </task>
+    <task id="LOCAL-00022" summary="HW2 end 1">
+      <created>1604661175005</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604661175005</updated>
+    </task>
+    <task id="LOCAL-00023" summary="HW1 startb 1">
+      <created>1604661684050</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1604661684050</updated>
+    </task>
+    <task id="LOCAL-00024" summary="HW1 end 1">
+      <created>1604663716313</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604663716313</updated>
+    </task>
+    <task id="LOCAL-00025" summary="HW3 start">
+      <created>1604663790894</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1604663790894</updated>
+    </task>
+    <task id="LOCAL-00026" summary="HW3 end">
+      <created>1604665839948</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1604665839948</updated>
+    </task>
+    <task id="LOCAL-00027" summary="HW4 end">
+      <created>1604668433841</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1604668433841</updated>
+    </task>
+    <task id="LOCAL-00028" summary="endb">
+      <created>1604668615225</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1604668615225</updated>
+    </task>
+    <task id="LOCAL-00029" summary="END">
+      <created>1604669416601</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1604669416601</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Les 5 start">
+      <created>1604686747852</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1604686747852</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Les 5 start">
+      <created>1604689772839</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1604689772839</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Les 5 1">
+      <created>1604690353764</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1604690353764</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Les 5 1">
+      <created>1604690499668</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1604690499668</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Les 5 end">
+      <created>1604932888501</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1604932888501</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Les 5 end">
+      <created>1604932954080</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1604932954080</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Les 6 CW">
+      <created>1604949055706</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1604949055706</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Les 6 CW1">
+      <created>1604949460673</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1604949460673</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Les 6 CW1_1">
+      <created>1604954476267</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1604954476267</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Les 6 complete">
+      <created>1605048013420</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1605048013420</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Les 6 complete_1">
+      <created>1605048090239</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1605048090239</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Les 6 change task 2">
+      <created>1605111852351</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1605111852351</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Les 7 CW">
+      <created>1605122392488</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1605122392488</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Les 7 CW">
+      <created>1605122975736</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1605122975736</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Les 7 CW end">
+      <created>1605128889380</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1605128889380</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Les 8 CW end">
+      <created>1605294125093</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1605294125093</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Les 9 CW end1b">
+      <created>1605553019049</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1605553019049</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Les 8 HW 1 end">
+      <created>1605643414613</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1605643414613</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Les 8 HW 1 end">
+      <created>1605643662923</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1605643662923</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Les 8 HW 2 end">
+      <created>1605644304142</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1605644304142</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Les 8 HW end">
+      <created>1605650326215</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1605650326216</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Les 9 HW end">
+      <created>1605650385408</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1605650385408</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Les 10 CW end">
+      <created>1605724964408</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1605724964408</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Les 10 HW end">
+      <created>1605833069919</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1605833069920</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Les 1 СW end (Bootstrap)">
+      <created>1605898903831</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1605898903831</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Les 1 СW end (Bootstrap)">
+      <created>1605899139323</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1605899139323</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="HW3 start" />
+    <MESSAGE value="HW3 end" />
+    <MESSAGE value="HW4 end" />
+    <MESSAGE value="endb" />
+    <MESSAGE value="END" />
+    <MESSAGE value="Les 5 start" />
+    <MESSAGE value="Les 5 1" />
+    <MESSAGE value="Les 5 end" />
+    <MESSAGE value="Les 6 CW" />
+    <MESSAGE value="Les 6 CW1" />
+    <MESSAGE value="Les 6 CW1_1" />
+    <MESSAGE value="Les 6 complete" />
+    <MESSAGE value="Les 6 complete_1" />
+    <MESSAGE value="Les 6 change task 2" />
+    <MESSAGE value="Les 7 CW" />
+    <MESSAGE value="Les 7 CW end" />
+    <MESSAGE value="Les 8 CW end" />
+    <MESSAGE value="Les 9 CW end1b" />
+    <MESSAGE value="Les 8 HW 1 end" />
+    <MESSAGE value="Les 8 HW 2 end" />
+    <MESSAGE value="Les 8 HW end" />
+    <MESSAGE value="Les 9 HW end" />
+    <MESSAGE value="Les 10 CW end" />
+    <MESSAGE value="Les 10 HW end" />
+    <MESSAGE value="Les 1 СW end (Bootstrap)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les 1 СW end (Bootstrap)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1604438914095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604438914095" />
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604651582072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604651582072" />
+    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1605899138664">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1605534577090" />
+    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605899138664" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604479650417" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1605128943967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605128943967" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1605129094113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094113" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1605129094113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094113" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1605129094113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094113" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1605129094113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094113" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605129094114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094114" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1605129094113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094113" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1605129094113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094113" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1605129094113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094113" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1605129094114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094114" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1605129094114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094114" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1605129094114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094114" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1605129094114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094114" />
+    <state x="540" y="266" key="IDE.errors.dialog" timestamp="1605617861501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="266" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605617861501" />
+    <state x="199" y="121" key="SettingsEditor" timestamp="1605128945811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="199" y="121" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605128945811" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1605899143754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1605534580627" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605899143754" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1605466483754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605466483754" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605635666684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605635666684" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Les_7/CW/001_App.js</url>
+          <line>75</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JS_Adv_Work$002_ClassWork_htm.dat" NAME="002_ClassWork.htm Coverage Results" MODIFIED="1605129116313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
