@@ -9,9 +9,13 @@ body {
 .col-12 {
   margin-top: 20px;
 }
+.carousel-item{
+   height: 300px;
+}
+
 
 .carousel-indicators li:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 .row {
   margin-bottom: 30px;

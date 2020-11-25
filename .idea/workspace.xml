@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/CW/001_ClassWork.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/CW/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/CW/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/CW/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/CW/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/CW/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/CW/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/HW/Task2/001_ClassWork.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/HW/Task2/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/HW/Task2/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/HW/Task2/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_3/HW/Task2/css/main.css" afterDir="false" />
+    <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="Les 3 СW end (Bootstrap)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/Les_3/CW/001_ClassWork.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/Les_3/CW/001_ClassWork.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +19,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Babych &lt;babych.p.v@gmail.com&gt;" />
         <option value="BabychPV &lt;babych.p.v@gmail.com&gt;" />
+        <option value="Babych &lt;babych.p.v@gmail.com&gt;" />
       </list>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -109,14 +98,7 @@
       <workItem from="1605827035548" duration="3187000" />
       <workItem from="1605899119691" duration="496000" />
       <workItem from="1606133766785" duration="11331000" />
-      <workItem from="1606329959175" duration="1030000" />
-    </task>
-    <task id="LOCAL-00010" summary="HW step 3">
-      <created>1604449062809</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1604449062809</updated>
+      <workItem from="1606329959175" duration="1314000" />
     </task>
     <task id="LOCAL-00011" summary="HW step 4">
       <created>1604450419866</created>
@@ -454,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606175992232</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Les 3 СW end (Bootstrap)">
+      <created>1606331184605</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1606331184605</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +464,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="HW3 end" />
     <MESSAGE value="HW4 end" />
     <MESSAGE value="endb" />
     <MESSAGE value="END" />
@@ -500,7 +488,8 @@
     <MESSAGE value="Les 10 HW end" />
     <MESSAGE value="Les 1 СW end (Bootstrap)" />
     <MESSAGE value="Les 1 HW end (Bootstrap)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les 1 HW end (Bootstrap)" />
+    <MESSAGE value="Les 3 СW end (Bootstrap)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les 3 СW end (Bootstrap)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1604438914095">
@@ -511,11 +500,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604651582072" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1606175991448">
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1606331189571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1605534577090" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606175991448" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606331189571" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -581,11 +570,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="199" y="121" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605128945811" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606176009357">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606331191729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1605534580627" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606176009357" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606331191729" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1606133870687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
