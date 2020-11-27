@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="Les 3 СW end (Bootstrap)">
+    <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_4/CW/001_App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_4/CW/001_HW.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_4/CW/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_4/CW/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_4/CW/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_4/CW/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_4/CW/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_4/CW/js/maincarousel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bootstrap/Les_3/CW/001_ClassWork.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/Les_3/CW/001_ClassWork.html" afterDir="false" />
     </list>
@@ -47,18 +55,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Bootstrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Bootstrap/Les_4/CW" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_4\CW" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_1\HW" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_2\CW" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_1" />
-      <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\JS_Adv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_1\HW\Task1" />
@@ -98,21 +106,7 @@
       <workItem from="1605827035548" duration="3187000" />
       <workItem from="1605899119691" duration="496000" />
       <workItem from="1606133766785" duration="11331000" />
-      <workItem from="1606329959175" duration="1314000" />
-    </task>
-    <task id="LOCAL-00011" summary="HW step 4">
-      <created>1604450419866</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1604450419866</updated>
-    </task>
-    <task id="LOCAL-00012" summary="HW step 5">
-      <created>1604450569139</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1604450569139</updated>
+      <workItem from="1606329959175" duration="23030000" />
     </task>
     <task id="LOCAL-00013" summary="HW step 6">
       <created>1604450951387</created>
@@ -443,7 +437,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606331184605</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Les 3 СW end (Bootstrap)">
+      <created>1606331319654</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1606331319654</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Les 3 СW end (Bootstrap)">
+      <created>1606331440037</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1606331440037</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,11 +508,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604651582072" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1606331319059">
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1606331439488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1605534577090" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606331319059" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606331439488" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -570,11 +578,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="199" y="121" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605128945811" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606331321028">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606331443025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1605534580627" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606331321028" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606331443025" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1606133870687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -583,14 +591,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="377" key="git4idea.ui.GitTagDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605899377576" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1605466483754">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1606331433566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605466483754" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606158000667">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606331433566" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606514085060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606158000667" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606514085060" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
