@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+          integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="001_App.js"></script>
+
+    <title>Bootstrap 5</title>
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .smallsize {
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+
+</head>
+<body>
+<header class="sticky-top">
+    <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4 class="text-white">Немножко о кофе</h4>
+                    <p class="text-muted">Кофе давно стало частью нашей жизни и вошло как в ежедневную рутину, так и в
+                        традиции празднования важных дат. В ассортименте интернет-магазина — качественные продукты от
+                        проверенных поставщиков. Большинство наших товаров вы не найдете в супермаркете. Мы предлагаем
+                        эксклюзивные новинки и признанную классику чая, кофе и сладостей европейских и американских
+                        брендов.</p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white"><a id="contact" href="#">Контакты</a></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Twitter</a></li>
+                        <li><a href="#" class="text-white">Facebook</a></li>
+                        <li><a href="#" class="text-white">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm ">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <img class="card-img-top smallsize mr-2" src="Resource/Tilda_Icons_7cafe_jezve.svg"
+                     alt="Card image cap">
+                <strong>Время кофе</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-dark"></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main role="main">
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="text-muted">Кофе - Наша страсть!</h1>
+            <p>
+        </div>
+    </section>
+
+    <div class="container">
+            <div class="row flex-d flex-row justify-content-center">
+
+                <div class="col-md-8 order-md-1 mt-4">
+                    <h4 class="mb-3">Заполните поля формы</h4>
+                    <form class="needs-validation" novalidate="">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName">Имя</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value=""
+                                       required="">
+                                <div class="invalid-feedback">
+                                    Введите имя
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastName">Фамилия</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                       required="">
+                                <div class="invalid-feedback">
+                                    Введите фамилию
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label for="email">Email </label>
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">@</span>
+                                </div>
+                                <input type="text" class="form-control" id="email">
+                                <div class="invalid-feedback">
+                                    Проблема
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label for="state">Подарунок</label>
+                                <select class="custom-select  form-control" id="state" required="">
+                                    <option value=""> Программа лояльности.</option>
+                                    <option value="">Хочу получить скидку к дню рождения</option>
+                                    <option value="">Предварительный заказ</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Выберите
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="same-address">
+                            <label class="custom-control-label" for="same-address">Подписаться</label>
+                        </div>
+
+                        <hr class="mb-4">
+
+                        <button class="btn btn-primary btn-lg btn-block" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+
+    </div>
+
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+        integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+        crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -4,64 +4,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+          integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
     <title>Bootstrap 5</title>
 </head>
 
 <body>
-
-<h3>Формы</h3>
+<h3>Валидация формы</h3>
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <form>
-                <div class="row">
-                    <label class="col-3" for="exampleInputEmail1">Email адресс</label>
-                    <div class="col-9">
-                        <input type="email" name="userEmail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email адресс">
-                    </div>
-                    <small id="emailHelp" class="col-9 offset-3">Мы никогда не будем делиться вашей электронной почтой с кем-либо еще.</small>
-                </div>
-                <div class="row">
-                    <label class="col-3" for="exampleInputPassword1">пароль</label>
-                    <div class="col-9">
-                        <input readonly type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="пароль">
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
-                </div>
-                <div>
-                    <div class="form-check-inline">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" disabled>
-                        <label class="form-check-label" for="exampleCheck1">1</label>
-                    </div>
-                    <div class="form-check-inline">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">2</label>
+            <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
                     </div>
                 </div>
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="SubscribeChecked" checked>
-                    <label class="form-check-label" for="SubscribeChecked">Subscribe</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            </nav>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div >
+                <form class="myForm" novalidate>
+                    <div class="form-group row">
+                        <label class="col-3" for="exampleInputName1">Name</label>
+                        <input type="text" class="form-control col-9" id="exampleInputName1"
+                               aria-describedby="nameHelp" placeholder="Name" required>
+                        <div class="valid-feedback">
+                            вы ввели верно
+                        </div>
+                        <div class="invalid-feedback">
+                            ошибка
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-3" for="exampleInputEmail1">Email адресс</label>
+                        <input type="email" class="form-control col-9" id="exampleInputEmail1"
+                               aria-describedby="emailHelp" placeholder="Email адресс" required>
+                        <div class="valid-feedback">
+                            вы ввели верно
+                        </div>
+                        <div class="invalid-feedback">
+                            ошибка
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-3" for="exampleInputGender">Gender</label>
+                        <input type="text" class="form-control col-9" id="exampleInputGender"
+                               aria-describedby="GenderHelp" pattern="[wm]" placeholder="Gender m\w" required>
+                        <div class="valid-feedback">
+                            вы ввели верно
+                        </div>
+                        <div class="invalid-feedback">
+                            ошибка
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-3" for="exampleInputQuestion">Question</label>
+                        <input type="text" class="form-control col-9" id="exampleInputQuestion"
+                               aria-describedby="QuestionHelp" placeholder="Question" required>
+                        <div class="valid-feedback">
+                            вы ввели верно
+                        </div>
+                        <div class="invalid-feedback">
+                            ошибка
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">Select country</label>
+                        <select class="form-control" id="exampleFormControlSelect2" required>
+                            <option selected>Киев</option>
+                            <option>Харьков</option>
+                            <option>Одесса</option>
+                            <option>Днепр</option>
+                            <option>Запорожье</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+
+                        <div class="custom-control custom-ckeckbox mt-2">
+                            <input type="checkbox" class="custom-control-input" required id="custom1">
+                            <label for="custom1" class="custom-control-label">I agree with the processing of personal tributes</label>
+                            <div class="invalid-tooltip">это обязательно выбрать</div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 
 </body>
 
