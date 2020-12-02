@@ -2,36 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task1/001_App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task1/001_HW.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task1/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task1/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task1/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task1/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task1/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task1/js/maincarousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/001_App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/002_ClassWork.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/Resource/Tilda_Icons_7cafe_jezve.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/Resource/cof1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/Resource/cof2.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/Resource/cof3.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/Resource/cof4.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/Resource/cof5.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/Resource/cof6.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/js/maincarousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les1/CW/001_App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les1/CW/001_ClassWork.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les1/CW/Resource/first.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les2/CW/001_App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les2/CW/001_ClassWork.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/Les_1/HW/Task2/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/Les_1/HW/Task2/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/Les_2/CW/001_ClassWork.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/Les_2/CW/001_ClassWork.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/001_ClassWork.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/001_ClassWork.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/Les_3/CW/001_ClassWork.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/Les_3/CW/001_ClassWork.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/Les_4/CW/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/Les_4/CW/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_Adv/Les_2/HomeWork/Task3/001_App.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_Adv/Les_2/HomeWork/Task3/001_App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,25 +52,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Bootstrap/Les_2/HW/Task2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML_Adv" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv" />
+      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv\Les1" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_2\HW\Task2" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_2\HW\Task1" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_4\CW" />
-      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap" />
-      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_1\HW" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv\Les1\CW" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_1\HW\Task1" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_1\CW" />
       <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\JS_Adv" />
       <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\Les_5\CW" />
-      <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\Les_4\HomeWork\Task2" />
     </key>
   </component>
   <component name="RunManager">
@@ -126,21 +103,7 @@
       <workItem from="1605827035548" duration="3187000" />
       <workItem from="1605899119691" duration="496000" />
       <workItem from="1606133766785" duration="11331000" />
-      <workItem from="1606329959175" duration="36445000" />
-    </task>
-    <task id="LOCAL-00014" summary="HW 3 step 1">
-      <created>1604473276480</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1604473276480</updated>
-    </task>
-    <task id="LOCAL-00015" summary="HW 4 step 1">
-      <created>1604476724514</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1604476724514</updated>
+      <workItem from="1606329959175" duration="51284000" />
     </task>
     <task id="LOCAL-00016" summary="HW 5 step 1">
       <created>1604480038518</created>
@@ -471,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606519601510</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Les 2 HW and CW end (Bootstrap)">
+      <created>1606690263758</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1606690263758</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Les 2 HW and CW end (Bootstrap)">
+      <created>1606690353234</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1606690353234</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="endb" />
     <MESSAGE value="END" />
     <MESSAGE value="Les 5 start" />
     <MESSAGE value="Les 5 1" />
@@ -517,7 +493,8 @@
     <MESSAGE value="Les 1 HW end (Bootstrap)" />
     <MESSAGE value="Les 3 СW end (Bootstrap)" />
     <MESSAGE value="Les 4 СW end (Bootstrap)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les 4 СW end (Bootstrap)" />
+    <MESSAGE value="Les 2 HW and CW end (Bootstrap)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les 2 HW and CW end (Bootstrap)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="725" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606683991129">
@@ -532,11 +509,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604651582072" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1606690296891">
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1606690352338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1605534577090" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606690296891" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606690352338" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -619,10 +596,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606331433566" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606514085060">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606926256711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606514085060" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606926256711" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

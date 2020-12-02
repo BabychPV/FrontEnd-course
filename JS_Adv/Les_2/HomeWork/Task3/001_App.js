@@ -16,10 +16,12 @@ Module_001__Apps.prototype.GetByNameClassChildNode= function (classname) {
 
 window.onload = function () {
 
-    let obj = new Module_001__Apps();
-    let arr = obj.GetByNameClassChildNode('div_2');
-    for (let i = 0; i < arr.length; i++) {
-        alert(arr[i].getAttribute('class'))
-    }
+    let e = document.getElementById('answerButton')
+    // e.style.visibility = 'hidden';
 
+    e.style.hidden = true;
+
+    // e.style.display='none';
+
+    e.style.visibility = false
 }
