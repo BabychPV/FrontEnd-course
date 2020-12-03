@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="Les 2  CW end (HTML&amp;CSS ADV)">
+    <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les1/CW/001_ClassWork.htm" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les1/CW/001_ClassWork.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +98,7 @@
       <workItem from="1605827035548" duration="3187000" />
       <workItem from="1605899119691" duration="496000" />
       <workItem from="1606133766785" duration="11331000" />
-      <workItem from="1606329959175" duration="51871000" />
-    </task>
-    <task id="LOCAL-00017" summary="HW 4 step 2">
-      <created>1604500514387</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1604500514387</updated>
+      <workItem from="1606329959175" duration="59127000" />
     </task>
     <task id="LOCAL-00018" summary="Add less 4">
       <created>1604651051632</created>
@@ -442,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606934760318</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Les 2  CW end (HTML&amp;CSS ADV)">
+      <created>1606935206804</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1606935206804</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,11 +504,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604651582072" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1606934870030">
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1606935206305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1605534577090" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606934870030" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606935206305" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -573,11 +574,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="199" y="121" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605128945811" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606934872929">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606935211139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1605534580627" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606934872929" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606935211139" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1606133870687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
