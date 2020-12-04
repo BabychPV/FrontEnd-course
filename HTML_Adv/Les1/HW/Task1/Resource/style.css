@@ -1,0 +1,386 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 1500px;
+    height: 900px;
+}
+
+
+/*body header h1:first-child {*/
+/*    width: 30%;*/
+/*    height: 100%;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+article header h1:first-child {
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+}
+
+/*header > nav {*/
+/*    width: 70%;*/
+/*    height: 100%;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*section {*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: left;*/
+/*}*/
+
+/*section > aside {*/
+/*    height: 65%;*/
+/*    width: 100%;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*section > article {*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/
+
+
+body header h1::before {
+    content: "MES";
+    font-size: 50px;
+    color: #5ea378;
+}
+
+body header h2::before {
+    content: "ВІЗУАЛІЗАЦІЯ ТА ЗРУЧНІ ДЕШБОРДИ В РІЗНИХ РЕЖИМАХ МОНІТОРИНГУ ТА КЕРУВАННЯ";
+    font-size: xx-large;
+    color: #b8b4b7;
+    font-weight: bold;
+}
+
+
+h1 > span::before {
+    content: "System";
+    font-size: 25px;
+    vertical-align: top;
+    color: #b8b4b7;
+}
+
+h1 > span:last-child::before {
+    content: "Indusoft-Ukraine";
+    font-size: 25px;
+    text-align: center;
+    color: #b8b4b7;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:link {
+    color: #b62f17;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #497DDD;
+}
+
+.NavJustItem {
+    display: grid;
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: #5ea378;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.NavJustItemBorderLeft {
+    border-left: 1px solid white;
+}
+
+
+section > aside > p::after {
+    content: "OUR PORTFOLIO";
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0;
+}
+
+
+hr {
+    border: none;
+    background-color: #5ea378;
+    height: 1px;
+}
+
+
+div.asideDiv1_2 div:nth-child(1) > p::before {
+    content: "КОНТЕКСТ ПРОЕКТУ";
+    font-size: xx-large;
+    color: #b8b4b7;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+div.asideDiv1_2 div:nth-child(2) > p::before {
+    content: "Системи оперативного диспетчерського керування виробництвами є в фокусі уваги керівників більше 20 років. Не дивлячись на стабільний інтерес, вони не надторозповсюджені в Україні. Причиною такогостану є складність систем (при повнійреалізації функціоналу), їх висока вартість,а також недоступність на локальному ринкуз відповідною сервісною підтримкою. Всучасному виконанні, виробничники прагнутьвстановлення більш повних систем керуваннявиробництвом (МОМ – Manufacturing OperationManagement), здатних виконувати не тількиоперативно-диспетчерський контрольстану виробництва, але також забезпечитивиконання функцій контролю якості,складських запасів, планування виробництва,технічного обслуговування тощо.";
+    font-size: large;
+    color: #b8b4b7;
+    padding: 5px;
+}
+
+.ArticleContainer1 {
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.ArticleDiv {
+    height: 100%;
+    width: 20%;
+}
+
+.ArticleDiv1 {
+    height: 5%;
+    width: 100%;
+    text-align: left;
+}
+
+div.articleDiv1 p:before {
+    content: "Екран ефктивності виробництва";
+    font-size: 19px;
+    color: #b8b4b7;
+    font-weight: bold;
+}
+
+.ArticleDiv2 {
+    height: 5%;
+    width: 100%;
+    text-align: left;
+}
+
+div.articleDiv1 div:nth-child(2) > p::before {
+    content: "2020-09-30";
+    font-size: large;
+    color: #b8b4b7;
+}
+
+
+div.articleDiv1_1 div:nth-child(4) > p::before {
+    content: "Доступність КПЕ в реальному часі та якісна їх візуалізація для широкого кола користувачів системи, в ідеалі – для всіх, кому це необхідно та в дистанційному режимі – є ще одним специфічним моментом подібних проектів . Критерії якості тут – вартість, зручність, але також безпека . ";
+    font-size: large;
+    color: #b8b4b7;
+}
+
+div.articleDiv1_2 div:nth-child(4) > p::before {
+    content: " Тут виводяться статистичні дані про загальну кількість подій простоїв, їх загальна тривалість, середня тривалість простою (MTTR) та періоду між простоями (MTBF) . Горизонтальна діаграма Ганта відображає історію доступності обраного устаткування за обраний користувачем періоду часу ";
+    font-size: large;
+    color: #b8b4b7;
+}
+
+div.articleDiv1_3 div:nth-child(4) > p::before {
+    content: "Тут наведені кореневі причини втрат продуктивності, їх розподіл по категоріям та статистичні дані про ідеальну та фактичну кількість виробленої продукції за обраний час ";
+    font-size: large;
+    color: #b8b4b7;
+}
+
+div.articleDiv1_4 div:nth-child(4) > p::before {
+    content: " Тут наведені кореневі причини браку, їх розподіл по категоріям та статистичні дані про вироблену кількість продукції та отриманого браку за обраний час.";
+    font-size: large;
+    color: #b8b4b7;
+}
+
+
+div.articleDiv1 div:nth-child(5) > p::before {
+    content: "Читати більше";
+    font-size: large;
+    color: #000000;
+}
+
+#img1 {
+
+    background-position: center;
+    background-size: cover;
+}
+
+#img2, #img3, #img4, #img5 {
+    /*width: 300px;*/
+    /*height: 160px;*/
+    background-position: center;
+    background-size: cover;
+}
+
+
+#img1 {
+    background-image: url(img/img1.png);
+}
+
+#img2 {
+    grid-template-columns: 1fr;
+    background-image: url(img/img2.png);
+}
+
+#img3 {
+    background-image: url(img/img3.png);
+}
+
+#img4 {
+    background-image: url(img/img4.png);
+}
+
+#img5 {
+    background-image: url(img/img5.png);
+}
+
+/*NEW Grid*/
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 700px;
+    grid-template-areas: "header" "main";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+
+.headPos {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-areas: "h1 nav ";
+}
+
+h1 {
+    grid-area: h1;
+}
+
+nav {
+    grid-area: nav;
+    height: 50px;
+}
+
+.navPos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 150px));
+    grid-auto-flow: row;
+
+    grid-column: 2/6;
+    grid-template-rows: 70px;
+    gap: 1px;
+    align-items: center;
+    justify-items: right;
+}
+
+.sectionContainer {
+    display: grid;
+    grid-template-rows: 300px 400px;
+    grid-template-areas: "aside" "article";
+}
+
+.asideDiv1 {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-flow: row;
+}
+
+.asideDiv1_1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.asideDiv1_2 {
+    grid-column: 2/3;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 50px auto;
+    justify-items: center;
+}
+
+.articleDiv1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+.articleDiv1_1 {
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 30px 30px 170px 50px
+}
+
+
+.articleDiv1_1_1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.articleDiv1_1_2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.articleDiv1_1_3 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.articleDiv1_1_4 {
+    grid-column: 1;
+    grid-row:4;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.articleDiv1_1_5 {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+
+.articleDiv1_2 {
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 30px 30px 170px 50px
+}
+
+.articleDiv1_3 {
+    grid-column: 3;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 30px 30px 170px 50px
+}
+
+.articleDiv1_4 {
+    grid-column: 4;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 30px 30px 170px 50px
+}
