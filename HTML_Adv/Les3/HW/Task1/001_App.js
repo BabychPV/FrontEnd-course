@@ -8,12 +8,12 @@ function Init() {
 
     if (window.Worker) {
         //Вызов конструктора Worker()
-        let objBut = ['ButPlus', 'ButSub', 'ButMul', 'ButDiv']
+        let objBut = ['ButPlus', 'ButSub', 'ButMul', 'ButDiv'];
         let worker = [];
         new Worker("002_App.js");
-        let first = $('in1')
-        let second = $('in2')
-        let result = $('out1')
+        let first = $('in1');
+        let second = $('in2');
+        let result = $('out1');
 
         for (let i = 0; i < objBut.length; i++) {
 
@@ -23,7 +23,7 @@ function Init() {
                 worker[i].addEventListener('message', function (e) {
                     result.value = e.data;
                     worker[i].terminate()
-                })
+                });
                 worker[i].postMessage([first.value, second.value, this.value]);
 
             });
