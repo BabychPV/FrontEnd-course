@@ -22,11 +22,9 @@ function Init() {
                 worker[i] = new Worker("002_App.js");
                 worker[i].addEventListener('message', function (e) {
                     result.value = e.data;
-                    alert('Сообщение получено');
                     worker[i].terminate()
                 })
                 worker[i].postMessage([first.value, second.value, this.value]);
-                alert('Сообщение отправлено');
 
             });
         }

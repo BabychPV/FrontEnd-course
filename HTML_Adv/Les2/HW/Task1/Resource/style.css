@@ -237,12 +237,12 @@ footer {
 
 .navPos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 150px));
+    grid-template-columns: repeat(3, minmax(50px, 150px));
     grid-column: 2/3;
     grid-template-rows: 70px;
     gap: 1px;
     align-items: center;
-    justify-items: right;
+    justify-self: end;
     font-size: x-large;
 }
 
