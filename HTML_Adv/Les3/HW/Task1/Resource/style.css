@@ -1,0 +1,57 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 1500px;
+    height: 900px;
+    color: black;
+    background: rgba(115, 114, 114, 0.1);
+}
+
+
+/*NEW Grid*/
+.container > input{
+    background: rgba(198, 0, 101, 0.1);
+    height: 60px;
+    width: 60px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+    color: black;
+    justify-items: center;
+    align-items: center;
+}
+
+
+#ButPlus {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#ButSub {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#ButMul {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#ButDiv {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.div1 {
+    grid-column: 2;
+    grid-row: 2;
+}

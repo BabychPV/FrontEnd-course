@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Video element</title>
+     <style>
+        img, p {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            user-select: none;
+            text-align: center;
+            float: left;
+            margin-left: 8px;
+        }
+
+
+
+        img:hover {
+            transform: scale(1.2);
+        }
+
+        .player {
+            position: absolute;
+            top: 100px;
+            left: 320px;
+            width: auto;
+            height: auto;
+        }
+
+        #video {
+            height: 400px;
+            width: 710px;
+            border: 2px solid #127274;
+            position: relative;
+        }
+        /* media-controls - пседоэлемент для контроля в полноэкранном режиме (убирает элементы контроля)*/
+        #video::-webkit-media-controls {
+            display: none !important;
+        }
+
+        .contrls {
+            position: relative;
+            top: -4px;
+            width: auto;
+            border: 2px solid #127274;
+            height: 40px;
+            background-color: #d6e5e5;
+        }
+
+        #fullButton {
+            float: right;
+        }
+    </style>
+    <script src="001_App.js"></script>
+
+</head>
+<body>
+<div class="player">
+    <video id="video" poster="img/tree-736885_1280.jpg">
+        <source src="Video/Landscape - 757.mp4" />
+<!--        <source src="https://youtu.be/rKBn3WVTvU8" />-->
+<!--        <source src="https://youtu.be/71bnQ3FCY9U" />-->
+    </video>
+    <div class="contrls">
+        <div>
+            <img id="playButton" src="img/icons8_play.png">
+        </div>
+        <div>
+            <img id="rewaindBack" src="img/icons8-prev.png">
+        </div>
+        <div>
+            <img id="rewaindForward" src="img/icons8-next.png">
+        </div>
+        <div>
+            <img id="stopButton" src="img/icons8-stop.png">
+        </div>
+
+        <div>
+            <img id="fullButton" src="img/icons8-full.png">
+        </div>
+
+        <div>
+        <p>Video1</p>
+        </div>
+
+        <div>
+            <img id="video1" src="img/Tilda_Icons_40_IT_branding.svg">
+        </div>
+        <div>
+            <p>Video2</p>
+        </div>
+        <div>
+            <img id="video2" src="img/Tilda_Icons_40_IT_landing.svg">
+        </div>
+        <div>
+            <p>Video3</p>
+        </div>
+        <div>
+            <img id="video3" src="img/Tilda_Icons_40_IT_video.svg">
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+</html>
