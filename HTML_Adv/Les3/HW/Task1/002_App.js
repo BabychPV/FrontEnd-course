@@ -22,7 +22,7 @@ function CalcRun(operand1, operand2, sign) {
                 CalcObject(operand1, operand2, sign)
                 break;
             default:
-                alert('type operand not defined')
+                return 'type operand not defined'
 
         }
     }
