@@ -2,18 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/_article.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/_aside.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_сourse.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_сourse.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_frontend_сourse.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/List.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/001_App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/001_App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/License_agreement.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_bus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_coins.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_directions.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_discount.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_docs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_fullcase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_group.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_guide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_hotel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_medal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_medicine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_moneybox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_operator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_plane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_smile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9ta_ticket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/Tilda_Icons_9_Tour_Agency/Лицензионное соглашение.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._License_agreement.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_bus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_coins.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_directions.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_discount.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_docs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_fullcase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_group.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_guide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_hotel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_medal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_medicine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_moneybox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_operator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_plane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_smile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Tilda_Icons_9ta_ticket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9_Tour_Agency/__MACOSX/Tilda_Icons_9_Tour_Agency/._Лицензионное соглашение.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/Tilda_Icons_9ta_plane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/img4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource/img/img5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les6/CW/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +97,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="BabychPV &lt;babych.p.v@gmail.com&gt;" />
         <option value="Babych &lt;babych.p.v@gmail.com&gt;" />
+        <option value="BabychPV &lt;babych.p.v@gmail.com&gt;" />
       </list>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -85,7 +132,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML_Adv/Les4/HW/Task1/Resource" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -95,19 +142,19 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv\Les6\CW" />
-      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv\Les4\HW\Task1" />
-      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv" />
-      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv\Les3\HW\Task1" />
-      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv\Les3\CW" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv\Les2\HW\Task1" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv\Les1\CW" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_1\HW\Task1" />
       <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\Bootstrap\Les_1\CW" />
       <recent name="C:\Users\Babyc\IdeaProjects\JS_Adv_Work\JS_Adv" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\HTML_Adv\Les4\HW\Task1\Resource" />
+      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv\Les6\CW" />
+      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv\Les4\HW\Task1" />
+      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv" />
+      <recent name="C:\Users\Babyc\IdeaProjects\FrontEnd_Сourse\HTML_Adv\Les3\HW\Task1" />
     </key>
   </component>
   <component name="RunManager">
@@ -147,13 +194,8 @@
       <workItem from="1607682560317" duration="10755000" />
       <workItem from="1607714792798" duration="165000" />
       <workItem from="1607715022945" duration="704000" />
-    </task>
-    <task id="LOCAL-00027" summary="HW4 end">
-      <created>1604668433841</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1604668433841</updated>
+      <workItem from="1607715843548" duration="1672000" />
+      <workItem from="1607717544484" duration="2498000" />
     </task>
     <task id="LOCAL-00028" summary="endb">
       <created>1604668615225</created>
@@ -491,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607701316030</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Les 6  HW end (HTML&amp;CSS ADV)">
+      <created>1607715866866</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1607715866867</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +561,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Les 6 complete" />
     <MESSAGE value="Les 6 complete_1" />
     <MESSAGE value="Les 6 change task 2" />
     <MESSAGE value="Les 7 CW" />
@@ -537,17 +585,22 @@
     <MESSAGE value="Les 5  CW end (HTML&amp;CSS ADV)" />
     <MESSAGE value="Les 4  CW end (HTML&amp;CSS ADV)" />
     <MESSAGE value="Les 4  HW end (HTML&amp;CSS ADV)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les 4  HW end (HTML&amp;CSS ADV)" />
+    <MESSAGE value="Les 6  HW end (HTML&amp;CSS ADV)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les 6  HW end (HTML&amp;CSS ADV)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="222" y="193" key="#File_Watchers" timestamp="1607715706700">
+    <state x="222" y="193" key="#File_Watchers" timestamp="1607716966644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="222" y="193" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1607715706700" />
+    <state x="222" y="193" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1607716966644" />
     <state x="725" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607711973746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="725" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607711973746" />
+    <state x="400" y="297" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1607717976939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="400" y="297" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607717976939" />
     <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1604438914095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -564,19 +617,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="338" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607714214955" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1607701314835">
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1607715864967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607346321178" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607701314835" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607715864967" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604479650417" />
-    <state x="259" y="289" width="722" height="600" key="EditFileWatcherDialog" timestamp="1607715703998">
+    <state x="259" y="289" width="722" height="600" key="EditFileWatcherDialog" timestamp="1607720122606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="259" y="289" width="722" height="600" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607715703998" />
+    <state x="259" y="289" width="722" height="600" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607720122606" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1607714912343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -634,19 +687,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="266" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605617861501" />
-    <state x="123" y="135" key="SettingsEditor" timestamp="1607715082579">
+    <state x="123" y="135" key="SettingsEditor" timestamp="1607720124574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="123" y="135" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607715082579" />
+    <state x="123" y="135" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607720124574" />
     <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1607701332350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607348356980" />
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607701332350" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1606133870687">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1607717578102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1606133870687" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607717578102" />
     <state x="750" y="377" key="git4idea.ui.GitTagDialog" timestamp="1605899377576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

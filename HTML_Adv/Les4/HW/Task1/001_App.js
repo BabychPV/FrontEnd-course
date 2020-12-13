@@ -4,10 +4,13 @@ function init() {
     let canvas = document.getElementById("canvas");
     let context = canvas.getContext("2d");
 
-    let gradient = context.createLinearGradient(200,0, 300, 0);
+    let gradient = context.createLinearGradient(50,0, 500, 0);
     // Добавление цвета и смещения позиции остановки цвета.
     gradient.addColorStop(0, "red");
-    gradient.addColorStop(0.5, "White");
+    gradient.addColorStop(0.2, "red");
+    gradient.addColorStop(0.2, "white");
+    gradient.addColorStop(0.8, "white");
+    gradient.addColorStop(0.8, "red");
     gradient.addColorStop(1, "red");
     // Установка объекта градиента в качестве цвета заливки контекста.
     context.fillStyle = gradient;
@@ -34,5 +37,12 @@ function init() {
     context.bezierCurveTo(firstX, firstY, secondX, secondY, endingX, endingY);
     context.closePath();
     context.fill();
+
+    let logo = new Image();
+    logo.onload = function () {
+        context.drawImage(logo, 70, 50);
+    };
+    logo.src = "Resource/List.png";
+    context.scale(2, 2);
 
 }
