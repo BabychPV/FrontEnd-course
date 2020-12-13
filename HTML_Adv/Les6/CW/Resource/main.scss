@@ -1,0 +1,94 @@
+@import '_CommonMixin';
+$rootTextColor:#ffffff;
+$rootTextHeaderSize:18px;
+$rootTextBaseSize:14px;
+$rootFontStyleItalic:italic;
+
+.grid {
+
+
+  @include setGrid();
+  grid-template-areas: "header" "article" "aside";
+
+
+  article {
+    grid-area: article;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+
+  @import 'header';
+  @import 'article';
+  @import 'aside';
+
+}
+
+/*Используем медиа-запросы для выбранного девайса*/
+/* @media (max-width: 100px)  */
+@media (min-width: 100px) {
+  .grid {
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 300px;
+    /*Размещаем наши элементы шаблона, используя колонки*/
+    grid-template-areas: "header header" "article article"
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .hideImg {
+    display: none;
+  }
+
+  .greedy {
+    grid-column: 1/3;
+    grid-row: 3/5;
+  }
+  > * {
+    border: 1px solid #212941;
+    color: $rootTextColor;
+    font-size: $rootTextHeaderSize;
+  }
+
+}
+
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 300px;
+    grid-template-areas: "header header" "article article";
+  }
+
+  .hide {
+    display: none;
+  }
+
+
+  .hideImg {
+    display: block;
+  }
+
+  .greedy {
+    grid-column: 2/3;
+    grid-row: 3/5;
+  }
+}
+
+@media (min-width: 840px) {
+  .grid {
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 300px;
+    grid-template-areas: "header header" "article aside" "article aside"
+  }
+
+  .hide {
+    display: block;
+  }
+}
+
+
+

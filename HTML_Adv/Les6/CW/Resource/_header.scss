@@ -1,0 +1,46 @@
+@import '_CommonMixin';
+
+
+.headDuGrid1 {
+  grid-area: header;
+  background-size: cover;
+  background-clip: border-box;
+  background: rgba(115, 114, 114, 0.5) url(https://images.wallpaperscraft.ru/image/ferrari_fernando_alonso_formula-1_alonso_formula-1_f1_fernando_f2012_81181_1920x1080.jpg) center;
+  color: $rootTextColor;
+
+  @include setGrid();
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: end;
+
+  .headDuGrid1Div1 {
+    @include setGrid();
+    grid-template-columns: 3fr;
+    background: rgba(115, 114, 114, 0.5);
+
+
+    .headDuGrid1Div1H4 {
+      @include gridPosition(1, 2, 1, null);
+
+    }
+
+    .headDuGrid1Div2 {
+      @include setGrid();
+      @include gridPosition(3, null, 1, null);
+      justify-items: center;
+      align-items: center;
+
+      .headDuGrid1Div1Input {
+
+        border-radius: 10px;
+        background-color: red;
+        color: $rootTextColor;
+        height: 50px;
+        width: 100px;
+      }
+    }
+  }
+
+}
+
+
