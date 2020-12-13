@@ -5,330 +5,77 @@ html {
 
 body {
     margin: 0 auto;
-    padding: 0;
-    width: 1500px;
-    height: 900px;
-    color: black;
-    background: rgba(115, 114, 114, 0.1);
+
 }
 
-
-article header h1:first-child {
-    width: 100%;
-    height: 10%;
-    margin-top: 10px;
-}
-
-body header h2::before {
-    content: "Топ 4 курортів";
-    font-size: xx-large;
-    font-weight: bold;
-}
-
-h2{
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-a:link {
-    color: black;
-}
-
-a:visited {
-    color: grey;
-}
-
-a:hover {
-    color: #497DDD;
-}
-
-.NavJustItem {
-    display: grid;
+.Menu {
+    width: 150px;
+    height: 30px;
     color: white;
-    justify-items: center;
-    align-items: center;
-
-}
-
-.NavJustItemBorderLeft {
-    border-left: 1px solid white;
-}
-
-
-section > aside > p::after {
-    content: "OUR PORTFOLIO";
-    font-weight: bold;
-    font-size: x-large;
-    margin: 0;
-}
-
-
-hr {
-    border: none;
     background-color: #5ea378;
-    height: 1px;
-}
-
-
-div.asideDiv1_2 div:nth-child(1) > p::before {
-    content: "Пхукет, Таиланд";
-    font-size: xx-large;
-    /*color: #b8b4b7;*/
-    font-weight: bold;
+    transition: all 2s;
     text-align: center;
-
 }
 
-div.asideDiv1_2 div:nth-child(2) > p::before {
-    content: "Таиланд давно завоевал славу одного из самых выгодных мест в мире для отдыха в зимний период, и Пхукет — лучший из его курортов. Отдыхают здесь и семьи с детьми, и молодежные компании, и любители экзотики или всевозможных водных видов спорта. И немаловажно, что все это разнообразие вполне и недорого.";
-    font-size: large;
-    /*color: black;*/
-    padding: 5px;
+.Menu:hover {
+    color: white;
+    background-color: #0a89a3;
+    display: block;
 }
 
-.ArticleContainer1 {
-    justify-content: space-between;
-    margin-top: 20px;
-    width: 100%;
-    height: 100%;
+.dropdown {
+    display: none;
 
-}
-
-.ArticleDiv {
-    height: 100%;
-    width: 20%;
-}
-
-.ArticleDiv1 {
-    height: 5%;
-    width: 100%;
+    width: 150px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+    margin: 0;
+    padding: 2px 0 0;
     text-align: left;
 }
 
-div.articleDiv1 p:before {
-    content: "Екран ефктивності виробництва";
-    font-size: 19px;
-    font-weight: bold;
-}
-
-.ArticleDiv2 {
-    height: 5%;
-    width: 100%;
-    text-align: left;
-}
-
-div.articleDiv1 div:nth-child(2) > p::before {
-    content: "2020-09-30";
-    font-size: large;
-}
-
-
-div.articleDiv1_1 div:nth-child(2) > p::before {
-    content: "Фукуок — самый большой остров Вьетнама, а оттого и самый популярный курорт. В своем арсенале, помимо привычных хороших пляжных зон и центров для морского отдыха, остров славится невероятными природными достопримечательностями и старинными святынями.";
-    font-size: large;
-}
-
-div.articleDiv1_2 div:nth-child(2) > p::before {
-    content: "Северный Гоа — райское место для всех молодых и активных, это один из самых колоритных уголков Индии, где можно увидеть небывалое смешение культур, традиций, а также путешественников со всего мира. Калангут — типичный яркий город, который ранее еще называли «столицей хиппи», и такой вольный дух здесь сохранился до сегодня.";
-    font-size: large;
-}
-
-div.articleDiv1_3 div:nth-child(2) > p::before {
-    content: "Индия - для тех, кого не привлекают сумбур и шумиха Северного Гоа, есть более спокойная и респектабельная южная часть штата, и Бенаулим находится на ее территории. Но за покой придется немножко доплатить.";
-    font-size: large;
-}
-
-div.articleDiv1_4 div:nth-child(2) > p::before {
-    content: "Египет - самое выгодное место для отдыха из-за более близкого расположения и поэтому более доступной цены на перелет — это давно знакомый всем Египет. Дахаб в свою очередь — место, не похожее на все остальные курорты этой страны.";
-    font-size: large;
-}
-
-
-div.articleDiv1 div:nth-child(3) > a::before {
-    content: "Смотреть разположение";
-    font-size: large;
-    color: #000000;
-}
-
-a{
-
-}
-
-#img1 {
-
-    background-position: center;
-    background-size: cover;
-}
-
-#img2, #img3, #img4, #img5 {
-    background-position: center;
-    background-size: cover;
-}
-
-
-#img1 {
-    background-image: url(https://tripmydream.cc/travelhub/travel/block_gallery/91/609/default_91609.jpg?);
-}
-
-#img2 {
-    grid-template-columns: 1fr;
-    background-image: url(https://tripmydream.cc/travelhub/travel/block_gallery/91/611/default_91611.jpg?);
-}
-
-#img3 {
-    background-image: url(https://tripmydream.cc/travelhub/travel/block_gallery/91/612/default_91612.jpg?);
-}
-
-#img4 {
-    background-image: url(https://tripmydream.cc/travelhub/travel/block_gallery/91/613/default_91613.jpg?);
-}
-
-#img5 {
-    background-image: url(https://tripmydream.cc/travelhub/travel/block_gallery/91/614/default_91614.jpg?);
-}
-
-/*NEW Grid*/
-
-.container {
-    display: grid;
-    grid-template-rows: 100px 600px 100px;
-    grid-template-areas: "header" "main" "footer";
+.dropdown a {
     color: black;
-}
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
-}
-
-.headPos {
-    display: grid;
-    grid-template-rows: 50px;
-    grid-template-columns: 1fr 1fr;
-    align-self: center;
-}
-
-.logo {
-    grid-column: 1;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.img0 {
-    background: url("img/Tilda_Icons_9ta_plane.svg") center no-repeat;
-
-    /*height: 50px;*/
-    /*width: 50px;*/
-}
-
-.navPos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 150px));
-    grid-column: 2/3;
-    grid-template-rows: 70px;
-    gap: 1px;
-    align-items: center;
-    justify-items: right;
-    font-size: x-large;
-}
-
-.sectionContainer {
-    display: grid;
-    grid-template-rows: 300px 400px;
-    grid-template-areas: "aside" "article";
-}
-
-.asideDiv1 {
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-auto-flow: row;
-}
-
-.asideDiv1_1 {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.asideDiv1_2 {
-    grid-column: 2/3;
-    grid-row: 1;
-    display: grid;
-    grid-template-rows: 50px auto;
-    justify-items: center;
-    padding: 10px;
-}
-
-.articleDiv1 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-
-}
-
-.articleDiv1_1 {
-    grid-column: 1;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 200px 170px 50px
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 
-.articleDiv1_1_1 {
-    grid-column: 1;
-    grid-row: 1;
+.view{  display: block;}
+
+.dropdown a:hover {background-color: #5ea378;}
+
+#nav:hover .dropdown {display: block;}
+
+#a1:hover{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+#a2:hover{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: wobble;
+    animation-name: wobble;
 }
 
 
-.articleDiv1_1_4 {
-    grid-column: 1;
-    grid-row: 2/3;
-    display: grid;
-    justify-items: center;
-    align-items: center;
+#a3:hover{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: jello;
+    animation-name: jello;
+    -webkit-transform-origin: center;
+    transform-origin: center;
 }
 
-.articleDiv1_1_5 {
-    grid-column: 1;
-    grid-row: 4;
-}
-
-
-.articleDiv1_2 {
-    grid-column: 2;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 200px  170px 50px
-}
-
-.articleDiv1_3 {
-    grid-column: 3;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 200px  170px 50px
-}
-
-.articleDiv1_4 {
-    grid-column: 4;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 200px  170px 50px
-}
