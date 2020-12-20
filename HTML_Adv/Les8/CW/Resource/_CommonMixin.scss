@@ -33,60 +33,90 @@ $sing: '/';
 
 }
 
-%Header1 {
+%artGrid_1_Header1 {
   content: 'CLEAN TYPOGRAPHY';
 }
 
-%Header2 {
+%artGrid_1_Text1 {
+  content: 'Lorem ipsum dolor sit amet, consectertur adisdifidf elit. Minima maxime quan architecto quo inventore harum ex magni, dicis impedit. Lorem ipsum'
+}
+
+%artGrid_1_Header2 {
   content: 'ROCK SOLID CODE';
 }
 
-%Header3 {
+%artGrid_1_Text2 {
+  content: 'Lorem ipsum dolor sit amet, consectertur adisdifidf elit. Minima maxime quan architecto quo inventore harum ex magni, dicis impedit. Lorem ipsum'
+}
+
+%artGrid_1_Header3 {
   content: 'EXPERT SUPPORT';
 }
 
-
-%Text1 {
-  content: 'Lorem ipsum dolor sit amet, consectertur adisdifidf elit. Minima maxime quan architecto quo inventore harum ex magni, dicis impedit. Lorem ipsum'
-}
-
-%Text2 {
-  content: 'Lorem ipsum dolor sit amet, consectertur adisdifidf elit. Minima maxime quan architecto quo inventore harum ex magni, dicis impedit. Lorem ipsum'
-}
-
-%Text3 {
+%artGrid_1_Text3 {
   content: 'Lorem ipsum dolor sit amet, consecteetur adipisicing elit. Minima maxime quam architeco quo inventore harum ex magni? dicta impedit. Lorem ipsum.'
 }
 
+%artGrid_2_Header1 {
+  content: 'MD. KHALIL UDDIN';
+}
 
-@mixin setArtBlock_2() {
+%artGrid_2_Text1 {
+  content: 'Hesad of Ideas'
+}
 
-  @for $j from 1 to 4 {
-    //Применяем интерполяцию для подключения счетчика
-    .artSubGrid_1_div3_d#{$j} {
+%artGrid_2_Header2 {
+  content: 'RUBEL MIAH';
+}
+
+%artGrid_2_Text2 {
+  content: 'Lead WordPress Developer'
+}
+
+%artGrid_2_Header3 {
+  content: 'SHAMIM MIA';
+}
+
+%artGrid_2_Text3 {
+  content: 'Sr. Web Developer'
+}
+%artGrid_2_Header4 {
+  content: 'JOHN DOE';
+}
+
+%artGrid_2_Text4 {
+  content: 'FRONT-end DEVELOPER'
+}
+
+
+@mixin setArtPicBlock($ArtGridNum,$ArtGridDivNum,$NamePic,$CountPic,$HeightPic,$WightPic) {
+
+  @for $j from 1 to $CountPic+1 {
+
+    .artSubGrid_#{$ArtGridNum}_div#{$ArtGridDivNum}_d#{$j} {
       @include setGrid();
       @include gridPosition($j, null, 3, null);
       justify-items: center;
       text-align: center;
       row-gap: 20px;
-      @for $i from 1 to 4 {
+      @for $i from 1 to $CountPic+1 {
 
-        .artSubGrid_1_div3_d#{$j}_#{$i} {
+        .artSubGrid_#{$ArtGridNum}_div#{$ArtGridDivNum}_d#{$j}_#{$i} {
 
           @if ($i==1) {
-            background-image: url("img/icon#{$j}.png");
+            background-image: url("img/#{$NamePic}#{$j}.png");
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
-            height: 120px;
-            width: 120px;
+            height: $HeightPic;
+            width: $WightPic;
           } @else if ($i==2) {
             &:before {
-              @extend %Header#{$j}
+              @extend %artGrid_#{$ArtGridNum}_Header#{$j}
             }
           } @else if ($i==3) {
             &:before {
-              @extend %Text#{$j}
+              @extend %artGrid_#{$ArtGridNum}_Text#{$j}
             }
           }
           @include gridPosition(1, null, $i, null);

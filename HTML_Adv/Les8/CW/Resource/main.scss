@@ -98,6 +98,7 @@ $rootFontFamily: 'Montserrat', sans-serif;;
     grid-template-columns: 1fr;
     //grid-template-rows: 300px;
     grid-template-areas: "header" "article" "footer";
+    row-gap: 40px;
   }
 
   .hide {

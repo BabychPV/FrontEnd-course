@@ -1,95 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="Les 6  CW end (HTML&amp;CSS ADV)">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/001_App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/001_ClassWork.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/Resource/_CommonMixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/Resource/_article.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/Resource/_aside.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/Resource/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/Resource/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/Resource/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/Resource/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/Resource/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/Resource/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/Resource/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/img/Header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les7/CW/img/first.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/001_App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/001_ClassWork.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/_CommonMixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/_article.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/_aside.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/Facebook Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/Google Plus Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/Home Background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/Paralax section.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/SITE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/Twitter Logo Silhouette.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/Twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/blog_img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/blog_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/fa-envelope-o.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/fa-linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/fa-map-marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/fa-mobile-phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/img7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/img8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/img9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/logo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/logo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/photo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/img/photo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/CW/Task1/HTML/001_ClassWork.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/CW/Task1/HTML/Resource/first.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/CW/Task1/ts/001_App.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/CW/Task1/ts/002_App.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/CW/Task1/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/001_HomeWork.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/Style/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/Style/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/Style/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27bu_7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/images (2).jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/images.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/pizza-3007395__340.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/js/main.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/ts/001_App.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/ts/002_App.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/tsconfig.json" afterDir="false" />
+    <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/License_agreement.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_13.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_15.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_17.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_18.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_19.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_21.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_22.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_23.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_25.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_26.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_27.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_28.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_29.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_30.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_31.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Tilda_Icons_27bu_9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/Tilda_Icons_27_Bullets/Лицензионное соглашение.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._License_agreement.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_13.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_15.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_17.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_18.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_19.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_21.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_22.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_23.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_25.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_26.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_27.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_28.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_29.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_30.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_31.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Tilda_Icons_27bu_9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les1/HW/Task1/Resource/img/Tilda_Icons_27_Bullets/__MACOSX/Tilda_Icons_27_Bullets/._Лицензионное соглашение.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les1/CW/001_ClassWork.htm" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les1/CW/001_ClassWork.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les6/CW/001_ClassWork.htm" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/001_ClassWork.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les6/CW/Resource/_article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/Resource/_article.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les6/CW/Resource/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/Resource/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les6/CW/Resource/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/Resource/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les6/CW/Resource/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les6/CW/Resource/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les8/CW/001_App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/001_App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les8/CW/001_ClassWork.htm" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/001_ClassWork.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/_CommonMixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/_CommonMixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/_article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/_article.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Adv/Les8/CW/Resource/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,14 +214,7 @@
       <workItem from="1607715022945" duration="704000" />
       <workItem from="1607715843548" duration="1672000" />
       <workItem from="1607717544484" duration="37301000" />
-      <workItem from="1608138785327" duration="35003000" />
-    </task>
-    <task id="LOCAL-00032" summary="Les 5 1">
-      <created>1604690353764</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1604690353764</updated>
+      <workItem from="1608138785327" duration="46068000" />
     </task>
     <task id="LOCAL-00033" summary="Les 5 1">
       <created>1604690499668</created>
@@ -576,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607898194361</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Les 1  CW&amp;HW  end (TypeScript)">
+      <created>1608484583245</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1608484583246</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +580,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Les 7 CW" />
     <MESSAGE value="Les 7 CW end" />
     <MESSAGE value="Les 8 CW end" />
     <MESSAGE value="Les 9 CW end1b" />
@@ -622,7 +604,8 @@
     <MESSAGE value="Les 4  CW end (HTML&amp;CSS ADV)" />
     <MESSAGE value="Les 5  HW_2 end (HTML&amp;CSS ADV)" />
     <MESSAGE value="Les 6  CW end (HTML&amp;CSS ADV)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les 6  CW end (HTML&amp;CSS ADV)" />
+    <MESSAGE value="Les 1  CW&amp;HW  end (TypeScript)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les 1  CW&amp;HW  end (TypeScript)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="193" key="#File_Watchers" timestamp="1607716966644">
@@ -661,11 +644,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="338" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607714214955" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1608318984973">
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1608484580299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607346321178" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608318984973" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608484580299" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -727,19 +710,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605129094114" />
-    <state x="540" y="266" key="IDE.errors.dialog" timestamp="1608479819850">
+    <state x="540" y="266" key="IDE.errors.dialog" timestamp="1608484732909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="266" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608479819850" />
+    <state x="540" y="266" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608484732909" />
     <state x="227" y="331" key="SettingsEditor" timestamp="1608324757193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="227" y="331" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608324757193" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1607898267746">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1608484584945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607348356980" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607898267746" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608484584945" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1608138785371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -753,18 +736,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="301" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608323075285" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1607712470637">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1608496746784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607712470637" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608496746784" />
     <state x="212" y="151" key="scopes" timestamp="1608320345271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="212" y="151" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1608320345271" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608476440297">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608492389537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608476440297" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608492389537" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,5 +1,34 @@
 @import '_CommonMixin';
 
+%baseArtSubGrid {
+  @include setGrid();
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  margin-top: 20px;
+}
+
+%baseArtSubGrid_h3 {
+  @include gridPosition(1, null, 1, null);
+  margin: 10px;
+
+}
+
+%baseArtSubGrid_div1 {
+  @include gridPosition(1, null, 2, null);
+  height: 2px;
+  width: 40px;
+  background-color: $rootTextCommonColor;
+}
+
+%baseArtSubGrid_div2 {
+  @include gridPosition(1, null, 3, null);
+}
+
+
 .article {
 
   font-family: $rootFontFamily;
@@ -7,17 +36,10 @@
 
   .artSubGrid_1 {
 
-    @include setGrid();
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
-    justify-items: center;
-    align-items: center;
-    row-gap: 20px;
+    @extend %baseArtSubGrid;
 
     .artSubGrid_1_h3 {
-      content: 'SERVICES';
-      @include gridPosition(1, null, 1, null);
-      margin: 10px;
+      @extend %baseArtSubGrid_h3;
 
       &:before {
         content: 'SERVICES';
@@ -25,14 +47,11 @@
     }
 
     .artSubGrid_1_div1 {
-      @include gridPosition(1, null, 2, null);
-      height: 2px;
-      width: 40px;
-      background-color: $rootTextCommonColor;
+      @extend %baseArtSubGrid_div1;
     }
 
     .artSubGrid_1_div2 {
-      @include gridPosition(1, null, 3, null);
+      @extend %baseArtSubGrid_div2;
 
       &:before {
         content: 'We offer ipsum dolor sit amet consetetur sadipscing elitr amet';
@@ -50,10 +69,145 @@
       justify-self: center;
       margin-top: 40px;
 
-      @include setArtBlock_2();
-
+      @include setArtPicBlock(1, 3, 'icon', 3, 120px, 120px);
     }
   }
+
+  .artSubGrid_2 {
+
+    margin-top: 80px;
+    padding: 50px;
+    @extend %baseArtSubGrid;
+
+    background-color: #f8f8f8;
+
+    .artSubGrid_2_h3 {
+      @extend %baseArtSubGrid_h3;
+
+      &:before {
+        content: 'ABOUT US';
+      }
+    }
+
+    .artSubGrid_2_div1 {
+      @extend %baseArtSubGrid_div1;
+    }
+
+    .artSubGrid_2_div2 {
+      @extend %baseArtSubGrid_div2;
+
+      &:before {
+        content: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet';
+      }
+    }
+
+    .artSubGrid_2_div3 {
+      @include setGrid();
+      grid-template-columns: 2fr;
+      grid-template-rows: 1fr;
+      justify-content: space-around;
+      justify-items: center;
+      align-items: center;
+      row-gap: 20px;
+    }
+
+    .artSubGrid_2_div3 div:nth-of-type(1) {
+      padding-left: 100px;
+      @include gridPosition(2, null, 1, null);
+
+      &:before {
+
+        content: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonume eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero et accusam et justo dolores et ea rebum. Stet clita kasd gubergent, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.';
+      }
+    }
+
+    .artSubGrid_2_div3 div:nth-of-type(2) {
+      padding-left: 100px;
+      padding-right: 100px;
+      @include gridPosition(3, null, 1, null);
+
+      &:before {
+        content: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonume eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero et accusam et justo dolores et ea rebum. Stet clita kasd gubergent, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.';
+      }
+    }
+
+    .artSubGrid_2_div4 {
+
+      @include setGrid();
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      justify-content: space-around;
+      justify-items: center;
+      align-self: center;
+      justify-self: center;
+      column-gap: 65px;
+      margin-top: 40px;
+
+      @include setArtPicBlock(2, 4, 'photo', 4, 400px, 400px);
+    }
+
+    .artSubGrid_2_div4_d1_1 div:nth-of-type(1) {
+      background-color: rgba(56, 71, 69, 0.53);
+      width: 100%;
+      height: 100%;
+      @include setGrid();
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      row-gap: 50px;
+    }
+
+    .artSubGrid_2_div4_d1_1 div:nth-of-type(1) #canvas {
+      @include gridPosition(1, null, 2, null);
+      justify-content: right;
+      justify-items: right;
+    }
+
+    .artSubGrid_2_div4_d1_1 div:nth-of-type(1) div:nth-of-type(1) {
+      @include gridPosition(1, null, 3, null);
+      @include setGrid();
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      justify-content: space-around;
+      justify-items: center;
+      align-self: center;
+      justify-self: center;
+      row-gap: 20px;
+
+    }
+
+    .artSubGrid_2_div4_d1_1 div:nth-of-type(1) div:nth-of-type(1) div:nth-of-type(1) {
+      @include gridPosition(1, null, 1, null);
+      background-image: url("img/Facebook Logo.png");
+      background-size: cover;
+      background-position: center;
+      background-color: red;
+    }
+
+    .artSubGrid_2_div4_d1_1 div:nth-of-type(1) div:nth-of-type(1) div:nth-of-type(2) {
+      @include gridPosition(2, null, 1, null);
+      background-image: url("img/fa-linkedin.png");
+      background-size: cover;
+      background-position: center;
+
+    }
+
+    .artSubGrid_2_div4_d1_1 div:nth-of-type(1) div:nth-of-type(1) div:nth-of-type(3) {
+      @include gridPosition(3, null, 1, null);
+      background-image: url("img/Google Plus Logo.png");
+      background-size: cover;
+      background-position: center;
+
+    }
+    .artSubGrid_2_div4_d1_1 div:nth-of-type(1) div:nth-of-type(1) div:nth-of-type(4) {
+      @include gridPosition(3, null, 1, null);
+      background-image: url("img/Twitter Logo Silhouette.png");
+      background-size: cover;
+      background-position: center;
+
+    }
+
+  }
+
 
   .colorHeaderItal {
     color: $rootTextCommonColor;
