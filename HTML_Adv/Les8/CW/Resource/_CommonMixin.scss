@@ -1,0 +1,99 @@
+$colTemp: 0;
+$sing: '/';
+
+@mixin gridPosition($col1,$col2, $row1,$row2) {
+
+  @if ($col2) {
+    grid-column: $col1 #{$sing}$col2;
+  } @else {
+    grid-column: $col1
+  }
+
+  @if ($row2) {
+    grid-row: $row1 #{$sing}$row2;
+  } @else {
+    grid-row: $row1
+  }
+}
+
+@mixin setGrid() {
+  display: grid;
+}
+
+@mixin setFlex($type,$center) {
+  display: flex;
+  @if ($type == 'row') {
+    flex-direction: row;
+  } @else {
+    flex-direction: column;
+  }
+  @if ($center == 'yes') {
+    justify-content: center;
+  }
+
+}
+
+%Header1 {
+  content: 'CLEAN TYPOGRAPHY';
+}
+
+%Header2 {
+  content: 'ROCK SOLID CODE';
+}
+
+%Header3 {
+  content: 'EXPERT SUPPORT';
+}
+
+
+%Text1 {
+  content: 'Lorem ipsum dolor sit amet, consectertur adisdifidf elit. Minima maxime quan architecto quo inventore harum ex magni, dicis impedit. Lorem ipsum'
+}
+
+%Text2 {
+  content: 'Lorem ipsum dolor sit amet, consectertur adisdifidf elit. Minima maxime quan architecto quo inventore harum ex magni, dicis impedit. Lorem ipsum'
+}
+
+%Text3 {
+  content: 'Lorem ipsum dolor sit amet, consecteetur adipisicing elit. Minima maxime quam architeco quo inventore harum ex magni? dicta impedit. Lorem ipsum.'
+}
+
+
+@mixin setArtBlock_2() {
+
+  @for $j from 1 to 4 {
+    //Применяем интерполяцию для подключения счетчика
+    .artSubGrid_1_div3_d#{$j} {
+      @include setGrid();
+      @include gridPosition($j, null, 3, null);
+      justify-items: center;
+      text-align: center;
+      row-gap: 20px;
+      @for $i from 1 to 4 {
+
+        .artSubGrid_1_div3_d#{$j}_#{$i} {
+
+          @if ($i==1) {
+            background-image: url("img/icon#{$j}.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 120px;
+            width: 120px;
+          } @else if ($i==2) {
+            &:before {
+              @extend %Header#{$j}
+            }
+          } @else if ($i==3) {
+            &:before {
+              @extend %Text#{$j}
+            }
+          }
+          @include gridPosition(1, null, $i, null);
+        }
+      }
+    }
+
+  }
+
+}

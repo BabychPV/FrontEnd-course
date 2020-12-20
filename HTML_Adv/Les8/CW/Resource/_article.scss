@@ -1,0 +1,70 @@
+@import '_CommonMixin';
+
+.article {
+
+  font-family: $rootFontFamily;
+  color: $rootTextCommonColor;
+
+  .artSubGrid_1 {
+
+    @include setGrid();
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+    justify-items: center;
+    align-items: center;
+    row-gap: 20px;
+
+    .artSubGrid_1_h3 {
+      content: 'SERVICES';
+      @include gridPosition(1, null, 1, null);
+      margin: 10px;
+
+      &:before {
+        content: 'SERVICES';
+      }
+    }
+
+    .artSubGrid_1_div1 {
+      @include gridPosition(1, null, 2, null);
+      height: 2px;
+      width: 40px;
+      background-color: $rootTextCommonColor;
+    }
+
+    .artSubGrid_1_div2 {
+      @include gridPosition(1, null, 3, null);
+
+      &:before {
+        content: 'We offer ipsum dolor sit amet consetetur sadipscing elitr amet';
+      }
+    }
+
+    .artSubGrid_1_div3 {
+
+      @include setGrid();
+      grid-template-columns: repeat(auto-fit, minmax(120px, 500px));
+      grid-template-rows: 1fr;
+      justify-content: space-around;
+      justify-items: center;
+      align-self: center;
+      justify-self: center;
+      margin-top: 40px;
+
+      @include setArtBlock_2();
+
+    }
+  }
+
+  .colorHeaderItal {
+    color: $rootTextCommonColor;
+    font-style: $rootFontStyleItalic;
+    font-size: $rootTextBaseSize;
+  }
+
+  .colorCommonText {
+    color: black;
+    font-size: $rootTextBaseSize;
+    line-height: 1.5;
+  }
+
+}

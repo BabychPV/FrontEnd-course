@@ -1,0 +1,28 @@
+@import '_CommonMixin';
+
+.aside {
+
+
+  .asided0 {
+    @include setGrid();
+    grid-template-columns: 3fr;
+    padding: 10px;
+
+    .asided1 {
+      @include gridPosition(1, null, 1, null);
+      color: #8b0d0e;
+    }
+
+    .asided2 {
+      @include gridPosition(1, null, 2, null);
+      color: #8b0d0e;
+    }
+
+    .asided3 {
+      @include gridPosition(2, null, 2, null);
+      color: #8b0d0e;
+    }
+  }
+
+
+}

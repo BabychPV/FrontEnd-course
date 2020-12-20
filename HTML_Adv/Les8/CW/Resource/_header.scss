@@ -1,0 +1,109 @@
+@import '_CommonMixin';
+
+
+.headGrid {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-clip: border-box;
+  background-image: url('img/Home Background.png');
+  background-position: center;
+  color: $rootTextColor;
+  font-family: $rootFontFamily;
+  height: 1050px;
+  width: 2100px;
+
+  @include setGrid();
+  grid-template-columns: 1fr 1fr 1fr 100px;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+
+  .headGrid1_Div_1_H3 {
+    @include gridPosition(1, null, 1, null);
+    align-self: start;
+    margin-top: 20px;
+
+    &:before {
+      content: 'Startup'
+    }
+  }
+
+  .navPos {
+    @include gridPosition(3, null, 1, null);
+    @include setGrid();
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-self: start;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    .NavJustItem {
+      @include setGrid();
+      width: 100px;
+      height: 30px;
+      color: $rootTextColor;
+      //background-color: #5ea378;
+      justify-items: center;
+      align-items: center;
+
+    }
+
+  }
+
+
+  .headDGrid1_Div_1 {
+
+    @include gridPosition(1, 4, 2, null);
+    @include setGrid();
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    row-gap: 20px;
+
+    justify-items: center;
+    align-items: center;
+    font-family: $rootFontFamily;
+
+    .headGrid1_Div_1_H1 {
+      @include gridPosition(1, null, 1, null);
+      margin: 0;
+      font-size: 50px;
+      &:before {
+        content: 'WELCOME TO STARTUP'
+      }
+    }
+
+    .headGrid1_Div_1_div1 {
+      @include gridPosition(1, null, 2, null);
+      justify-items: center;
+      align-items: center;
+margin-bottom: 30px;
+      &:before {
+        content: 'Your favourite Creative Agency Template'
+      }
+    }
+
+    .headGrid1_Div_1_div2 {
+      @include gridPosition(1, null, 3, null);
+      @include setFlex('col', 'yes');
+      border: white 2px solid;
+      color: $rootTextColor;
+      text-align: center;
+      height: 50px;
+      width: 200px;
+
+      & > span:before {
+        content: 'Get Started';
+        margin: 0;
+      }
+    }
+
+
+    //.headGrid1_Div_1_div1:nth-child(0):hover {
+    //
+    //}
+  }
+
+}
+
+

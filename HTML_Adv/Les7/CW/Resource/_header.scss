@@ -2,7 +2,8 @@
 
 
 .headGrid {
-  grid-area: header;
+  margin: 0;
+  padding: 0;
   background-size: cover;
   background-clip: border-box;
   background: rgba(115, 114, 114, 0.5) url(https://images.wallpaperscraft.ru/image/ferrari_fernando_alonso_formula-1_alonso_formula-1_f1_fernando_f2012_81181_1920x1080.jpg) center;
@@ -10,23 +11,26 @@
 
   @include setGrid();
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  align-items: end;
+  grid-template-rows: 3fr;
+  align-items: center;
+  justify-items: center;
+
 
   .headDGrid1_Div_1 {
     @include setGrid();
-    grid-template-columns: 3fr;
-    background: rgba(115, 114, 114, 0.5);
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
 
 
     .headGrid1_Div_1_H4 {
-      @include gridPosition(1, 2, 1, null);
+      @include gridPosition(1, null, 1, null);
 
     }
 
     .headGrid1_Div_1_div1 {
       @include setGrid();
-      @include gridPosition(3, null, 1, null);
+      grid-template-columns: 1fr 1fr 1fr;
+      @include gridPosition(1, null, 2, null);
       justify-items: center;
       align-items: center;
 
@@ -36,7 +40,11 @@
         background-color: red;
         color: $rootTextColor;
         height: 50px;
-        width: 100px;
+        width: 200px;
+      }
+
+      .headGrid1_Div_1_div1:nth-child(0):hover{
+
       }
     }
   }
