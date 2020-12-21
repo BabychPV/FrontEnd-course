@@ -1,4 +1,4 @@
-if (window.addEventListener) window.addEventListener("load", init, false);
+
 
 
 interface IAnimals {
