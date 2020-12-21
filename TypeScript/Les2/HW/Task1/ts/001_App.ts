@@ -1,167 +1,113 @@
-if (window.addEventListener) window.addEventListener("load", init, false);
+// Создать понятие абстрактного родительского класса Car. От него создать 3 производных класса (марки
+// автомобилей) с применением метода super(). В классах использовать модификаторы как в родительском
+// классе, так и в производных. Создать от производных классов минимум по 2 экземпляра (модели
+// автомобилей). Методы в производных классах должны выводить на экран все свойства (описание
+// автомобиля). Подумайте, какие свойства в производных классах должны быть public, какие – private и
+// protected.
 
-
-interface Mod {
-    TotalPrice: number;
-    TotalPriceId: HTMLElement;
+interface ICommon{
+    CarProp:()=>string;
 }
 
-let Module_07: Mod = {
-    TotalPrice: 0,
-    TotalPriceId: null
-};
+abstract class Car implements ICommon {
 
+    protected typeOfBody: string;
+    public brand: string;
+    public model: string;
+    public cab?: string;
+    public boot?: string;
+    public tank: string;
+    public steeringWheel: string;
+    public engine: string;
+    public battery?: string;
+    public tire: string;
 
-function init() {
-
-    const form: HTMLFormElement = document.querySelector('#buy');
-
-    let formValidation = false;
-    let len;
-    try {
-        len = form.elements.length
-    } catch (e) {
-        console.log(e)
-    }
-    for (let j = 0; j < len; j++) {
-        let e = <HTMLInputElement>form.elements[j];
-
-        if (e.type === 'checkbox' || e.name === 'Size') {
-            e.addEventListener('change', CalcPrice);
-        } else {
-            if (e.type !== 'text') {
-                continue;
-            } else {
-                let pattern = e.dataset.val;
-
-                if (pattern) {
-                    e.addEventListener('change', validateInput);
-                    formValidation = true;
-                }
-            }
-        }
-    }
-    // if (formValidation) {
-    //     form.onsubmit = validateForm;
-    // }
-
-
-    form.onsubmit = validateForm;
-    Module_07.TotalPriceId = document.getElementById('SumPrice');
-    Module_07.TotalPrice = 25;
-    (<HTMLDataElement>Module_07.TotalPriceId).value = String(Module_07.TotalPrice);
-}
-
-function validateInput() {
-    let pattern = this.dataset.val,
-        msg = this.dataset.valMsg,
-        msgId = this.dataset.valMsgId,
-        value = this.value;
-
-    let res = value.search(pattern);
-    if (res == -1) {
-        document.getElementById(msgId).className = "error";
-    } else {
-        document.getElementById(msgId).className = "valid";
-    }
-}
-
-function validateForm(handler: any) {
-
-    let invalid = false;
-
-    for (let i = 0; i < this.elements.length; ++i) {
-        let e = this.elements[i];
-        if (e.type === "text") {
-            //e.onchange();
-            if (e.dataset.valMsgId)
-                if (document.getElementById(e.dataset.valMsgId).className == "error") invalid = true;
-        }
+    protected constructor(typeOfBody: string, cab: string, boot: string, tank: string, steeringWheel: string, engine: string, battery: string, tire: string, brand: string, model: string) {
+        this.typeOfBody = typeOfBody;
+        this.cab = cab;
+        this.boot = boot;
+        this.tank = tank;
+        this.steeringWheel = steeringWheel;
+        this.engine = engine;
+        this.battery = battery;
+        this.tire = tire;
+        this.brand = brand;
+        this.model = model;
     }
 
-    if (invalid) {
-        handler.preventDefault();
-        alert("Допущены ошибки при заполнении формы.");
-        return false;
-    }
-}
 
-function CalcPrice(e: any) {
-
-    if (this.value === "s1") {
-        Module_07.TotalPrice = 10;
-        ActualPrice();
-    } else if (this.value === "s2") {
-        Module_07.TotalPrice = 25;
-        ActualPrice();
-    } else if (this.value === "s3") {
-        Module_07.TotalPrice = 300;
-        ActualPrice();
-    } else if (this.value === "I1") {
-        if (this.checked == false) {
-            Module_07.TotalPrice -= 5;
-        } else {
-            Module_07.TotalPrice += 5;
-        }
-    } else if (this.value === "I2") {
-        if (this.checked == false) {
-            Module_07.TotalPrice -= 6;
-        } else {
-            Module_07.TotalPrice += 6;
-        }
-    } else if (this.value === "I3") {
-        if (this.checked == false) {
-            Module_07.TotalPrice -= 10;
-        } else {
-            Module_07.TotalPrice += 10;
-        }
-    } else if (this.value === "I4") {
-        if (this.checked == false) {
-            Module_07.TotalPrice -= 5;
-        } else {
-            Module_07.TotalPrice += 5;
-        }
-    } else if (this.value === "I5") {
-        if (this.checked == false) {
-            Module_07.TotalPrice -= 10;
-        } else {
-            Module_07.TotalPrice += 10;
-        }
+    public CarProp(): string {
+        return `Марка: ${this.brand}
+                разновидность автомобиля: ${this.typeOfBody} 
+                кабина: ${this.cab}
+                багажник: ${this.boot}
+                бензобак: ${this.tank}
+                руль: ${this.steeringWheel}
+                двигатель: ${this.engine}
+                battery: ${this.battery}
+                шина: ${this.tire}`;
     }
 
-    (<HTMLDataElement>Module_07.TotalPriceId).value = String(Module_07.TotalPrice);
 
 }
 
-function ActualPrice() {
 
-    let dop = document.getElementsByName("dop");
+class Sedan extends Car {
 
-    for (let i = 0; i < dop.length; i++) {
+    private _bodyCode: number = 1;
 
-
-        if ((<HTMLDataElement>dop[i]).value === "I1") {
-            if ((<HTMLInputElement>dop[i]).checked == true) {
-                Module_07.TotalPrice += 5;
-            }
-        } else if ((<HTMLDataElement>dop[i]).value === "I2") {
-            if ((<HTMLInputElement>dop[i]).checked == true) {
-                Module_07.TotalPrice += 6;
-            }
-        } else if ((<HTMLDataElement>dop[i]).value === "I3") {
-            if ((<HTMLInputElement>dop[i]).checked == true) {
-                Module_07.TotalPrice += 10;
-            }
-        } else if ((<HTMLDataElement>dop[i]).value === "I4") {
-            if ((<HTMLInputElement>dop[i]).checked == true) {
-                Module_07.TotalPrice += 5;
-            }
-        } else if ((<HTMLDataElement>dop[i]).value === "I5") {
-            if ((<HTMLInputElement>dop[i]).checked == true) {
-                Module_07.TotalPrice += 10;
-            }
-        }
-
+    get bodyCode(): number {
+        return this._bodyCode;
     }
 
+    set bodyCode(value: number) {
+        if (value > 0.0) {
+            this._bodyCode = Math.round(value);
+        }
+    }
+
+    constructor(battery: string, boot: string, cab: string, engine: string, steeringWheel: string, tank: string, tire: string, brand: string, model: string) {
+        super('Sedan', cab, boot, tank, steeringWheel, engine, battery, tire, brand, model);
+    }
+
+    public toString(): void {
+        console.log(super.CarProp() + '\n Код:' + this._bodyCode.toString());
+    }
+
+    public test() {
+        console.log('Child')
+    }
 }
+
+class SUV extends Car {
+
+    private _bodyCode: number = 2;
+
+    get bodyCode(): number {
+        return this._bodyCode;
+    }
+
+    set bodyCode(value: number) {
+        if (value > 0.0) {
+            this._bodyCode = Math.round(value);
+        }
+    }
+
+    constructor(battery: string, boot: string, cab: string, engine: string, steeringWheel: string, tank: string, tire: string, brand: string, model: string) {
+        super('SUV', cab, boot, tank, steeringWheel, engine, battery, tire, brand, model);
+    }
+
+    public toString(): void {
+        console.log(super.CarProp() + '\n Код:' + this._bodyCode.toString());
+    }
+
+
+}
+
+
+let BMW: Car = new Sedan('No', 'Yes', 'Yes', 'BMW S85B50', 'Leather', '50 gl', 'Goodyear', 'BMW', '3 Series')
+BMW.toString();
+
+BMW = new SUV('No', 'Yes', 'Yes', 'BMW S85B100', 'Leather', '70 gl', 'Goodyear', 'BMW', 'M6');
+(BMW as SUV).bodyCode = 3;
+BMW.toString();

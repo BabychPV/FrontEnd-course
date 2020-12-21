@@ -1,16 +1,12 @@
 
-
-
 interface IAnimals {
 
     speciesAnimals: string;
     typeOfMovement: string;
     speed: number;
     whaToEat: string;
-
     extractingFood: () => string;
-    showProp: () => void;
-
+    showProp?: () => void;
 }
 
 class Cat implements IAnimals {
@@ -20,6 +16,7 @@ class Cat implements IAnimals {
         this.speed = speed;
         this.typeOfMovement = typeOfMovement;
         this.whaToEat = whaToEat;
+
     }
 
     public extractingFood(): string {
@@ -55,10 +52,10 @@ class Bird implements IAnimals {
         return exFood
     }
 
-    public showProp() {
-        console.log(`Тип - ${this.speciesAnimals} Скорость - ${this.speed}  Тип передвижения - ${this.typeOfMovement} Что кушает - ${this.whaToEat}`)
-
-    }
+    // public showProp() {
+    //     console.log(`Тип - ${this.speciesAnimals} Скорость - ${this.speed}  Тип передвижения - ${this.typeOfMovement} Что кушает - ${this.whaToEat}`)
+    //
+    // }
 }
 
 class Fish implements IAnimals {
