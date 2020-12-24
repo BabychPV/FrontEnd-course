@@ -1,113 +1,171 @@
-// Создать понятие абстрактного родительского класса Car. От него создать 3 производных класса (марки
-// автомобилей) с применением метода super(). В классах использовать модификаторы как в родительском
-// классе, так и в производных. Создать от производных классов минимум по 2 экземпляра (модели
-// автомобилей). Методы в производных классах должны выводить на экран все свойства (описание
-// автомобиля). Подумайте, какие свойства в производных классах должны быть public, какие – private и
-// protected.
+// Создать словарь собственных определений, используя Generic function. Внутри должно быть
+// определение для 3 свойств – ключ, значение, описание (различных типов данных). Для получения или
+// записи использовать get/set реализацию доступа. Также для полей нужно использовать модификаторы
+// доступа (на Ваш выбор). В итоге должен получится словарь терминов, принимающий на входящий
+// параметр различные типы данных для реализации.
 
-interface ICommon{
-    CarProp:()=>string;
+
+class DictionaryItem<TKey, TValue1, TValue2> {
+
+    private _key: TKey;
+    private _value1: TValue1;
+    private _value2: TValue2;
+
+    constructor(key: TKey, value1: TValue1, value2: TValue2) {
+        this._key = key;
+        this._value1 = value1;
+        this._value2 = value2;
+    }
+
+    public set key(value: TKey) {
+        if (value === null || value === undefined) {
+            throw new Error("Значение value не может быть пустым.");
+        }
+        this._key = value;
+    }
+
+    public get key(): TKey {
+        return this._key;
+    }
+
+    public set value1(value: TValue1) {
+        if (value === null || value === undefined) {
+            throw new Error("Значение value не может быть пустым.");
+        }
+        this._value1 = value;
+    }
+
+    public get value1(): TValue1 {
+        return this._value1;
+    }
+
+    public set value2(value: TValue2) {
+        if (value === null || value === undefined) {
+            throw new Error("Значение value не может быть пустым.");
+        }
+        this._value2 = value;
+    }
+
+    public get value2(): TValue2 {
+        return this._value2;
+    }
+
 }
 
-abstract class Car implements ICommon {
 
-    protected typeOfBody: string;
-    public brand: string;
-    public model: string;
-    public cab?: string;
-    public boot?: string;
-    public tank: string;
-    public steeringWheel: string;
-    public engine: string;
-    public battery?: string;
-    public tire: string;
+class MyDictionary<TKey, TValue1, TValue2> {
 
-    protected constructor(typeOfBody: string, cab: string, boot: string, tank: string, steeringWheel: string, engine: string, battery: string, tire: string, brand: string, model: string) {
-        this.typeOfBody = typeOfBody;
-        this.cab = cab;
-        this.boot = boot;
-        this.tank = tank;
-        this.steeringWheel = steeringWheel;
-        this.engine = engine;
-        this.battery = battery;
-        this.tire = tire;
-        this.brand = brand;
-        this.model = model;
+    private data: DictionaryItem<TKey, TValue1, TValue2>[] = [];
+
+    public setValue(key: TKey, value1: TValue1, value2: TValue2) {
+        this.data.push(new DictionaryItem<TKey, TValue1, TValue2>(key, value1, value2));
     }
 
-
-    public CarProp(): string {
-        return `Марка: ${this.brand}
-                разновидность автомобиля: ${this.typeOfBody} 
-                кабина: ${this.cab}
-                багажник: ${this.boot}
-                бензобак: ${this.tank}
-                руль: ${this.steeringWheel}
-                двигатель: ${this.engine}
-                battery: ${this.battery}
-                шина: ${this.tire}`;
-    }
-
-
-}
-
-
-class Sedan extends Car {
-
-    private _bodyCode: number = 1;
-
-    get bodyCode(): number {
-        return this._bodyCode;
-    }
-
-    set bodyCode(value: number) {
-        if (value > 0.0) {
-            this._bodyCode = Math.round(value);
+    public getFirstValue(): DictionaryItem<TKey, TValue1, TValue2> | null {
+        if (this.data != undefined) {
+            return this.data[0];
+        } else {
+            return null;
         }
     }
 
-    constructor(battery: string, boot: string, cab: string, engine: string, steeringWheel: string, tank: string, tire: string, brand: string, model: string) {
-        super('Sedan', cab, boot, tank, steeringWheel, engine, battery, tire, brand, model);
-    }
-
-    public toString(): void {
-        console.log(super.CarProp() + '\n Код:' + this._bodyCode.toString());
-    }
-
-    public test() {
-        console.log('Child')
-    }
-}
-
-class SUV extends Car {
-
-    private _bodyCode: number = 2;
-
-    get bodyCode(): number {
-        return this._bodyCode;
-    }
-
-    set bodyCode(value: number) {
-        if (value > 0.0) {
-            this._bodyCode = Math.round(value);
+    public getLastValue(): DictionaryItem<TKey, TValue1, TValue2> | null {
+        if (this.data != undefined) {
+            return this.data[this.data.length - 1];
+        } else {
+            return null;
         }
     }
 
-    constructor(battery: string, boot: string, cab: string, engine: string, steeringWheel: string, tank: string, tire: string, brand: string, model: string) {
-        super('SUV', cab, boot, tank, steeringWheel, engine, battery, tire, brand, model);
+    public getValue(key: TKey): DictionaryItem<TKey, TValue1, TValue2> | null {
+        for (let i = 0; i < this.data.length; i++) {
+            if (this.data[i].key === key) {
+                return this.data[i];
+            }
+        }
+
+        return null;
     }
 
-    public toString(): void {
-        console.log(super.CarProp() + '\n Код:' + this._bodyCode.toString());
+    public removeValue(key: TKey, psw: string): boolean {
+        if (psw === 'x') {
+            this.data.forEach((item, index) => {
+                if (item.key === key) {
+                    this.data.splice(index, 1);
+                    return true
+                }
+            });
+        }
+        return false;
     }
 
+
+    public showDictionary() {
+
+        this.data.forEach((item) => {
+            console.log(`Key: ${item.key} val1: ${item.value1} val2: ${item.value2} \n`)
+        });
+    }
 
 }
 
+let dictionary = new MyDictionary<string, string, string>();
+    dictionary.setValue("hello", "привет", "привет1");
+    dictionary.setValue("book", "книга", "привет2");
+    dictionary.setValue("apple", "яблоко", "привет3");
+console.log('Add');
+    console.log(dictionary.getValue("book"));
+    console.log(dictionary.getFirstValue())
+    console.log(dictionary.getLastValue())
 
-let BMW: Car = new Sedan('No', 'Yes', 'Yes', 'BMW S85B50', 'Leather', '50 gl', 'Goodyear', 'BMW', '3 Series')
-BMW.toString();
+console.log('View')
+    dictionary.showDictionary();
+console.log('remove');
+    dictionary.removeValue('apple', 'x');
+console.log('View')
+    dictionary.showDictionary();
 
-BMW = new SUV('No', 'Yes', 'Yes', 'BMW S85B100', 'Leather', '70 gl', 'Goodyear', 'BMW', 'M6');
-(BMW as SUV).bodyCode = 3;
-BMW.toString();
+
+let
+    dictionary2 = new MyDictionary<number, boolean, string>();
+dictionary2
+    .setValue(
+        1
+        ,
+        true
+        ,
+        'true'
+    );
+dictionary2
+    .setValue(
+        2
+        ,
+        false
+        ,
+        'false'
+    );
+dictionary2
+    .setValue(
+        7
+        ,
+        true
+        ,
+        'true'
+    );
+
+console
+    .log(dictionary2
+
+        .getValue(
+            7
+        ));
+console
+    .log(dictionary2
+
+        .getFirstValue()
+    )
+console
+    .log(dictionary2
+
+        .getLastValue()
+    )
