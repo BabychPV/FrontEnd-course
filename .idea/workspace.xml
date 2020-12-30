@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="" />
+    <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/Resource/Style/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/Resource/Style/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/Resource/Style/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/001_DictionaryClass.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/002_QuestionInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/003_DictionaryInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/004_QuestionData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/005_Main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/Les_4/CW/001_App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/Les_4/CW/001_App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/001_HomeWork.htm" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/001_HomeWork.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/001_App.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/002_App.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +92,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TypeScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -88,19 +105,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les5\CW\Task1\ts" />
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les5\CW\Task1\Resource\Style" />
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript" />
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les2\HW" />
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les2\CW" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\HW\Task1" />
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\HW\Task1\HTML\Resource\img" />
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\CW\Task1" />
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\CW\HTML" />
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\CW\ts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les2\HW" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les2\CW" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\HW\Task1\Resource\img" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\HW\Task1\HTML\Resource\Style" />
     </key>
   </component>
   <component name="RunManager">
@@ -144,13 +161,7 @@
       <workItem from="1607717544484" duration="37301000" />
       <workItem from="1608138785327" duration="46468000" />
       <workItem from="1608575938582" duration="17924000" />
-    </task>
-    <task id="LOCAL-00039" summary="Les 6 complete">
-      <created>1605048013420</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1605048013420</updated>
+      <workItem from="1609347603350" duration="6442000" />
     </task>
     <task id="LOCAL-00040" summary="Les 6 complete_1">
       <created>1605048090239</created>
@@ -488,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608844748761</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Les 5  CW end (TypeScript)">
+      <created>1609348146259</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1609348146259</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +527,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Les 8 HW end" />
     <MESSAGE value="Les 9 HW end" />
     <MESSAGE value="Les 10 CW end" />
     <MESSAGE value="Les 10 HW end" />
@@ -534,7 +551,8 @@
     <MESSAGE value="Les 2  HW   end (TypeScript)" />
     <MESSAGE value="Les 3  CW   end (TypeScript)" />
     <MESSAGE value="Les 3  CW&amp;HW end (TypeScript)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les 3  CW&amp;HW end (TypeScript)" />
+    <MESSAGE value="Les 5  CW end (TypeScript)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les 5  CW end (TypeScript)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="193" key="#File_Watchers" timestamp="1607716966644">
@@ -553,10 +571,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="400" y="297" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607717976939" />
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1608842724671">
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1609349124844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608842724671" />
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609349124844" />
     <state x="346" y="223" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1607712964465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -573,11 +591,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="338" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607714214955" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1608844747627">
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1609348144345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607346321178" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608844747627" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609348144345" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
