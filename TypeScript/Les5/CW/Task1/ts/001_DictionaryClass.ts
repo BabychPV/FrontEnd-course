@@ -3,11 +3,11 @@ import {DictionaryInterface} from './003_DictionaryInterface.js'
 export  class DictionaryItem<TKey, TValue1> {
 
     private _key: TKey;
-    private _value1: TValue1;
+    private _QuestionData: TValue1;
 
     constructor(key: TKey, value1: TValue1) {
         this._key = key;
-        this._value1 = value1;
+        this._QuestionData = value1;
     }
 
     public set key(value: TKey) {
@@ -21,15 +21,15 @@ export  class DictionaryItem<TKey, TValue1> {
         return this._key;
     }
 
-    public set value1(value: TValue1) {
+    public set QuestionData(value: TValue1) {
         if (value === null || value === undefined) {
             throw new Error("Значение value не может быть пустым.");
         }
-        this._value1 = value;
+        this._QuestionData = value;
     }
 
-    public get value1(): TValue1 {
-        return this._value1;
+    public get QuestionData(): TValue1 {
+        return this._QuestionData;
     }
 
 }
@@ -42,21 +42,20 @@ export class MyDictionary<TKey, TValue1>  implements DictionaryInterface{
 
     public setValue(key: TKey, value1: TValue1) {
         this.data.push(new DictionaryItem<TKey, TValue1>(key, value1));
-        this._amountItem++;
     }
 
     public setPropCustomAnswer(key: TKey, value: number):void {
         for (let i = 0; i < this.data.length; i++) {
             if (this.data[i].key === key) {
                 // @ts-ignore
-                this.data[i].value1.CustomAnswer = value;
+                this.data[i].QuestionData.CustomAnswer = value;
             }
         }
     }
 
 
     public getValue(index: number): DictionaryItem<TKey, TValue1> | null {
-        if (index < 0 && index > this._amountItem) {
+        if (index >= 0 && index < this.data.length) {
             return this.data[index];
         }
 
@@ -75,7 +74,7 @@ export class MyDictionary<TKey, TValue1>  implements DictionaryInterface{
     }
 
     get amountItem(): number {
-        return this._amountItem;
+        return this.data.length;
     }
 
     // public getFirstValue(): DictionaryItem<TKey, TValue1> | null {

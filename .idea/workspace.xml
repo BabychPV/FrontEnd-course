@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/001_DictionaryClass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/001_DictionaryClass.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/002_QuestionInterface.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/002_QuestionInterface.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/003_DictionaryInterface.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/003_DictionaryInterface.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/004_QuestionData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/004_QuestionData.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/005_Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/005_Main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/001_HomeWork.htm" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/001_HomeWork.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/001_DictionaryClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/001_DictionaryClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/001_DictionaryClass.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/001_DictionaryClass.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/005_Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/005_Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/005_Main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/005_Main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/001_DictionaryClass.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/001_DictionaryClass.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/003_DictionaryInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/003_DictionaryInterface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/004_QuestionData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/004_QuestionData.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/005_Main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/005_Main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/tsconfig.json" afterDir="false" />
     </list>
@@ -164,14 +153,7 @@
       <workItem from="1607717544484" duration="37301000" />
       <workItem from="1608138785327" duration="46468000" />
       <workItem from="1608575938582" duration="17924000" />
-      <workItem from="1609347603350" duration="8005000" />
-    </task>
-    <task id="LOCAL-00041" summary="Les 6 change task 2">
-      <created>1605111852351</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1605111852351</updated>
+      <workItem from="1609347603350" duration="12641000" />
     </task>
     <task id="LOCAL-00042" summary="Les 7 CW">
       <created>1605122392488</created>
@@ -509,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609354329104</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Les 5  CW end (TypeScript)">
+      <created>1609355729425</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1609355729426</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,11 +583,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="338" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607714214955" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1609354327745">
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1609355728296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607346321178" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609354327745" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609355728296" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -668,11 +657,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="227" y="331" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608577877209" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1609354330673">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1609355731199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607348356980" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609354330673" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609355731199" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1608138785371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

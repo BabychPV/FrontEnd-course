@@ -1,12 +1,12 @@
-import {MyDictionary} from "001_DictionaryClass";
-import {dictionary} from "004_QuestionData";
+import {MyDictionary} from "./001_DictionaryClass.js";
+import {dictionary} from "./004_QuestionData.js";
 
 class Init {
 
-    public ArrQuestionTeenagers: MyDictionary<any,any>;
+    public static ArrQuestionTeenagers: MyDictionary<any,any>;
 
     constructor(dict: MyDictionary<any,any>) {
-        this.ArrQuestionTeenagers = dict;
+        Init.ArrQuestionTeenagers = dict;
     }
 
     public Run() {
@@ -14,9 +14,9 @@ class Init {
         let countRight = 0;
         let count = 0;
 
-        let objLev1 = $('lev1_1');
-        let objLev2 = $('lev1_2');
-        let objLev3 = $('lev3');
+        let objLev1 = Init.$('lev1_1');
+        let objLev2 = Init.$('lev1_2');
+        let objLev3 = Init.$('lev3');
 
         let div1 = document.createElement('div');
         div1.classList.add('alert', 'alert-primary', 'show');
@@ -30,22 +30,21 @@ class Init {
         div1.appendChild(div1_hr);
         div1.appendChild(div1_p);
 
-
         let div2 = document.createElement('div');
         div2.classList.add('accordion');
-        div2.addEventListener('change', SaveCheck)
+        div2.addEventListener('change', Init.SaveCheck)
         objLev2.appendChild(div2);
 
         let div2_1 = document.createElement('div');
         div2_1.className = 'card';
         div2.appendChild(div2_1);
 
-        for (let j = 0; j < this.ArrQuestionTeenagers.amountItem; j++) {
+        for (let j = 0; j < Init.ArrQuestionTeenagers.amountItem; j++) {
 
             let div1 = document.createElement('div');
             div1.className = 'card-header';
             let div1_h5 = document.createElement('h5');
-            div1_h5.textContent = this.ArrQuestionTeenagers.getValue(j).value1.Question
+            div1_h5.textContent = Init.ArrQuestionTeenagers.getValue(j).QuestionData.Question
 
             div1.appendChild(div1_h5);
             div2_1.appendChild(div1);
@@ -56,19 +55,19 @@ class Init {
 
             div2_1.appendChild(div2);
 
-            for (let i = 0; i < this.ArrQuestionTeenagers.getValue(i).value1.Variant.length; i++) {
+            for (let i = 0; i < Init.ArrQuestionTeenagers.getValue(j).QuestionData.Variant.length; i++) {
                 let div_parent = document.createElement('div');
                 div_parent.className = 'd-flex flex-row align-items-center';
                 let div_parent_input = document.createElement('input');
                 let div_parent_label = document.createElement('label');
-                div_parent_label.textContent = this.ArrQuestionTeenagers.getValue(i).value1.Variant[i];
+                div_parent_label.textContent = Init.ArrQuestionTeenagers.getValue(j).QuestionData.Variant[i];
                 div_parent_label.className = 'p-2';
-                div_parent_label.htmlFor = this.ArrQuestionTeenagers.getValue(j).key + 'custom' + i;
+                div_parent_label.htmlFor = Init.ArrQuestionTeenagers.getValue(j).key + 'custom' + i;
                 div_parent_input.type = 'radio';
-                div_parent_input.dataset.obj = this.ArrQuestionTeenagers.getValue(j).key;
-                div_parent_input.dataset.obj_val = this.ArrQuestionTeenagers.getValue(i).value1.Variant[i];
-                div_parent_input.name = this.ArrQuestionTeenagers.getValue(j).key;
-                div_parent_input.id = this.ArrQuestionTeenagers.getValue(j).key + 'custom' + i;
+                div_parent_input.dataset.obj = Init.ArrQuestionTeenagers.getValue(j).key;
+                div_parent_input.dataset.obj_val = Init.ArrQuestionTeenagers.getValue(j).QuestionData.Variant[i];
+                div_parent_input.name = Init.ArrQuestionTeenagers.getValue(j).key;
+                div_parent_input.id = Init.ArrQuestionTeenagers.getValue(j).key + 'custom' + i;
                 div_parent.appendChild(div_parent_input);
                 div_parent.appendChild(div_parent_label);
                 div2.appendChild(div_parent);
@@ -81,8 +80,9 @@ class Init {
         div_btn.type = 'button';
         div_btn.dataset.target = '#staticWin';
         div_btn.textContent = 'Перевірить';
-        div_btn.addEventListener('click', VerifyAnswers)
+        div_btn.addEventListener('click', Init.VerifyAnswers)
         objLev3.appendChild(div_btn);
+
 
         let div_mod = document.createElement('div');
         div_mod.className = 'modal fade';
@@ -125,23 +125,21 @@ class Init {
         div_mod_c.appendChild(div_mod_b);
 
         objLev3.appendChild(div_mod);
+    }
 
-
-
-        function SaveCheck(e:any) {
+       static  SaveCheck(e:any) {
 
             if (e.target.checked === true) {
-                if (this.ArrQuestionTeenagers.getValueForKey(e.target.dataset.obj).value1.Answer === e.target.dataset.obj_val) {
-                    this.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj,1);
+                if (Init.ArrQuestionTeenagers.getValueForKey(e.target.dataset.obj).QuestionData.Answer === e.target.dataset.obj_val) {
+                    Init.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj,1);
                     return true;
                 }
             }
-            this.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj,0);
+           Init.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj,0);
 
         }
 
-
-        function VerifyAnswers() {
+    static VerifyAnswers() {
 
             let countTrue = 0;
             let header;
@@ -149,13 +147,13 @@ class Init {
             let percent;
             let _class;
 
-            for (let j = 0; j < this.ArrQuestionTeenagers.amountItem; j++) {
-                if (this.ArrQuestionTeenagers[j].CustomAnswer === 1) {
+            for (let j = 0; j < Init.ArrQuestionTeenagers.amountItem; j++) {
+                if (Init.ArrQuestionTeenagers.getValue(j).QuestionData.CustomAnswer === 1) {
                     countTrue++;
                 }
             }
 
-            percent = (countTrue * 100) / this.ArrQuestionTeenagers.amountItem;
+            percent = (countTrue * 100) / Init.ArrQuestionTeenagers.amountItem;
 
             if (percent >= 60) {
                 _class = 'modal-header bg-success text-white';
@@ -172,17 +170,17 @@ class Init {
 
             }
 
-            $('staticBackdropLabel').textContent = header;
-            $('modalHeader').className = _class;
-            $('modalBody').textContent = mes +  ' Кількість відповідей ' + countTrue + ' з ' +  this.ArrQuestionTeenagers.amountItem + ' це ' + percent + ' %.';
+            Init.$('staticBackdropLabel').textContent = header;
+        Init.$('modalHeader').className = _class;
+        Init.$('modalBody').textContent = mes +  ' Кількість відповідей ' + countTrue + ' з ' +  Init.ArrQuestionTeenagers.amountItem + ' це ' + Math.round(percent) + ' %.';
 
 
         }
 
-        function $(id: string) {
+    private static  $(id: string) {
             return document.getElementById(id);
         }
-    }
+
 
 }
 

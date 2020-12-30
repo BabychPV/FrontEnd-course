@@ -1,7 +1,7 @@
 export class DictionaryItem {
     constructor(key, value1) {
         this._key = key;
-        this._value1 = value1;
+        this._QuestionData = value1;
     }
     set key(value) {
         if (value === null || value === undefined) {
@@ -12,14 +12,14 @@ export class DictionaryItem {
     get key() {
         return this._key;
     }
-    set value1(value) {
+    set QuestionData(value) {
         if (value === null || value === undefined) {
             throw new Error("Значение value не может быть пустым.");
         }
-        this._value1 = value;
+        this._QuestionData = value;
     }
-    get value1() {
-        return this._value1;
+    get QuestionData() {
+        return this._QuestionData;
     }
 }
 export class MyDictionary {
@@ -62,18 +62,17 @@ export class MyDictionary {
     }
     setValue(key, value1) {
         this.data.push(new DictionaryItem(key, value1));
-        this._amountItem++;
     }
     setPropCustomAnswer(key, value) {
         for (let i = 0; i < this.data.length; i++) {
             if (this.data[i].key === key) {
                 // @ts-ignore
-                this.data[i].value1.CustomAnswer = value;
+                this.data[i].QuestionData.CustomAnswer = value;
             }
         }
     }
     getValue(index) {
-        if (index < 0 && index > this._amountItem) {
+        if (index >= 0 && index < this.data.length) {
             return this.data[index];
         }
         return null;
@@ -87,7 +86,7 @@ export class MyDictionary {
         return null;
     }
     get amountItem() {
-        return this._amountItem;
+        return this.data.length;
     }
 }
 //# sourceMappingURL=001_DictionaryClass.js.map
