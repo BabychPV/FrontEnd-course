@@ -1,4 +1,4 @@
-import {DictionaryInterface} from '003_DictionaryInterface'
+import {DictionaryInterface} from './003_DictionaryInterface.js'
 
 export  class DictionaryItem<TKey, TValue1> {
 

@@ -1,61 +1,43 @@
-import {MyDictionary} from "001_DictionaryClass";
-import {dictionary} from "004_QuestionData";
-
+import { dictionary } from "004_QuestionData";
 class Init {
-
-    public ArrQuestionTeenagers: MyDictionary<any,any>;
-
-    constructor(dict: MyDictionary<any,any>) {
+    constructor(dict) {
         this.ArrQuestionTeenagers = dict;
     }
-
-    public Run() {
+    Run() {
         let answer = null;
         let countRight = 0;
         let count = 0;
-
         let objLev1 = $('lev1_1');
         let objLev2 = $('lev1_2');
         let objLev3 = $('lev3');
-
         let div1 = document.createElement('div');
         div1.classList.add('alert', 'alert-primary', 'show');
         let div1_h4 = document.createElement('h4');
         let div1_p = document.createElement('p');
         let div1_hr = document.createElement('hr');
-        div1_h4.textContent = 'Тест'
-        div1_p.textContent = 'Даний тест перевіряє рівень загального освіти'
+        div1_h4.textContent = 'Тест';
+        div1_p.textContent = 'Даний тест перевіряє рівень загального освіти';
         objLev1.appendChild(div1);
         div1.appendChild(div1_h4);
         div1.appendChild(div1_hr);
         div1.appendChild(div1_p);
-
-
         let div2 = document.createElement('div');
         div2.classList.add('accordion');
-        div2.addEventListener('change', SaveCheck)
+        div2.addEventListener('change', SaveCheck);
         objLev2.appendChild(div2);
-
         let div2_1 = document.createElement('div');
         div2_1.className = 'card';
         div2.appendChild(div2_1);
-
         for (let j = 0; j < this.ArrQuestionTeenagers.amountItem; j++) {
-
             let div1 = document.createElement('div');
             div1.className = 'card-header';
             let div1_h5 = document.createElement('h5');
-            div1_h5.textContent = this.ArrQuestionTeenagers.getValue(j).value1.Question
-
+            div1_h5.textContent = this.ArrQuestionTeenagers.getValue(j).value1.Question;
             div1.appendChild(div1_h5);
             div2_1.appendChild(div1);
-
-
             let div2 = document.createElement('div');
             div2.className = 'card-body d-flex flex-column';
-
             div2_1.appendChild(div2);
-
             for (let i = 0; i < this.ArrQuestionTeenagers.getValue(i).value1.Variant.length; i++) {
                 let div_parent = document.createElement('div');
                 div_parent.className = 'd-flex flex-row align-items-center';
@@ -74,16 +56,14 @@ class Init {
                 div2.appendChild(div_parent);
             }
         }
-
         let div_btn = document.createElement('button');
         div_btn.className = 'btn btn-primary';
         div_btn.dataset.toggle = 'modal';
         div_btn.type = 'button';
         div_btn.dataset.target = '#staticWin';
         div_btn.textContent = 'Перевірить';
-        div_btn.addEventListener('click', VerifyAnswers)
+        div_btn.addEventListener('click', VerifyAnswers);
         objLev3.appendChild(div_btn);
-
         let div_mod = document.createElement('div');
         div_mod.className = 'modal fade';
         div_mod.id = 'staticWin';
@@ -92,99 +72,76 @@ class Init {
         div_mod.tabIndex = -1;
         div_mod.setAttribute('aria-labelledby', 'staticBackdropLabel');
         div_mod.setAttribute('aria-hidden', 'true');
-
         let div_mod_d = document.createElement('div');
         div_mod_d.className = 'modal-dialog';
         div_mod.appendChild(div_mod_d);
-
         let div_mod_c = document.createElement('div');
         div_mod_c.className = 'modal-content';
         div_mod_d.appendChild(div_mod_c);
-
         let div_mod_h = document.createElement('div');
         div_mod_h.className = 'modal-header';
         div_mod_h.id = 'modalHeader';
         div_mod_c.appendChild(div_mod_h);
-
         let div_mod_h_t = document.createElement('h5');
         div_mod_h_t.className = 'modal-title';
         // div_mod_h_t.textContent = 'Тест пройден';
         div_mod_h_t.id = 'staticBackdropLabel';
         div_mod_h.appendChild(div_mod_h_t);
-
         let div_mod_h_but = document.createElement('button');
         div_mod_h_but.type = 'button';
         div_mod_h_but.className = 'btn-close';
         div_mod_h_but.dataset.dismiss = 'modal';
         div_mod_h_but.setAttribute('aria-label', 'Close');
         div_mod_h.appendChild(div_mod_h_but);
-
         let div_mod_b = document.createElement('div');
         div_mod_b.className = 'modal-body';
         div_mod_b.id = 'modalBody';
         div_mod_c.appendChild(div_mod_b);
-
         objLev3.appendChild(div_mod);
-
-
-
-        function SaveCheck(e:any) {
-
+        function SaveCheck(e) {
             if (e.target.checked === true) {
                 if (this.ArrQuestionTeenagers.getValueForKey(e.target.dataset.obj).value1.Answer === e.target.dataset.obj_val) {
-                    this.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj,1);
+                    this.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj, 1);
                     return true;
                 }
             }
-            this.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj,0);
-
+            this.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj, 0);
         }
-
-
         function VerifyAnswers() {
-
             let countTrue = 0;
             let header;
             let mes;
             let percent;
             let _class;
-
             for (let j = 0; j < this.ArrQuestionTeenagers.amountItem; j++) {
                 if (this.ArrQuestionTeenagers[j].CustomAnswer === 1) {
                     countTrue++;
                 }
             }
-
             percent = (countTrue * 100) / this.ArrQuestionTeenagers.amountItem;
-
             if (percent >= 60) {
                 _class = 'modal-header bg-success text-white';
-                header = 'Тест пройден :)'
-                mes = 'Вітаю!'
-            } else if (percent > 40 && percent <= 59) {
-                header = 'Спробуй ще!'
-                _class = 'modal-header bg-warning text-dark';
-                mes = 'Треба працювати!'
-            } else if (percent <= 40) {
-                header = 'Тест не пройден :('
-                _class = 'modal-header bg-danger text-white';
-                mes = 'В тебе вийде, спробуй ще!'
-
+                header = 'Тест пройден :)';
+                mes = 'Вітаю!';
             }
-
+            else if (percent > 40 && percent <= 59) {
+                header = 'Спробуй ще!';
+                _class = 'modal-header bg-warning text-dark';
+                mes = 'Треба працювати!';
+            }
+            else if (percent <= 40) {
+                header = 'Тест не пройден :(';
+                _class = 'modal-header bg-danger text-white';
+                mes = 'В тебе вийде, спробуй ще!';
+            }
             $('staticBackdropLabel').textContent = header;
             $('modalHeader').className = _class;
-            $('modalBody').textContent = mes +  ' Кількість відповідей ' + countTrue + ' з ' +  this.ArrQuestionTeenagers.amountItem + ' це ' + percent + ' %.';
-
-
+            $('modalBody').textContent = mes + ' Кількість відповідей ' + countTrue + ' з ' + this.ArrQuestionTeenagers.amountItem + ' це ' + percent + ' %.';
         }
-
-        function $(id: string) {
+        function $(id) {
             return document.getElementById(id);
         }
     }
-
 }
-
-
-new Init(dictionary).Run()
+new Init(dictionary).Run();
+//# sourceMappingURL=005_Main.js.map

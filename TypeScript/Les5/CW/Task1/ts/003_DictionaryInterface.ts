@@ -1,4 +1,4 @@
-import {DictionaryItem} from "001_DictionaryClass";
+import {DictionaryItem} from "./001_DictionaryClass.js";
 
 export  interface DictionaryInterface {
 
