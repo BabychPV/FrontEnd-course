@@ -4,9 +4,6 @@ class Init {
         Init.ArrQuestionTeenagers = dict;
     }
     Run() {
-        let answer = null;
-        let countRight = 0;
-        let count = 0;
         let objLev1 = Init.$('lev1_1');
         let objLev2 = Init.$('lev1_2');
         let objLev3 = Init.$('lev3');

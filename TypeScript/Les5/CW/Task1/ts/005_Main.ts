@@ -10,9 +10,6 @@ class Init {
     }
 
     public Run() {
-        let answer = null;
-        let countRight = 0;
-        let count = 0;
 
         let objLev1 = Init.$('lev1_1');
         let objLev2 = Init.$('lev1_2');
@@ -23,8 +20,8 @@ class Init {
         let div1_h4 = document.createElement('h4');
         let div1_p = document.createElement('p');
         let div1_hr = document.createElement('hr');
-        div1_h4.textContent = 'Тест'
-        div1_p.textContent = 'Даний тест перевіряє рівень загального освіти'
+        div1_h4.textContent = 'Тест';
+        div1_p.textContent = 'Даний тест перевіряє рівень загального освіти';
         objLev1.appendChild(div1);
         div1.appendChild(div1_h4);
         div1.appendChild(div1_hr);
@@ -32,7 +29,7 @@ class Init {
 
         let div2 = document.createElement('div');
         div2.classList.add('accordion');
-        div2.addEventListener('change', Init.SaveCheck)
+        div2.addEventListener('change', Init.SaveCheck);
         objLev2.appendChild(div2);
 
         let div2_1 = document.createElement('div');
@@ -44,7 +41,7 @@ class Init {
             let div1 = document.createElement('div');
             div1.className = 'card-header';
             let div1_h5 = document.createElement('h5');
-            div1_h5.textContent = Init.ArrQuestionTeenagers.getValue(j).QuestionData.Question
+            div1_h5.textContent = Init.ArrQuestionTeenagers.getValue(j).QuestionData.Question;
 
             div1.appendChild(div1_h5);
             div2_1.appendChild(div1);
@@ -80,7 +77,7 @@ class Init {
         div_btn.type = 'button';
         div_btn.dataset.target = '#staticWin';
         div_btn.textContent = 'Перевірить';
-        div_btn.addEventListener('click', Init.VerifyAnswers)
+        div_btn.addEventListener('click', Init.VerifyAnswers);
         objLev3.appendChild(div_btn);
 
 
@@ -157,14 +154,14 @@ class Init {
 
             if (percent >= 60) {
                 _class = 'modal-header bg-success text-white';
-                header = 'Тест пройден :)'
+                header = 'Тест пройден :)';
                 mes = 'Вітаю!'
             } else if (percent > 40 && percent <= 59) {
-                header = 'Спробуй ще!'
+                header = 'Спробуй ще!';
                 _class = 'modal-header bg-warning text-dark';
                 mes = 'Треба працювати!'
             } else if (percent <= 40) {
-                header = 'Тест не пройден :('
+                header = 'Тест не пройден :(';
                 _class = 'modal-header bg-danger text-white';
                 mes = 'В тебе вийде, спробуй ще!'
 
@@ -185,4 +182,4 @@ class Init {
 }
 
 
-new Init(dictionary).Run()
+new Init(dictionary).Run();
