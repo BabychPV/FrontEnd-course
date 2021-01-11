@@ -182,5 +182,4 @@ class Init {
 
 }
 
-
-new Init(dictionary).Run();
+new Init(dictionary).Run() ;

@@ -72,10 +72,10 @@ export class MyDictionary {
         }
     }
     getValue(index) {
-        if (index >= 0 && index < this.data.length) {
-            return this.data[index];
+        if (index < 0 && index > this.data.length) {
+            return null;
         }
-        return null;
+        return this.data[index];
     }
     getValueForKey(key) {
         for (let i = 0; i < this.data.length; i++) {

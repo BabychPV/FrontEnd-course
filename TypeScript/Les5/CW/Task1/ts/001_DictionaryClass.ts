@@ -1,6 +1,6 @@
 import {DictionaryInterface} from './003_DictionaryInterface.js'
 
-export  class DictionaryItem<TKey, TValue1> {
+export class DictionaryItem<TKey, TValue1> {
 
     private _key: TKey;
     private _QuestionData: TValue1;
@@ -35,7 +35,7 @@ export  class DictionaryItem<TKey, TValue1> {
 }
 
 
-export class MyDictionary<TKey, TValue1>  implements DictionaryInterface{
+export class MyDictionary<TKey, TValue1> implements DictionaryInterface {
 
     public data: DictionaryItem<TKey, TValue1>[] = [];
     private _amountItem: number;
@@ -44,7 +44,7 @@ export class MyDictionary<TKey, TValue1>  implements DictionaryInterface{
         this.data.push(new DictionaryItem<TKey, TValue1>(key, value1));
     }
 
-    public setPropCustomAnswer(key: TKey, value: number):void {
+    public setPropCustomAnswer(key: TKey, value: number): void {
         for (let i = 0; i < this.data.length; i++) {
             if (this.data[i].key === key) {
                 // @ts-ignore
@@ -55,11 +55,11 @@ export class MyDictionary<TKey, TValue1>  implements DictionaryInterface{
 
 
     public getValue(index: number): DictionaryItem<TKey, TValue1> | null {
-        if (index >= 0 && index < this.data.length) {
-            return this.data[index];
+        if (index < 0 && index > this.data.length) {
+            return null;
         }
 
-        return null;
+        return this.data[index];
     }
 
 
@@ -92,8 +92,6 @@ export class MyDictionary<TKey, TValue1>  implements DictionaryInterface{
     //         return null;
     //     }
     // }
-
-
 
 
     // public removeValue(key: TKey, psw: string): boolean {

@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/001_DictionaryClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/001_DictionaryClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/001_DictionaryClass.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/001_DictionaryClass.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/005_Main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/005_Main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/001_DictionaryClass.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/001_DictionaryClass.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/005_Main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts/005_Main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,14 +152,7 @@
       <workItem from="1608138785327" duration="46468000" />
       <workItem from="1608575938582" duration="17924000" />
       <workItem from="1609347603350" duration="12914000" />
-      <workItem from="1610380843954" duration="266000" />
-    </task>
-    <task id="LOCAL-00044" summary="Les 7 CW end">
-      <created>1605128889380</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1605128889380</updated>
+      <workItem from="1610380843954" duration="888000" />
     </task>
     <task id="LOCAL-00045" summary="Les 8 CW end">
       <created>1605294125093</created>
@@ -492,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609365444404</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Les 5  CW_v1.1 end (TypeScript)">
+      <created>1610381250948</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1610381250950</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +518,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Les 10 CW end" />
     <MESSAGE value="Les 10 HW end" />
     <MESSAGE value="Les 1 СW end (Bootstrap)" />
     <MESSAGE value="Les 1 HW end (Bootstrap)" />
@@ -538,7 +542,8 @@
     <MESSAGE value="Les 3  CW&amp;HW end (TypeScript)" />
     <MESSAGE value="Les 5  CW end (TypeScript)" />
     <MESSAGE value="Les 5  CW_v1.0 end (TypeScript)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les 5  CW_v1.0 end (TypeScript)" />
+    <MESSAGE value="Les 5  CW_v1.1 end (TypeScript)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les 5  CW_v1.1 end (TypeScript)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="193" key="#File_Watchers" timestamp="1607716966644">
@@ -577,11 +582,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="338" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607714214955" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1609365443583">
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1610381248896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607346321178" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609365443583" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610381248896" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -651,11 +656,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="227" y="331" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608577877209" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1609355731199">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610381675267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607348356980" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609355731199" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610381675267" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1608138785371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -677,10 +682,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="212" y="151" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1608320345271" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608589793024">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610381691842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608589793024" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610381691842" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
