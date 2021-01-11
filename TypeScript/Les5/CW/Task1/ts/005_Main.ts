@@ -9,6 +9,7 @@ class Init {
         Init.ArrQuestionTeenagers = dict;
     }
 
+
     public Run() {
 
         let objLev1 = Init.$('lev1_1');
