@@ -4,7 +4,7 @@ function init() {
     let canvas = document.getElementById("canvas");
     let context = canvas.getContext("2d");
 
-    let gradient = context.createLinearGradient(50,0, 500, 0);
+    let gradient = context.createLinearGradient(50, 0, 500, 0);
     // Добавление цвета и смещения позиции остановки цвета.
     gradient.addColorStop(0, "red");
     gradient.addColorStop(0.2, "red");

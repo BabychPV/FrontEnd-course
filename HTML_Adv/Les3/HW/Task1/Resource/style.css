@@ -14,7 +14,7 @@ body {
 
 
 /*NEW Grid*/
-.container > input{
+.container > input {
     background: rgba(198, 0, 101, 0.1);
     height: 60px;
     width: 60px;

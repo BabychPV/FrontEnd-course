@@ -32,7 +32,7 @@ body {
 }
 
 
-#p1:before{
+#p1:before {
     /*content: 'Please press start)';*/
     font: 24pt sans-serif;
     color: #b8b4b7;

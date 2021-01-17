@@ -3,9 +3,9 @@ import {dictionary} from "./004_QuestionData.js";
 
 class Init {
 
-    public static ArrQuestionTeenagers: MyDictionary<any,any>;
+    public static ArrQuestionTeenagers: MyDictionary<any, any>;
 
-    constructor(dict: MyDictionary<any,any>) {
+    constructor(dict: MyDictionary<any, any>) {
         Init.ArrQuestionTeenagers = dict;
     }
 
@@ -125,61 +125,61 @@ class Init {
         objLev3.appendChild(div_mod);
     }
 
-       static  SaveCheck(e:any) {
+    static SaveCheck(e: any) {
 
-            if (e.target.checked === true) {
-                if (Init.ArrQuestionTeenagers.getValueForKey(e.target.dataset.obj).QuestionData.Answer === e.target.dataset.obj_val) {
-                    Init.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj,1);
-                    return true;
-                }
+        if (e.target.checked === true) {
+            if (Init.ArrQuestionTeenagers.getValueForKey(e.target.dataset.obj).QuestionData.Answer === e.target.dataset.obj_val) {
+                Init.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj, 1);
+                return true;
             }
-           Init.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj,0);
-
         }
+        Init.ArrQuestionTeenagers.setPropCustomAnswer(e.target.dataset.obj, 0);
+
+    }
 
     static VerifyAnswers() {
 
-            let countTrue = 0;
-            let header;
-            let mes;
-            let percent;
-            let _class;
+        let countTrue = 0;
+        let header;
+        let mes;
+        let percent;
+        let _class;
 
-            for (let j = 0; j < Init.ArrQuestionTeenagers.amountItem; j++) {
-                if (Init.ArrQuestionTeenagers.getValue(j).QuestionData.CustomAnswer === 1) {
-                    countTrue++;
-                }
+        for (let j = 0; j < Init.ArrQuestionTeenagers.amountItem; j++) {
+            if (Init.ArrQuestionTeenagers.getValue(j).QuestionData.CustomAnswer === 1) {
+                countTrue++;
             }
+        }
 
-            percent = (countTrue * 100) / Init.ArrQuestionTeenagers.amountItem;
+        percent = (countTrue * 100) / Init.ArrQuestionTeenagers.amountItem;
 
-            if (percent >= 60) {
-                _class = 'modal-header bg-success text-white';
-                header = 'Тест пройден :)';
-                mes = 'Вітаю!'
-            } else if (percent > 40 && percent <= 59) {
-                header = 'Спробуй ще!';
-                _class = 'modal-header bg-warning text-dark';
-                mes = 'Треба працювати!'
-            } else if (percent <= 40) {
-                header = 'Тест не пройден :(';
-                _class = 'modal-header bg-danger text-white';
-                mes = 'В тебе вийде, спробуй ще!'
+        if (percent >= 60) {
+            _class = 'modal-header bg-success text-white';
+            header = 'Тест пройден :)';
+            mes = 'Вітаю!'
+        } else if (percent > 40 && percent <= 59) {
+            header = 'Спробуй ще!';
+            _class = 'modal-header bg-warning text-dark';
+            mes = 'Треба працювати!'
+        } else if (percent <= 40) {
+            header = 'Тест не пройден :(';
+            _class = 'modal-header bg-danger text-white';
+            mes = 'В тебе вийде, спробуй ще!'
 
-            }
+        }
 
-            Init.$('staticBackdropLabel').textContent = header;
+        Init.$('staticBackdropLabel').textContent = header;
         Init.$('modalHeader').className = _class;
-        Init.$('modalBody').textContent = mes +  ' Кількість відповідей ' + countTrue + ' з ' +  Init.ArrQuestionTeenagers.amountItem + ' це ' + Math.round(percent) + ' %.';
+        Init.$('modalBody').textContent = mes + ' Кількість відповідей ' + countTrue + ' з ' + Init.ArrQuestionTeenagers.amountItem + ' це ' + Math.round(percent) + ' %.';
 
 
-        }
+    }
 
-    private static  $(id: string) {
-            return document.getElementById(id);
-        }
+    private static $(id: string) {
+        return document.getElementById(id);
+    }
 
 
 }
 
-new Init(dictionary).Run() ;
+new Init(dictionary).Run();

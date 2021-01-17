@@ -47,7 +47,7 @@ window.onload = function () {
 
 function elementBorderStop(obj, offset, typeOffset) {
     if (typeOffset === 't') {
-        if (obj.offsetParent.clientHeight <= offset+25) {
+        if (obj.offsetParent.clientHeight <= offset + 25) {
             return obj.offsetParent.clientHeight - 30
         } else {
             if (0 >= offset) {
@@ -58,7 +58,7 @@ function elementBorderStop(obj, offset, typeOffset) {
         }
     }
     if (typeOffset === 'l') {
-        if (obj.offsetParent.clientWidth <= offset+25) {
+        if (obj.offsetParent.clientWidth <= offset + 25) {
             return obj.offsetParent.clientWidth - 30
         } else {
             if (0 >= offset) {

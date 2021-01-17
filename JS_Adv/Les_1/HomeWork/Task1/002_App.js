@@ -1,4 +1,3 @@
-
 (function () {
 
     window.onload = function () {
@@ -6,7 +5,7 @@
 
         for (let i = 0; i < 5; i++) {
             let p1 = document.createElement("p")
-            p1.innerHTML = "Paragraph "+i;
+            p1.innerHTML = "Paragraph " + i;
             div1.appendChild(p1);
         }
 
@@ -18,7 +17,6 @@
             }
 
         }, 5000)
-
 
 
     }

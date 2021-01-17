@@ -2,40 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Angular/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/Angular.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/Angular_Les_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/Table/my-table/my-table-host/my-table-host.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/Table/my-table/my-table-host/my-table-host.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/Table/my-table/my-table-host/my-table-host.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/Table/my-table/my-table-host/my-table-host.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/Table/my-table/my-table.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/Table/my-table/my-table.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/Table/my-table/my-table.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/Table/my-table/my-table.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular_Les_2/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/.browserslistrc" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/.browserslistrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/Angular.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/Angular.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/e2e/protractor.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/e2e/src/app.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/e2e/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/e2e/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/assets/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular_Les1/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/002_QuestionInterface.js" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/002_QuestionInterface.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/003_DictionaryInterface.js" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/js/003_DictionaryInterface.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +150,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TypeScript/Les5/CW/Task1/ts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Angular/Les2" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -121,16 +161,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="D:\Job\Project\Навчання\FrontEnd_Сourse\Angular_Les1\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\HW\Task1" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\HW\Task1\HTML\Resource\img" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\CW\Task1" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\CW\HTML" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\CW\ts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les5\CW\Task1\ts" />
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les5\CW\Task1\Resource\Style" />
@@ -138,12 +171,27 @@
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les2\HW" />
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les2\CW" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\Angular_Les_2\src\app\Table" />
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\HW\Task1" />
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\HW\Task1\HTML\Resource\img" />
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\CW\Task1" />
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\CW\HTML" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server (Angular)">
+  <component name="RunManager" selected="npm.Angular CLI Server (Les2)">
     <configuration name="E2E Tests (Angular)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/Angular/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
       <protractor-package value="$PROJECT_DIR$/Angular/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (untitled)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/untitled/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
       <protractor-options value="" />
       <envs />
       <scope-kind value="ALL" />
@@ -165,6 +213,24 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Angular CLI Server (Les2)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/Angular_Les_2/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application (Angular)" />
+      <item itemvalue="JavaScript Debug.002_ClassWork.htm" />
+      <item itemvalue="npm.Angular CLI Server (Angular)" />
+      <item itemvalue="npm.Angular CLI Server (Les2)" />
+      <item itemvalue="Protractor.E2E Tests (Angular)" />
+      <item itemvalue="Protractor.E2E Tests (untitled)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.002_ClassWork.htm" />
@@ -203,14 +269,8 @@
       <workItem from="1608138785327" duration="46468000" />
       <workItem from="1608575938582" duration="17924000" />
       <workItem from="1609347603350" duration="12914000" />
-      <workItem from="1610380843954" duration="4588000" />
-    </task>
-    <task id="LOCAL-00046" summary="Les 9 CW end1b">
-      <created>1605553019049</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1605553019049</updated>
+      <workItem from="1610380843954" duration="5873000" />
+      <workItem from="1610888795180" duration="13958000" />
     </task>
     <task id="LOCAL-00047" summary="Les 8 HW 1 end">
       <created>1605643414613</created>
@@ -548,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610381756072</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Les 1  HW_v1.0 end (Angular)">
+      <created>1610483574471</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1610483574471</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +636,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Les 1 СW end (Bootstrap)" />
     <MESSAGE value="Les 1 HW end (Bootstrap)" />
     <MESSAGE value="Les 3 СW end (Bootstrap)" />
     <MESSAGE value="Les 4 СW end (Bootstrap)" />
@@ -594,7 +660,8 @@
     <MESSAGE value="Les 5  CW_v1.0 end (TypeScript)" />
     <MESSAGE value="Les 5  CW_v1.1 end (TypeScript)" />
     <MESSAGE value="Les 5  CW_v1.2 end (TypeScript)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les 5  CW_v1.2 end (TypeScript)" />
+    <MESSAGE value="Les 1  HW_v1.0 end (Angular)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les 1  HW_v1.0 end (Angular)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="193" key="#File_Watchers" timestamp="1607716966644">
@@ -605,6 +672,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1" y="185" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1607897833538" />
+    <state x="552" y="181" key="#TSLint" timestamp="1610915487522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#TSLint/0.0.1920.1040@0.0.1920.1040" timestamp="1610915487522" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610896899667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610896899667" />
     <state x="725" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610482574110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -625,19 +700,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="187" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607888119118" />
-    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604651582072">
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610914017721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604651582072" />
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610914017721" />
     <state x="390" y="338" key="#com.intellij.tools.ToolEditorDialog" timestamp="1607714214955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="338" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607714214955" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1610381754813">
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1610483572878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607346321178" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610381754813" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610483572878" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -646,27 +721,27 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="259" y="289" width="722" height="600" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607720122606" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1608323073707">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1610889178442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1606134115076" />
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608323073707" />
-    <state width="1201" height="276" key="GridCell.Tab.0.bottom" timestamp="1607713996195">
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610889178442" />
+    <state width="1877" height="180" key="GridCell.Tab.0.bottom" timestamp="1610916733351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1201" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607713996195" />
-    <state width="1201" height="276" key="GridCell.Tab.0.center" timestamp="1607713996195">
+    <state width="1877" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610916733351" />
+    <state width="1877" height="180" key="GridCell.Tab.0.center" timestamp="1610916733351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1201" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607713996195" />
-    <state width="1201" height="276" key="GridCell.Tab.0.left" timestamp="1607713996195">
+    <state width="1877" height="180" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610916733351" />
+    <state width="1877" height="180" key="GridCell.Tab.0.left" timestamp="1610916733351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1201" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607713996195" />
-    <state width="1201" height="276" key="GridCell.Tab.0.right" timestamp="1607713996195">
+    <state width="1877" height="180" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610916733351" />
+    <state width="1877" height="180" key="GridCell.Tab.0.right" timestamp="1610916733351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1201" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607713996195" />
+    <state width="1877" height="180" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610916733351" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605129094114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -707,11 +782,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="227" y="331" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610482373489" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610381764440">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610483578841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607348356980" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610381764440" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610483578841" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1608138785371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -725,10 +800,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="301" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608323075285" />
-    <state x="342" y="247" key="new project wizard" timestamp="1610482442573">
+    <state x="112" y="117" key="new project wizard" timestamp="1610896052370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="247" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610482442573" />
+    <state x="112" y="117" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610896052370" />
+    <state x="844" y="489" width="348" height="298" key="org.angular.cli.generate" timestamp="1610914025766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="844" y="489" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1610914025766" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1608496746784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -737,10 +816,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="212" y="151" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1608320345271" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610381691842">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610897735360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610381691842" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610897735360" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

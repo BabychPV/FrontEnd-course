@@ -4,7 +4,7 @@ window.onload = function () {
 
     function openContact() {
 
-       window.open("002_ClassWork.html", "Контакты");
+        window.open("002_ClassWork.html", "Контакты");
     }
 
 

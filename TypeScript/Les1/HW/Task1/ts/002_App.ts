@@ -3,7 +3,7 @@
 // CalcRun({a: 3, b: 4}, {a: 30, b: 0}, '/');
 
 
-function CalcRun(operand1:any=1, operand2:any= 1, sign:string='+') {
+function CalcRun(operand1: any = 1, operand2: any = 1, sign: string = '+') {
 
     // let operand1 = prompt("Введите первое число: ", RandomInRange(10, 25)).trim();
     // let sign = prompt("Введите знак арифметической операции: + - * /", '+').trim();
@@ -29,7 +29,7 @@ function CalcRun(operand1:any=1, operand2:any= 1, sign:string='+') {
 }
 
 
-function CalcVerifyOperand(a:any, b:any) {
+function CalcVerifyOperand(a: any, b: any) {
 
     if ((a instanceof Array && b instanceof Array) || (!isNaN(a) && b instanceof Array) || (!isNaN(b) && a instanceof Array)) {
         return 2
@@ -43,19 +43,19 @@ function CalcVerifyOperand(a:any, b:any) {
 
 // Calc coommon operation
 // *************************************************************************
-function add(a:number, b:number) {
+function add(a: number, b: number) {
     return a + b;
 }
 
-function sub(a:number, b:number) {
+function sub(a: number, b: number) {
     return a - b;
 }
 
-function mul(a:number, b:number) {
+function mul(a: number, b: number) {
     return a * b;
 }
 
-function div(a:number, b:number) {
+function div(a: number, b: number) {
     if ((a / b) !== Infinity) {
         return a / b;
     } else {
@@ -65,17 +65,17 @@ function div(a:number, b:number) {
 
 }
 
-function CheckType(val:number, desc:string):number {
+function CheckType(val: number, desc: string): number {
     if (!isNaN(val)) {
         return val;
     } else {
-       alert( desc + ' is not number. Replace by 0');
+        alert(desc + ' is not number. Replace by 0');
         return 0;
     }
 
 }
 
-function CheckSing(sing:string) {
+function CheckSing(sing: string) {
     switch (sing) {
         case "+":
         case "-":
@@ -89,7 +89,7 @@ function CheckSing(sing:string) {
 
 }
 
-function RandomInRange(min:number, max:number) {
+function RandomInRange(min: number, max: number) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -99,7 +99,7 @@ function RandomInRange(min:number, max:number) {
 
 // CalcValue
 // *************************************************************************
-function CalcValue(operand1:number, operand2:number, sign:string) {
+function CalcValue(operand1: number, operand2: number, sign: string) {
 
     let result = null;
 
@@ -120,7 +120,7 @@ function CalcValue(operand1:number, operand2:number, sign:string) {
 
     if (!isNaN(result)) {
         //document.write("<p>" + operand1 + " " + sign + " " + operand2 + " = " + Math.floor(result));
-        return Math.round((result)*100)/100;
+        return Math.round((result) * 100) / 100;
     }
 }
 
@@ -130,7 +130,7 @@ function CalcValue(operand1:number, operand2:number, sign:string) {
 
 // CalcArray
 // *************************************************************************
-function CalcArray(operand1:[number], operand2:[number], sign:string) {
+function CalcArray(operand1: [number], operand2: [number], sign: string) {
 
     const arrlenght = operand1.length >= operand2.length ? operand2.length : operand1.length;
     let outputarray = [];

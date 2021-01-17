@@ -349,7 +349,7 @@ nav {
 
 .articleDiv1_1_4 {
     grid-column: 1;
-    grid-row:4;
+    grid-row: 4;
     display: grid;
     justify-items: center;
     align-items: center;

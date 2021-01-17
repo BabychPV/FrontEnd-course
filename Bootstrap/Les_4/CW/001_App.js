@@ -34,8 +34,10 @@ let ArrQuestionTeenagers = {
         Variant: ['Амазонка', 'Нил', 'Янцзы'],
         CustomAnswer: -1
     },
-    a8: {Question: 'Сколько хромосом в геноме человека?', Answer: '46',
-        Variant: ['42', '44', '46'], CustomAnswer: -1},
+    a8: {
+        Question: 'Сколько хромосом в геноме человека?', Answer: '46',
+        Variant: ['42', '44', '46'], CustomAnswer: -1
+    },
     a9: {Question: 'Сколько океанов на нашей планете?', Answer: '5', Variant: ['4', '5', '6'], CustomAnswer: -1},
 }
 
@@ -116,7 +118,7 @@ function CreateObject() {
     div_btn.type = 'button';
     div_btn.dataset.target = '#staticWin';
     div_btn.textContent = 'Перевірить';
-    div_btn.addEventListener('click',VerifyAnswers)
+    div_btn.addEventListener('click', VerifyAnswers)
     objLev3.appendChild(div_btn);
 
     let div_mod = document.createElement('div');
@@ -209,7 +211,7 @@ function VerifyAnswers() {
 
     $('staticBackdropLabel').textContent = header;
     $('modalHeader').className = _class;
-    $('modalBody').textContent = mes +  ' Кількість відповідей ' + countTrue + ' з ' + Object.keys(ArrQuestionTeenagers).length + ' це ' + parseInt(percent) + ' %.';
+    $('modalBody').textContent = mes + ' Кількість відповідей ' + countTrue + ' з ' + Object.keys(ArrQuestionTeenagers).length + ' це ' + parseInt(percent) + ' %.';
 
 
 }

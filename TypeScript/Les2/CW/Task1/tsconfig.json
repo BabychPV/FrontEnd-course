@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-
     "outDir": "js",
     "module": "system",
     "target": "es6",

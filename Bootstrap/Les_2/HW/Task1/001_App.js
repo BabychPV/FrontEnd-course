@@ -115,7 +115,7 @@ function CreateObject() {
     div_btn.type = 'button';
     div_btn.dataset.target = '#staticWin';
     div_btn.textContent = 'Перевірить';
-    div_btn.addEventListener('click',VerifyAnswers)
+    div_btn.addEventListener('click', VerifyAnswers)
     objLev3.appendChild(div_btn);
 
     let div_mod = document.createElement('div');
@@ -208,7 +208,7 @@ function VerifyAnswers() {
 
     $('staticBackdropLabel').textContent = header;
     $('modalHeader').className = _class;
-    $('modalBody').textContent = mes +  ' Кількість відповідей ' + countTrue + ' з ' + Object.keys(ArrQuestionTeenagers).length + ' це ' + parseInt(percent) + ' %.';
+    $('modalBody').textContent = mes + ' Кількість відповідей ' + countTrue + ' з ' + Object.keys(ArrQuestionTeenagers).length + ' це ' + parseInt(percent) + ' %.';
 
 
 }

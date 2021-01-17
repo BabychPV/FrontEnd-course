@@ -1,0 +1,27 @@
+<h2>Current rows - {{rowsTable}}</h2>
+
+<table class="table table-striped">
+  <thead class="thead-dark">
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Name</th>
+    <th scope="col">Price</th>
+    <th scope="col">Command</th>
+  </tr>
+  </thead>
+  <tbody>
+
+  <tr *ngFor="let list of curProduct">
+
+    <td>{{list.id}}</td>
+    <td>{{list.name}}</td>
+    <td>{{list.price}}</td>
+    <td>
+      <button class="btn-danger" data-id={{list.id}} (click)="DeleteRow($event,list)">Delete</button>
+    </td>
+
+
+  </tr>
+
+  </tbody>
+</table>

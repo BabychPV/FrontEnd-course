@@ -28,7 +28,7 @@ function init() {
                     }
                 }
             }
-        xhr2.send();
+            xhr2.send();
         }
     )
     ;

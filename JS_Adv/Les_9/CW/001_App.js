@@ -8,7 +8,7 @@ function init() {
 
     for (let i = 0; i < imgs.length; i++) {
         str += 'Посилання на малюнок ' + (i + 1) + '- ' + imgs[i].src + '<br/>';
-        idle(imgs[i], i+1);
+        idle(imgs[i], i + 1);
     }
 
 
@@ -20,7 +20,7 @@ function init() {
 
 
     div.innerHTML = str;
-    div.style.color= 'white';
+    div.style.color = 'white';
 
 }
 

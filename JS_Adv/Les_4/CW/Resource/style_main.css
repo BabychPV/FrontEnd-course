@@ -1,4 +1,4 @@
-body{
+body {
     height: 800px;
     width: 800px;
     float: left;
@@ -28,7 +28,7 @@ body{
 }
 
 
-#p1:before{
+#p1:before {
     content: 'Please wait 5 sec)';
     font: 24pt sans-serif;
     color: #b8b4b7;
@@ -36,15 +36,17 @@ body{
     height: 50px;
 }
 
-div{
-    height: 100px; width: 100px;
+div {
+    height: 100px;
+    width: 100px;
     background-color: green;
     float: left;
     margin: 10px;
 }
 
-button{
-    height: 100px; width: 100px;
+button {
+    height: 100px;
+    width: 100px;
     clear: both;
     margin: 10px;
 }

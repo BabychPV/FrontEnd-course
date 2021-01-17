@@ -59,7 +59,7 @@ function div(a, b) {
     if ((a / b) !== Infinity) {
         return a / b;
     } else {
- //       alert('div on 0');
+        //       alert('div on 0');
         return NaN;
     }
 
@@ -120,7 +120,7 @@ function CalcValue(operand1, operand2, sign) {
 
     if (!isNaN(result)) {
         //document.write("<p>" + operand1 + " " + sign + " " + operand2 + " = " + Math.floor(result));
-        return Math.round((result)*100)/100;
+        return Math.round((result) * 100) / 100;
     }
 }
 

@@ -1,53 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="module_frontend_сourse" default="compile.module.frontend_сourse">
-  <dirname property="module.frontend_сourse.basedir" file="${ant.file.module_frontend_сourse}"/>
-  
-  <property name="module.jdk.home.frontend_сourse" value="${project.jdk.home}"/>
-  <property name="module.jdk.bin.frontend_сourse" value="${project.jdk.bin}"/>
-  <property name="module.jdk.classpath.frontend_сourse" value="${project.jdk.classpath}"/>
-  
-  <property name="compiler.args.frontend_сourse" value="-encoding UTF-8 -source 13 -target 13 ${compiler.args}"/>
-  
-  <property name="frontend_сourse.output.dir" value="${module.frontend_сourse.basedir}/out/production/FrontEnd_Сourse"/>
-  <property name="frontend_сourse.testoutput.dir" value="${module.frontend_сourse.basedir}/out/test/FrontEnd_Сourse"/>
-  
-  <path id="frontend_сourse.module.bootclasspath">
-    <!-- Paths to be included in compilation bootclasspath -->
-  </path>
-  
-  <path id="frontend_сourse.module.production.classpath"/>
-  
-  <path id="frontend_сourse.runtime.production.module.classpath">
-    <pathelement location="${frontend_сourse.output.dir}"/>
-  </path>
-  
-  <path id="frontend_сourse.module.classpath">
-    <pathelement location="${frontend_сourse.output.dir}"/>
-  </path>
-  
-  <path id="frontend_сourse.runtime.module.classpath">
-    <pathelement location="${frontend_сourse.testoutput.dir}"/>
-    <pathelement location="${frontend_сourse.output.dir}"/>
-  </path>
-  
-  
-  <patternset id="excluded.from.module.frontend_сourse">
-    <patternset refid="ignored.files"/>
-  </patternset>
-  
-  <patternset id="excluded.from.compilation.frontend_сourse">
-    <patternset refid="excluded.from.module.frontend_сourse"/>
-  </patternset>
-  
-  
-  <target name="compile.module.frontend_сourse" depends="compile.module.frontend_сourse.production,compile.module.frontend_сourse.tests" description="Compile module FrontEnd_Сourse"/>
-  
-  <target name="compile.module.frontend_сourse.production" depends="register.custom.compilers" description="Compile module FrontEnd_Сourse; production classes"/>
-  
-  <target name="compile.module.frontend_сourse.tests" depends="register.custom.compilers,compile.module.frontend_сourse.production" description="compile module FrontEnd_Сourse; test classes" unless="skip.tests"/>
-  
-  <target name="clean.module.frontend_сourse" description="cleanup module">
-    <delete dir="${frontend_сourse.output.dir}"/>
-    <delete dir="${frontend_сourse.testoutput.dir}"/>
-  </target>
+    <dirname property="module.frontend_сourse.basedir" file="${ant.file.module_frontend_сourse}"/>
+
+    <property name="module.jdk.home.frontend_сourse" value="${project.jdk.home}"/>
+    <property name="module.jdk.bin.frontend_сourse" value="${project.jdk.bin}"/>
+    <property name="module.jdk.classpath.frontend_сourse" value="${project.jdk.classpath}"/>
+
+    <property name="compiler.args.frontend_сourse" value="-encoding UTF-8 -source 13 -target 13 ${compiler.args}"/>
+
+    <property name="frontend_сourse.output.dir"
+              value="${module.frontend_сourse.basedir}/out/production/FrontEnd_Сourse"/>
+    <property name="frontend_сourse.testoutput.dir" value="${module.frontend_сourse.basedir}/out/test/FrontEnd_Сourse"/>
+
+    <path id="frontend_сourse.module.bootclasspath">
+        <!-- Paths to be included in compilation bootclasspath -->
+    </path>
+
+    <path id="frontend_сourse.module.production.classpath"/>
+
+    <path id="frontend_сourse.runtime.production.module.classpath">
+        <pathelement location="${frontend_сourse.output.dir}"/>
+    </path>
+
+    <path id="frontend_сourse.module.classpath">
+        <pathelement location="${frontend_сourse.output.dir}"/>
+    </path>
+
+    <path id="frontend_сourse.runtime.module.classpath">
+        <pathelement location="${frontend_сourse.testoutput.dir}"/>
+        <pathelement location="${frontend_сourse.output.dir}"/>
+    </path>
+
+
+    <patternset id="excluded.from.module.frontend_сourse">
+        <patternset refid="ignored.files"/>
+    </patternset>
+
+    <patternset id="excluded.from.compilation.frontend_сourse">
+        <patternset refid="excluded.from.module.frontend_сourse"/>
+    </patternset>
+
+
+    <target name="compile.module.frontend_сourse"
+            depends="compile.module.frontend_сourse.production,compile.module.frontend_сourse.tests"
+            description="Compile module FrontEnd_Сourse"/>
+
+    <target name="compile.module.frontend_сourse.production" depends="register.custom.compilers"
+            description="Compile module FrontEnd_Сourse; production classes"/>
+
+    <target name="compile.module.frontend_сourse.tests"
+            depends="register.custom.compilers,compile.module.frontend_сourse.production"
+            description="compile module FrontEnd_Сourse; test classes" unless="skip.tests"/>
+
+    <target name="clean.module.frontend_сourse" description="cleanup module">
+        <delete dir="${frontend_сourse.output.dir}"/>
+        <delete dir="${frontend_сourse.testoutput.dir}"/>
+    </target>
 </project>

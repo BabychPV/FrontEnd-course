@@ -68,6 +68,7 @@
       @include gridPosition(1, null, 1, null);
       margin: 0;
       font-size: 50px;
+
       &:before {
         content: 'WELCOME TO STARTUP'
       }
@@ -77,7 +78,8 @@
       @include gridPosition(1, null, 2, null);
       justify-items: center;
       align-items: center;
-margin-bottom: 30px;
+      margin-bottom: 30px;
+
       &:before {
         content: 'Your favourite Creative Agency Template'
       }

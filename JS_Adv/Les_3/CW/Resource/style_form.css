@@ -97,7 +97,7 @@ div.divstyle_2 p::before {
     border-radius: 5px;
     width: 350px;
     height: 20px;
-    box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.06);
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.06);
 }
 
 .form-fotter {
@@ -122,7 +122,6 @@ button {
     color: inherit;
     /*padding: 10px;*/
 }
-
 
 
 .FlexCommonRow {

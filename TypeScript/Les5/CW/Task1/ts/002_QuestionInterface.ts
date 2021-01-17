@@ -1,7 +1,6 @@
-
 export interface QuestionData {
     Question: string,
     Answer: string,
-    Variant: string [] ,
+    Variant: string [],
     CustomAnswer: number
 }

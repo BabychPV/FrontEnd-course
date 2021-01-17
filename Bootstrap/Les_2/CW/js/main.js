@@ -1,4 +1,4 @@
 let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
-let tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
 })

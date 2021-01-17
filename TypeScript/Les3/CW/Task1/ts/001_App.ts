@@ -2,9 +2,9 @@ interface IAnimals<T> {
     iter: T;
 }
 
-class Cat  implements IAnimals<any>{
+class Cat implements IAnimals<any> {
 
-     readonly iter: any;
+    readonly iter: any;
 
     constructor(public iter_: any) {
         this.iter = iter_;

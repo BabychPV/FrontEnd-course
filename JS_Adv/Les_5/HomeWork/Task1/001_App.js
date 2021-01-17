@@ -12,15 +12,14 @@ window.onload = function () {
         if (!pattern.test(curVal)) {
             this.style.backgroundColor = 'red';
             but.hidden = true;
-        }else
-        {
+        } else {
             this.style.backgroundColor = 'white';
             but.hidden = false;
         }
     };
 
-    in1.addEventListener('change',checkInputValue);
-    in2.addEventListener('change',checkInputValue);
+    in1.addEventListener('change', checkInputValue);
+    in2.addEventListener('change', checkInputValue);
 
     but.addEventListener('click', function (e) {
         if (e.target.innerText === '+') {

@@ -15,10 +15,10 @@ function init() {
     let counter = 1;
 
     parent.addEventListener('click', function (e) {
-        if(e.target.offsetWidth > 50){
+        if (e.target.offsetWidth > 50) {
             e.target.style.width = '50px';
             e.target.style.height = '50px';
-        }else {
+        } else {
             e.target.style.width = '400px';
             e.target.style.height = '400px';
         }

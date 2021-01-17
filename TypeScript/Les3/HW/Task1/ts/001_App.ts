@@ -110,20 +110,20 @@ class MyDictionary<TKey, TValue1, TValue2> {
 }
 
 let dictionary = new MyDictionary<string, string, string>();
-    dictionary.setValue("hello", "привет", "привет1");
-    dictionary.setValue("book", "книга", "привет2");
-    dictionary.setValue("apple", "яблоко", "привет3");
+dictionary.setValue("hello", "привет", "привет1");
+dictionary.setValue("book", "книга", "привет2");
+dictionary.setValue("apple", "яблоко", "привет3");
 console.log('Add');
-    console.log(dictionary.getValue("book"));
-    console.log(dictionary.getFirstValue())
-    console.log(dictionary.getLastValue())
+console.log(dictionary.getValue("book"));
+console.log(dictionary.getFirstValue())
+console.log(dictionary.getLastValue())
 
 console.log('View')
-    dictionary.showDictionary();
+dictionary.showDictionary();
 console.log('remove');
-    dictionary.removeValue('apple', 'x');
+dictionary.removeValue('apple', 'x');
 console.log('View')
-    dictionary.showDictionary();
+dictionary.showDictionary();
 
 
 let

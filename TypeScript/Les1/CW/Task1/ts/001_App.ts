@@ -1,3 +1,3 @@
 function f1() {
-let f:string;
+    let f: string;
 }

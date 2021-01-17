@@ -239,7 +239,7 @@ function InitData() {
         setlocalStorage('color', Module_07.color);
     }
     if (Module_07.fontsize) {
-        setlocalStorage('fontsize',Module_07.fontsize)
+        setlocalStorage('fontsize', Module_07.fontsize)
     }
 }
 
@@ -292,6 +292,7 @@ function getlocalStorage(name) {
 function setlocalStorage(name, val) {
     window.localStorage[name] = val;
 }
+
 function getCookie1(name) {
     let matches = document.cookie.match(new RegExp(
         "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"

@@ -6,6 +6,7 @@ function SelectP() {
         paragraphs[i].style.border = "4px double red";
     }
 }
+
 function SelectD() {
 
     let div = document.getElementsByTagName("div");
@@ -14,6 +15,7 @@ function SelectD() {
         div[i].style.border = "4px double green";
     }
 }
+
 function SelectA() {
 
     let a = document.getElementsByTagName("a");

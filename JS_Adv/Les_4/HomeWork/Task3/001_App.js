@@ -16,8 +16,8 @@ window.onload = function () {
             let t = randomInRange(0, screen.height - 100);
             arr[i].style.left = l + 'px';
             arr[i].style.top = t + 'px';
-            arr[i].style.height = randomInRange(10,50)+'px';
-            arr[i].style.width = randomInRange(10,60)+'px';
+            arr[i].style.height = randomInRange(10, 50) + 'px';
+            arr[i].style.width = randomInRange(10, 60) + 'px';
             // arr[i].textContent = 'left '+l +' top ' + t;
             // arr[i].style.textAlign = 'center';
 

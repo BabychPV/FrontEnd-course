@@ -1,4 +1,3 @@
-
 onmessage = function (e) {
 
     postMessage(CalcRun(e.data[0], e.data[1], e.data[2]));
@@ -113,8 +112,8 @@ function CalcValue(operand1, operand2, sign) {
 
     let result = null;
 
-    operand1 =CheckType(operand1);
-    operand2 =CheckType(operand2);
+    operand1 = CheckType(operand1);
+    operand2 = CheckType(operand2);
 
     switch (sign) {
         case "+":
@@ -132,7 +131,7 @@ function CalcValue(operand1, operand2, sign) {
     }
 
     if (!isNaN(result)) {
-        return  Math.floor(result);
+        return Math.floor(result);
     }
 }
 

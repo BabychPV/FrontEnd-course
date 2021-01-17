@@ -34,8 +34,8 @@ function init() {
     pas.addEventListener('change', function (e) {
         if (e.target.type === 'text') {
             if (in1.value != in2.value) {
-                    document.getElementById(e.target.dataset.valMsgId).innerHTML = e.target.dataset.valMsg1;
-                    in1.className = "error";
+                document.getElementById(e.target.dataset.valMsgId).innerHTML = e.target.dataset.valMsg1;
+                in1.className = "error";
                 in2.className = "error";
             } else {
                 in2.onchange();
@@ -71,7 +71,7 @@ function validateForm() {
     for (let i = 0; i < this.elements.length; ++i) {
         let e = this.elements[i];
         if (e.type == "text" && e.onchange != null && e.name === 'pass') {
-            if (e.value != this.elements[i + 1].value || e.value.length===0 ) {
+            if (e.value != this.elements[i + 1].value || e.value.length === 0) {
                 e.onchange();
                 invalid = true;
             }

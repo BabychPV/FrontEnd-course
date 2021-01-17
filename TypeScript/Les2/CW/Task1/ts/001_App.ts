@@ -1,4 +1,3 @@
-
 interface IAnimals {
 
     speciesAnimals: string;

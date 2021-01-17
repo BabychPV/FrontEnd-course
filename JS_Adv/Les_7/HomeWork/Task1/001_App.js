@@ -68,7 +68,7 @@ function validateForm(handler) {
         if (e.type === "text") {
             //e.onchange();
             if (e.dataset.valMsgId)
-            if (document.getElementById(e.dataset.valMsgId).className == "error") invalid = true;
+                if (document.getElementById(e.dataset.valMsgId).className == "error") invalid = true;
         }
     }
 

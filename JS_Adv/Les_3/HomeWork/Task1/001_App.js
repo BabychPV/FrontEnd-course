@@ -1,8 +1,8 @@
 window.onload = function () {
-    let classnamestop ="StopButton";
-    let classnamereset ="ResetButton";
+    let classnamestop = "StopButton";
+    let classnamereset = "ResetButton";
     let classnamestart = "StartButton";
-    let t = new Timer(0,classnamestart,classnamestop,classnamereset);
+    let t = new Timer(0, classnamestart, classnamestop, classnamereset);
 
     document.getElementById(classnamestop).disabled = true;
     document.getElementById(classnamereset).disabled = true;

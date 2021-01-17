@@ -10,8 +10,9 @@ window.onload = function () {
     })
 
     window.addEventListener('mousemove', function (e) {
-       if (this.className != 'dropdown-content'){
-        dropdowns[0].classList.toggle('view');}
+        if (this.className != 'dropdown-content') {
+            dropdowns[0].classList.toggle('view');
+        }
 
     })
 

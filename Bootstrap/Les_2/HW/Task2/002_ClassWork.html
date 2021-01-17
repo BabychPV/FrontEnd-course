@@ -87,71 +87,71 @@
     </section>
 
     <div class="container">
-            <div class="row flex-d flex-row justify-content-center">
+        <div class="row flex-d flex-row justify-content-center">
 
-                <div class="col-md-8 order-md-1 mt-4">
-                    <h4 class="mb-3">Заполните поля формы</h4>
-                    <form class="needs-validation" novalidate="">
-                        <div class="row">
-                            <div class="col-md-6 mb-3">
-                                <label for="firstName">Имя</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="" value=""
-                                       required="">
-                                <div class="invalid-feedback">
-                                    Введите имя
-                                </div>
+            <div class="col-md-8 order-md-1 mt-4">
+                <h4 class="mb-3">Заполните поля формы</h4>
+                <form class="needs-validation" novalidate="">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="firstName">Имя</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value=""
+                                   required="">
+                            <div class="invalid-feedback">
+                                Введите имя
                             </div>
-                            <div class="col-md-6">
-                                <label for="lastName">Фамилия</label>
-                                <input type="text" class="form-control" id="lastName" placeholder="" value=""
-                                       required="">
-                                <div class="invalid-feedback">
-                                    Введите фамилию
-                                </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName">Фамилия</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                   required="">
+                            <div class="invalid-feedback">
+                                Введите фамилию
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="email">Email </label>
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="email">
+                            <div class="invalid-feedback">
+                                Проблема
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <label for="state">Подарунок</label>
+                            <select class="custom-select  form-control" id="state" required="">
+                                <option value=""> Программа лояльности.</option>
+                                <option value="">Хочу получить скидку к дню рождения</option>
+                                <option value="">Предварительный заказ</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Выберите
                             </div>
                         </div>
 
+                    </div>
 
-                        <div class="mb-3">
-                            <label for="email">Email </label>
-                            <div class="input-group">
-                                <input type="text" class="form-control">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">@</span>
-                                </div>
-                                <input type="text" class="form-control" id="email">
-                                <div class="invalid-feedback">
-                                    Проблема
-                                </div>
-                            </div>
-                        </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="same-address">
+                        <label class="custom-control-label" for="same-address">Подписаться</label>
+                    </div>
 
-                        <div class="row">
-                            <div class="col-md-12 mb-3">
-                                <label for="state">Подарунок</label>
-                                <select class="custom-select  form-control" id="state" required="">
-                                    <option value=""> Программа лояльности.</option>
-                                    <option value="">Хочу получить скидку к дню рождения</option>
-                                    <option value="">Предварительный заказ</option>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Выберите
-                                </div>
-                            </div>
+                    <hr class="mb-4">
 
-                        </div>
-
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="same-address">
-                            <label class="custom-control-label" for="same-address">Подписаться</label>
-                        </div>
-
-                        <hr class="mb-4">
-
-                        <button class="btn btn-primary btn-lg btn-block" type="submit">Отправить</button>
-                    </form>
-                </div>
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Отправить</button>
+                </form>
             </div>
+        </div>
 
     </div>
 

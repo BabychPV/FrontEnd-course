@@ -5,8 +5,8 @@
 // автомобиля). Подумайте, какие свойства в производных классах должны быть public, какие – private и
 // protected.
 
-interface ICommon{
-    CarProp:()=>string;
+interface ICommon {
+    CarProp: () => string;
 }
 
 abstract class Car implements ICommon {

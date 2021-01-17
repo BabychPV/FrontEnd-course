@@ -3,15 +3,15 @@ $sing: '/';
 
 @mixin gridPosition($col1,$col2, $row1,$row2) {
 
-@if($col2){
-  grid-column: $col1#{$sing}$col2;
-}@else{
-  grid-column: $col1
-}
+  @if ($col2) {
+    grid-column: $col1 #{$sing}$col2;
+  } @else {
+    grid-column: $col1
+  }
 
-  @if($row2){
-    grid-row: $row1#{$sing}$row2;
-  }@else{
+  @if ($row2) {
+    grid-row: $row1 #{$sing}$row2;
+  } @else {
     grid-row: $row1
   }
 }

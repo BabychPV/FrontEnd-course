@@ -9,7 +9,7 @@ function init() {
 
     let date = new Date();
 
-    document.getElementById('pw').  write('Last change: ' + document.cookie);
+    document.getElementById('pw').write('Last change: ' + document.cookie);
     document.cookie = 'last=' + date + '; max-age=' + 60 * 60 * 24 * 7 * 31;
 
 }

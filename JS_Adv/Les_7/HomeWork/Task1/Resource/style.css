@@ -3,7 +3,8 @@ body {
     height: 500px;
     width: 700px;
 }
-main{
+
+main {
     background-image: url('pizza-3007395__340.webp');
     background-size: cover;
     background-position: center;
@@ -11,7 +12,7 @@ main{
     font-size: large;
 }
 
-.Borderfieldset{
+.Borderfieldset {
     border-top: 2px solid #999999;
     border-left-width: 0px;
     border-right-width: 0px;
@@ -19,13 +20,13 @@ main{
     margin-top: 10px;
 }
 
-legend{
+legend {
     word-spacing: 10px;
     font-size: x-large;
     font-weight: bold;
 }
 
-label::after{
+label::after {
     content: ":";
 }
 
@@ -45,7 +46,7 @@ label::after{
     background-color: #1d2b36;
 }
 
-#Size{
+#Size {
     font-size: xx-large;
 }
 
@@ -79,7 +80,7 @@ label::after{
         flex: 3;
     }
 
-    .form-row-check > select{
+    .form-row-check > select {
         flex: 3;
     }
 }
@@ -88,7 +89,8 @@ label::after{
     .form-row > input {
         flex: 4;
     }
-    .form-row-check > select{
+
+    .form-row-check > select {
         flex: 4;
     }
 }
@@ -97,7 +99,8 @@ label::after{
     .form-row > input {
         flex: 5;
     }
-    .form-row-check > select{
+
+    .form-row-check > select {
         flex: 5;
     }
 }
@@ -107,6 +110,7 @@ label::after{
     /*background-color: #fc6363;*/
     visibility: visible;
 }
+
 .valid {
     /*background-color: #81e569;*/
     visibility: hidden;

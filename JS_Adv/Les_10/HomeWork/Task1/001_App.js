@@ -59,12 +59,6 @@ function init() {
 }
 
 
-
-
-
-
-
-
 function $(id) {
     return document.getElementById(id);
 }

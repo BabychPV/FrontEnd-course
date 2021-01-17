@@ -1,6 +1,6 @@
 import {DictionaryItem} from "./001_DictionaryClass.js";
 
-export  interface DictionaryInterface {
+export interface DictionaryInterface {
 
     data: DictionaryItem<any, any>[];
 
