@@ -8,6 +8,22 @@ interface Prod {
 
 }
 
+class ObjProd implements Prod {
+
+  category: string;
+  id: number;
+  name: string;
+  price: number;
+
+  constructor(id: number, name: string, price: number, category: string) {
+    this.category = category;
+    this.id = id;
+    this.name = name;
+    this.price = price;
+  }
+
+}
+
 @Component({
   selector: 'app-les3',
   templateUrl: './les3.component.html',
@@ -80,7 +96,6 @@ export class Les3Component implements OnInit {
   }
 
   addProduct(): void {
-    this.curProduct.push(this.Product);
-    //  this.tempProduct.push(Product);
+    this.curProduct.push(new ObjProd(this.Product.id, this.Product.name, this.Product.price, this.Product.category));
   }
 }

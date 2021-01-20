@@ -14,15 +14,15 @@
   </div>
   <div class="divFloat">
     <label for="Name">Name</label><br>
-    <input type="text" id="Name" [ngModel]="Product.name"/><br>
+    <input type="text" id="Name" [ngModel]="Product.name"  (ngModelChange)="Product.name = $event"/><br>
   </div>
   <div class="divFloat">
     <label for="Price">Price</label><br>
-    <input type="text" id="Price" [ngModel]="Product.price"/>
+    <input type="text" id="Price" [ngModel]="Product.price" (ngModelChange)="Product.price = $event"/>
   </div>
   <div class="divFloat">
     <label for="category">Category</label><br>
-    <input type="text" id="category" [ngModel]="Product.category"/>
+    <input type="text" id="category" [ngModel]="Product.category" (ngModelChange)="Product.category = $event"/>
   </div>
   <div class="divFloat">
     <button class="btn btn-primary" (click)="addProduct()">Add</button>
