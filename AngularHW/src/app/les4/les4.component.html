@@ -1,0 +1,57 @@
+<h2>Current rows - {{rowsTable}}</h2>
+<div>
+  <p>Filter</p>
+  <select [ngModel]="curCategory" (ngModelChange)="getList($event)">
+    <option value="Category1">Category 1</option>
+    <option value="Category2">Category 2</option>
+    <option value="Category3">Category 3</option>
+    <option selected value="Category">All Categories</option>
+  </select>
+  <hr align="center" width="100%" size="3" color="#0000dd"/>
+  <div class="divFloat">
+    <label for="num">ID</label> <br>
+    <input type="text" id="num" [ngModel]="Product.id" (ngModelChange)="Product.id = $event"/>
+  </div>
+  <div class="divFloat">
+    <label for="Name">Name</label><br>
+    <input type="text" id="Name" [ngModel]="Product.name"  (ngModelChange)="Product.name = $event"/><br>
+  </div>
+  <div class="divFloat">
+    <label for="Price">Price</label><br>
+    <input type="text" id="Price" [ngModel]="Product.price" (ngModelChange)="Product.price = $event"/>
+  </div>
+  <div class="divFloat">
+    <label for="category">Category</label><br>
+    <input type="text" id="category" [ngModel]="Product.category" (ngModelChange)="Product.category = $event"/>
+  </div>
+  <div class="divFloat">
+    <button class="btn btn-primary" (click)="addProduct()">Add</button>
+  </div>
+
+  <table class="table table-striped">
+    <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Price</th>
+      <th scope="col">Command</th>
+      <th scope="col">Category</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr *ngFor="let list of curProduct" [ngStyle]="getStyles(list.price)">
+
+      <td>{{list.id}}</td>
+      <td>{{list.name}}</td>
+      <td>{{list.price}}</td>
+      <td>{{list.category}}</td>
+      <td>
+        <button class="btn-danger" data-id={{list.id}} (click)="deleteRow($event,list)">Delete</button>
+      </td>
+
+
+    </tr>
+
+    </tbody>
+  </table>

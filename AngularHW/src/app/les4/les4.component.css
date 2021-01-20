@@ -1,0 +1,18 @@
+table {
+  height: 60px;
+  width: 80%;
+}
+
+hr{
+  width: 80%;
+}
+
+button{
+  margin-top: 10px;
+}
+
+
+.divFloat{
+  float: left;
+  margin-right: 10px;
+}

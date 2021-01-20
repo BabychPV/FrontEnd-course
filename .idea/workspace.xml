@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4-host/les4-host.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4-host/les4-host.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4-host/les4-host.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4.modules/les4.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AngularHW/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AngularHW/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularHW/src/app/les3/les3.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AngularHW/src/app/les3/les3.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularHW/src/app/les3/les3.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AngularHW/src/app/les3/les3.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularHW/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AngularHW/src/app/app.routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,14 +240,7 @@
       <workItem from="1610888795180" duration="14883000" />
       <workItem from="1610970684013" duration="858000" />
       <workItem from="1611093459717" duration="2062000" />
-      <workItem from="1611132763014" duration="17506000" />
-    </task>
-    <task id="LOCAL-00049" summary="Les 8 HW 2 end">
-      <created>1605644304142</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1605644304142</updated>
+      <workItem from="1611132763014" duration="20042000" />
     </task>
     <task id="LOCAL-00050" summary="Les 8 HW end">
       <created>1605650326215</created>
@@ -577,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611152854208</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Les 3  HW_v1.1 end (Angular)">
+      <created>1611181033216</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1611181033217</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +606,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Les 4 СW end (Bootstrap)" />
     <MESSAGE value="Les 2 HW and CW end (Bootstrap)" />
     <MESSAGE value="Les 1  CW end (HTML&amp;CSS ADV)" />
     <MESSAGE value="Les 1  HW end (HTML&amp;CSS ADV)" />
@@ -623,7 +630,8 @@
     <MESSAGE value="Les 1  HW_v1.0 end (Angular)" />
     <MESSAGE value="Les 2  HW_v1.0 end (Angular)" />
     <MESSAGE value="Les 3  HW_v1.0 end (Angular)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les 3  HW_v1.0 end (Angular)" />
+    <MESSAGE value="Les 3  HW_v1.1 end (Angular)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les 3  HW_v1.1 end (Angular)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="193" key="#File_Watchers" timestamp="1607716966644">
@@ -674,12 +682,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="338" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607714214955" />
-    <state x="-1552" y="126" width="755" height="902" key="CommitChangelistDialog2" timestamp="1611152851148">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1611186136150">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1552" y="126" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152851148" />
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607346321178" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610919682535" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611186136150" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -693,26 +701,26 @@
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1611128365965" />
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611093503042" />
-    <state width="1877" height="206" key="GridCell.Tab.0.bottom" timestamp="1611152515850">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state width="1877" height="206" key="GridCell.Tab.0.bottom" timestamp="1611184306480">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152515850" />
-    <state width="1877" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610997108876" />
-    <state width="1877" height="206" key="GridCell.Tab.0.center" timestamp="1611152515849">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state width="1877" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611184306480" />
+    <state width="1877" height="206" key="GridCell.Tab.0.center" timestamp="1611184306480">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="206" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152515849" />
-    <state width="1877" height="206" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610997108876" />
-    <state width="1877" height="206" key="GridCell.Tab.0.left" timestamp="1611152515849">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state width="1877" height="206" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611184306480" />
+    <state width="1877" height="206" key="GridCell.Tab.0.left" timestamp="1611184306480">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="206" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152515849" />
-    <state width="1877" height="206" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610997108875" />
-    <state width="1877" height="206" key="GridCell.Tab.0.right" timestamp="1611152515849">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state width="1877" height="206" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611184306480" />
+    <state width="1877" height="206" key="GridCell.Tab.0.right" timestamp="1611184306480">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="206" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152515849" />
-    <state width="1877" height="206" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610997108876" />
+    <state width="1877" height="206" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611184306480" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605129094114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -753,12 +761,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="227" y="331" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610482373489" />
-    <state x="-1368" y="286" key="Vcs.Push.Dialog.v2" timestamp="1611152854666">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611181038533">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="286" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152854666" />
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607348356980" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610919697249" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611181038533" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1611093466674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -777,11 +785,11 @@
     </state>
     <state x="-1808" y="131" key="new project wizard/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611130195344" />
     <state x="112" y="117" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610896052370" />
-    <state x="-1076" y="545" width="348" height="333" key="org.angular.cli.generate" timestamp="1611133934869">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state x="844" y="489" width="348" height="298" key="org.angular.cli.generate" timestamp="1611184750547">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1076" y="545" width="348" height="333" key="org.angular.cli.generate/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611133934869" />
-    <state x="844" y="489" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1610914025766" />
+    <state x="844" y="489" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1611184750547" />
     <state x="-1235" y="216" key="refactoring.ChangeSignatureDialog" timestamp="1611151242520">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
@@ -794,11 +802,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="212" y="151" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1608320345271" />
-    <state x="-1297" y="251" width="672" height="757" key="search.everywhere.popup" timestamp="1611137573026">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611185063474">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1297" y="251" width="672" height="757" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611137573026" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610897735360" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611185063474" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,6 +4,7 @@ import {Routes} from '@angular/router';
 import {Les1Component} from './les1/index';
 import {Les2HostComponent} from './les2/index';
 import {Les3HostComponent} from './les3/index';
+import {Les4HostComponent} from './les4/index';
 
 
 export const routes: Routes = [
@@ -23,6 +24,10 @@ export const routes: Routes = [
   {
     path: 'HomeWork-03',
     component: Les3HostComponent
+  },
+  {
+    path: 'HomeWork-04',
+    component: Les4HostComponent
   }
 
 ];
