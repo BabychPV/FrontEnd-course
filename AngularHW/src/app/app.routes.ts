@@ -1,13 +1,15 @@
-import {Routes} from '@angular/router';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
 
 
-import {Les1Component} from './les1/index';
-import {Les2HostComponent} from './les2/index';
-import {Les3HostComponent} from './les3/index';
-import {Les4HostComponent} from './les4/index';
+import {Les1Component} from './les1';
+import {Les2HostComponent} from './les2';
+import {Les3HostComponent} from './les3';
+import {Les4HostComponent} from './les4';
 
 
 export const routes: Routes = [
+
   {
     path: '',
     redirectTo: 'HomeWork-01',
@@ -31,3 +33,10 @@ export const routes: Routes = [
   }
 
 ];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule {
+}

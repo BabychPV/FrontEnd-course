@@ -2,18 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36baf955-26f0-4850-8bb2-8cb72f8224a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4-host/les4-host.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4-host/les4-host.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4-host/les4-host.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4.modules/les4.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les4/les4.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Home/les5-home.componennt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Home/les5-home.componennt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Home/les5-home.componennt.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Product/product-details/product-details.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Product/product-details/product-details.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Product/product-details/product-details.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Product/product-home/product-home.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Product/product-home/product-home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Product/product-home/product-home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Product/product-list/product-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Product/product-list/product-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Product/product-list/product-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Shared/auth.guard.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Shared/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Shared/backend.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Shared/product-details-resolve.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Shared/product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Shared/product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/les5.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/les5.routing.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularHW/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/AngularHW/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularHW/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/AngularHW/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularHW/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AngularHW/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AngularHW/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AngularHW/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AngularHW/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AngularHW/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularHW/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AngularHW/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +107,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/AngularHW/src/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Shared" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -98,24 +117,25 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\Job\Project\Навчання\FrontEnd_Сourse\AngularHW\node_modules\typescript\lib" />
     <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\AngularHW\src\app\les5&amp;6\Shared" />
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\AngularHW\src\app\les5\Product" />
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\AngularHW\src\app\les5" />
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\AngularHW\src\app\Les5\Shared" />
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\AngularHW\src\app" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\AngularHW\src\assets" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les5\CW\Task1\ts" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les5\CW\Task1\Resource\Style" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\AngularHW\src\app\les5" />
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\Angular_Les_2\src\app\Table" />
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\HW\Task1" />
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\HW\Task1\HTML\Resource\img" />
       <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\CW\Task1" />
-      <recent name="D:\Job\Project\Навчання\FrontEnd_Сourse\TypeScript\Les1\CW\HTML" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -168,31 +188,9 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Angular CLI Server (Angular)" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/Angular/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Angular CLI Server (Les2)" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/Angular_Les_2/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Angular Application (Angular)" />
       <item itemvalue="JavaScript Debug.002_ClassWork.htm" />
-      <item itemvalue="npm.Angular CLI Server (Angular)" />
-      <item itemvalue="npm.Angular CLI Server (Les2)" />
       <item itemvalue="npm.Angular CLI Server (AngularHW)" />
       <item itemvalue="Protractor.E2E Tests (Angular)" />
       <item itemvalue="Protractor.E2E Tests (untitled)" />
@@ -240,14 +238,7 @@
       <workItem from="1610888795180" duration="14883000" />
       <workItem from="1610970684013" duration="858000" />
       <workItem from="1611093459717" duration="2062000" />
-      <workItem from="1611132763014" duration="20042000" />
-    </task>
-    <task id="LOCAL-00050" summary="Les 8 HW end">
-      <created>1605650326215</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1605650326216</updated>
+      <workItem from="1611132763014" duration="56189000" />
     </task>
     <task id="LOCAL-00051" summary="Les 9 HW end">
       <created>1605650385408</created>
@@ -585,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611181033217</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Les 4  HW_v1.0 end (Angular)">
+      <created>1611186183482</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1611186183482</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +604,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Les 2 HW and CW end (Bootstrap)" />
     <MESSAGE value="Les 1  CW end (HTML&amp;CSS ADV)" />
     <MESSAGE value="Les 1  HW end (HTML&amp;CSS ADV)" />
     <MESSAGE value="Les 2  CW end (HTML&amp;CSS ADV)" />
@@ -631,7 +628,8 @@
     <MESSAGE value="Les 2  HW_v1.0 end (Angular)" />
     <MESSAGE value="Les 3  HW_v1.0 end (Angular)" />
     <MESSAGE value="Les 3  HW_v1.1 end (Angular)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les 3  HW_v1.1 end (Angular)" />
+    <MESSAGE value="Les 4  HW_v1.0 end (Angular)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les 4  HW_v1.0 end (Angular)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="193" key="#File_Watchers" timestamp="1607716966644">
@@ -650,10 +648,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#TSLint/0.0.1920.1040@0.0.1920.1040" timestamp="1610915487522" />
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610896899667">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611512947010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610896899667" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611512947010" />
     <state x="725" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610482574110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -662,10 +660,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="400" y="297" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607717976939" />
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1611180907716">
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1611427826326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611180907716" />
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611427826326" />
     <state x="346" y="223" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1607712964465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -674,20 +672,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="187" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607888119118" />
-    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610914017721">
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611512374167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610914017721" />
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611512374167" />
     <state x="390" y="338" key="#com.intellij.tools.ToolEditorDialog" timestamp="1607714214955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="338" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607714214955" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1611186136150">
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2" timestamp="1611186182337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1552" y="126" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152851148" />
     <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607346321178" />
-    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611186136150" />
+    <state x="598" y="118" width="755" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611186182337" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604479650417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -696,31 +694,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="259" y="289" width="722" height="600" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607720122606" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1611128365965">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1611494631614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1611128365965" />
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611093503042" />
-    <state width="1877" height="206" key="GridCell.Tab.0.bottom" timestamp="1611184306480">
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611494631614" />
+    <state width="1039" height="254" key="GridCell.Tab.0.bottom" timestamp="1611507033850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152515850" />
-    <state width="1877" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611184306480" />
-    <state width="1877" height="206" key="GridCell.Tab.0.center" timestamp="1611184306480">
+    <state width="1039" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611507033850" />
+    <state width="1039" height="254" key="GridCell.Tab.0.center" timestamp="1611507033850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="206" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152515849" />
-    <state width="1877" height="206" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611184306480" />
-    <state width="1877" height="206" key="GridCell.Tab.0.left" timestamp="1611184306480">
+    <state width="1039" height="254" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611507033850" />
+    <state width="1039" height="254" key="GridCell.Tab.0.left" timestamp="1611507033850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="206" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152515849" />
-    <state width="1877" height="206" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611184306480" />
-    <state width="1877" height="206" key="GridCell.Tab.0.right" timestamp="1611184306480">
+    <state width="1039" height="254" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611507033850" />
+    <state width="1039" height="254" key="GridCell.Tab.0.right" timestamp="1611507033850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="206" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152515849" />
-    <state width="1877" height="206" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611184306480" />
+    <state width="1039" height="254" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611507033850" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605129094114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -761,12 +759,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="227" y="331" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610482373489" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611181038533">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611186187278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="286" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611152854666" />
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1607348356980" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611181038533" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611186187278" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1611093466674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -785,28 +783,28 @@
     </state>
     <state x="-1808" y="131" key="new project wizard/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611130195344" />
     <state x="112" y="117" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610896052370" />
-    <state x="844" y="489" width="348" height="298" key="org.angular.cli.generate" timestamp="1611184750547">
+    <state x="844" y="489" width="348" height="298" key="org.angular.cli.generate" timestamp="1611507030132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1076" y="545" width="348" height="333" key="org.angular.cli.generate/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611133934869" />
-    <state x="844" y="489" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1611184750547" />
+    <state x="844" y="489" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1611507030132" />
     <state x="-1235" y="216" key="refactoring.ChangeSignatureDialog" timestamp="1611151242520">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-1235" y="216" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611151242520" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1608496746784">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1611511660417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608496746784" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611511660417" />
     <state x="212" y="151" key="scopes" timestamp="1608320345271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="212" y="151" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1608320345271" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611185063474">
+    <state x="743" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1611439830664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1297" y="251" width="672" height="757" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1611137573026" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611185063474" />
+    <state x="743" y="246" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611439830664" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -815,6 +813,12 @@
           <url>file://$PROJECT_DIR$/Les_7/CW/001_App.js</url>
           <line>75</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/AngularHW/src/app/les5&amp;6/Shared/product.service.ts</url>
+          <line>35</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
